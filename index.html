@@ -8,6 +8,7 @@
     <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
@@ -49,38 +50,55 @@
         }
 
         const Icon = ({ name, size = 20, className = "" }) => {
-            const [isLoaded, setIsLoaded] = useState(!!(window.lucide && window.lucide.icons));
+            const [isLoaded, setIsLoaded] = useState(false);
 
             useEffect(() => {
-                if (!isLoaded) {
-                    const checkLucide = setInterval(() => {
+                // Check if lucide is available
+                if (window.lucide && window.lucide.icons) {
+                    setIsLoaded(true);
+                } else {
+                    const checkInterval = setInterval(() => {
                         if (window.lucide && window.lucide.icons) {
                             setIsLoaded(true);
-                            clearInterval(checkLucide);
+                            clearInterval(checkInterval);
                         }
                     }, 100);
-                    return () => clearInterval(checkLucide);
+                    return () => clearInterval(checkInterval);
                 }
-            }, [isLoaded]);
+            }, []);
 
-            const lucideName = name === "CheckCircle2" ? "CheckCircle" : name; // Fallback for safety
-
-            if (!isLoaded || !window.lucide?.icons?.[lucideName]) {
-                // Fallback text/emoji
-                const fallbacks = {
-                    Coffee: "☕", Search: "🔍", RefreshCw: "更新", MapPin: "📍", Sparkles: "✨",
-                    Clock: "🕒", ExternalLink: "↗", CheckCircle: "OK", CheckCircle2: "✅",
-                    X: "✕", XCircle: "クリア", SearchX: "無", ArrowUp: "⬆"
+            // Fallback for icons not yet loaded or missing
+            if (!isLoaded) {
+                const fallbackMap = {
+                    "Coffee": "☕",
+                    "Search": "🔍",
+                    "RefreshCw": "↻",
+                    "Sparkles": "✨",
+                    "MapPin": "📍",
+                    "Clock": "🕒",
+                    "ExternalLink": "↗",
+                    "X": "✕",
+                    "XCircle": "✕",
+                    "CheckCircle": "✓",
+                    "CheckCircle2": "✓",
+                    "ArrowUp": "⬆"
                 };
-                return <span className={`inline-flex items-center justify-center font-bold ${className}`} style={{fontSize: size * 0.8}}>{fallbacks[name] || "?"}</span>;
+                return <span className={className} style={{ fontSize: size }}>{fallbackMap[name] || "•"}</span>;
             }
 
-            const svgHtml = window.lucide.icons[lucideName].toSvg({
+            const iconName = name === "CheckCircle2" ? "CheckCircle" : name;
+            const iconNode = window.lucide.icons[iconName];
+
+            if (!iconNode) {
+                 return <span className={className} style={{ fontSize: size }}>•</span>;
+            }
+
+            const svgHtml = iconNode.toSvg({
                 width: size,
                 height: size,
                 class: className
             });
-            
+
             return <span dangerouslySetInnerHTML={{ __html: svgHtml }} className="inline-flex items-center" />;
         };
 
