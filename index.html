@@ -77,12 +77,12 @@
             // 検索・フィルタ用
             const [searchQuery, setSearchQuery] = useState("");
             const [activePrefecture, setActivePrefecture] = useState(null);
+            const [isSearchOpen, setIsSearchOpen] = useState(false);
 
             useEffect(() => {
                 const initData = async () => {
                     setLoading(true);
                     try {
-                        // ショップリストと更新情報を並行して取得
                         const [shopsRes, updatesRes] = await Promise.all([
                             fetch('./data/shops.json').then(r => r.json()),
                             fetch('./data/updates.json?' + new Date().getTime()).then(r => r.ok ? r.json() : null)
@@ -103,12 +103,10 @@
                 initData();
             }, []);
 
-            // 手動チェック（表示リフレッシュ）
             const handleRefresh = () => {
                 window.location.reload();
             };
 
-            // 都道府県ごとのショップ数を計算
             const prefCounts = useMemo(() => {
                 const counts = {};
                 shops.forEach(shop => {
@@ -117,7 +115,6 @@
                 return counts;
             }, [shops]);
 
-            // 都道府県リスト（北から南へソート）
             const prefectureList = useMemo(() => {
                 const prefs = [...new Set(shops.map(s => s.prefecture))];
                 return prefs.sort((a, b) => {
@@ -127,12 +124,10 @@
                 });
             }, [shops]);
 
-            // 更新されたショップ（トップ表示用）
             const updatedShopsList = useMemo(() => {
                 return shops.filter(s => updatedShopIds.includes(s.id));
             }, [shops, updatedShopIds]);
 
-            // 検索・フィルタリング結果
             const filteredShops = useMemo(() => {
                 if (searchQuery) {
                     const q = searchQuery.toLowerCase();
@@ -152,111 +147,171 @@
                 return date.toLocaleString('ja-JP', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' });
             };
 
+            const handlePrefectureClick = (pref) => {
+                if (activePrefecture === pref) {
+                    setActivePrefecture(null);
+                } else {
+                    setActivePrefecture(pref);
+                    setSearchQuery(""); // 都道府県選択時は検索ワードをクリア
+                }
+            };
+
             return (
                 <div className="min-h-screen pb-12 relative bg-slate-50">
                     <header className="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-sm">
                         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-                            <div className="flex items-center gap-2" onClick={() => {setSearchQuery(""); setActivePrefecture(null);}} style={{cursor: 'pointer'}}>
+                            <div className="flex items-center gap-3">
                                 <div className="p-2 bg-slate-900 rounded-lg text-white"><Icon name="Coffee" /></div>
                                 <h1 className="text-lg font-bold text-slate-900 tracking-tight hidden sm:block">Coffee Shop Monitor</h1>
+                                
+                                {/* 検索トグルボタン (ヘッダー内) */}
+                                <button 
+                                    onClick={() => setIsSearchOpen(!isSearchOpen)}
+                                    className={`ml-2 flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold transition-all ${isSearchOpen ? 'bg-slate-100 text-slate-900' : 'bg-white text-slate-500 hover:bg-slate-50 hover:text-slate-700 border border-transparent hover:border-slate-200'}`}
+                                >
+                                    <Icon name={isSearchOpen ? "X" : "Search"} size={18} />
+                                    <span className="hidden sm:inline">{isSearchOpen ? "閉じる" : "ショップを探す"}</span>
+                                </button>
                             </div>
+
                             <div className="flex items-center gap-4">
                                 <div className="hidden md:flex flex-col items-end text-xs text-slate-500">
                                     <span>最終チェック: <span className="font-bold text-slate-700">{formatDate(lastChecked)}</span></span>
                                     <span>監視中: {shops.length}店舗</span>
                                 </div>
                                 <button onClick={handleRefresh} className="flex items-center gap-2 px-3 py-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-sm font-bold transition-colors">
-                                    <Icon name="RefreshCw" size={16} /> <span className="hidden sm:inline">データ更新</span>
+                                    <Icon name="RefreshCw" size={16} /> <span className="hidden sm:inline">更新</span>
                                 </button>
                             </div>
                         </div>
                     </header>
 
+                    {/* アコーディオン検索パネル */}
+                    <div className={`bg-white border-b border-slate-200 overflow-hidden transition-all duration-300 ease-in-out ${isSearchOpen ? 'max-h-[80vh] opacity-100 shadow-md relative z-30' : 'max-h-0 opacity-0'}`}>
+                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+                            <div className="grid md:grid-cols-1 gap-8">
+                                <div>
+                                    <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">キーワード検索</label>
+                                    <div className="relative">
+                                        <Icon name="Search" className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
+                                        <input 
+                                            type="text" 
+                                            placeholder="店舗名を入力..." 
+                                            className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-slate-900 focus:bg-white transition-all font-medium"
+                                            value={searchQuery}
+                                            onChange={(e) => {
+                                                setSearchQuery(e.target.value);
+                                                if(e.target.value) setActivePrefecture(null);
+                                            }}
+                                        />
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <div className="flex justify-between items-end mb-2">
+                                        <label className="block text-xs font-bold text-slate-400 uppercase tracking-wider">地域で絞り込み</label>
+                                        {activePrefecture && (
+                                            <button onClick={() => setActivePrefecture(null)} className="text-xs text-rose-500 font-bold hover:underline">
+                                                選択を解除
+                                            </button>
+                                        )}
+                                    </div>
+                                    <div className="flex flex-wrap gap-2">
+                                        {prefectureList.map(pref => (
+                                            <button 
+                                                key={pref}
+                                                onClick={() => handlePrefectureClick(pref)}
+                                                className={`px-3 py-1.5 rounded-full text-xs font-bold border transition-colors flex items-center gap-1 ${activePrefecture === pref ? 'bg-slate-900 text-white border-slate-900' : 'bg-white text-slate-600 border-slate-200 hover:border-slate-300 hover:bg-slate-50'}`}
+                                            >
+                                                {pref} <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${activePrefecture === pref ? 'bg-slate-700 text-slate-200' : 'bg-slate-100 text-slate-400'}`}>{prefCounts[pref]}</span>
+                                            </button>
+                                        ))}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
                         
-                        {/* 1. 更新情報セクション（最優先表示） */}
-                        {updatedShopsList.length > 0 && !searchQuery && !activePrefecture && (
+                        {/* 検索結果 または 本日の更新 */}
+                        {(searchQuery || activePrefecture) ? (
                             <section>
-                                <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
-                                    <Icon name="Sparkles" className="text-rose-500" /> 本日の更新 ({updatedShopsList.length})
-                                </h2>
-                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                                    {updatedShopsList.map(shop => (
-                                        <ShopCard key={shop.id} shop={shop} isUpdated={true} lastChecked={lastChecked} />
-                                    ))}
+                                <div className="flex items-center justify-between mb-4">
+                                    <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
+                                        <Icon name="Search" className="text-slate-400" /> 
+                                        {activePrefecture ? `${activePrefecture}の` : ''}検索結果 
+                                        <span className="text-slate-400 font-normal text-base ml-1">({filteredShops.length}件)</span>
+                                    </h2>
+                                    {(searchQuery || activePrefecture) && (
+                                        <button 
+                                            onClick={() => {setSearchQuery(""); setActivePrefecture(null);}}
+                                            className="text-sm text-slate-500 hover:text-slate-900 flex items-center gap-1"
+                                        >
+                                            <Icon name="XCircle" size={16} /> クリア
+                                        </button>
+                                    )}
+                                </div>
+                                
+                                {filteredShops.length > 0 ? (
+                                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                                        {filteredShops.map(shop => (
+                                            <ShopCard key={shop.id} shop={shop} isUpdated={updatedShopIds.includes(shop.id)} lastChecked={lastChecked} />
+                                        ))}
+                                    </div>
+                                ) : (
+                                    <div className="bg-white rounded-xl border border-slate-200 p-12 text-center">
+                                        <div className="inline-flex p-4 rounded-full bg-slate-50 text-slate-300 mb-4">
+                                            <Icon name="SearchX" size={32} />
+                                        </div>
+                                        <p className="text-slate-500 font-medium">条件に一致するショップは見つかりませんでした。</p>
+                                        <button 
+                                            onClick={() => {setSearchQuery(""); setActivePrefecture(null);}}
+                                            className="mt-4 text-slate-900 font-bold hover:underline"
+                                        >
+                                            条件をクリアして全件表示
+                                        </button>
+                                    </div>
+                                )}
+                            </section>
+                        ) : (
+                            /* 通常モード (本日の更新のみ) */
+                            <section>
+                                <div className="flex items-center justify-between mb-4">
+                                    <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
+                                        <Icon name="Sparkles" className="text-rose-500" /> 本日の更新 ({updatedShopsList.length})
+                                    </h2>
+                                    {updatedShopsList.length === 0 && (
+                                        <span className="text-sm text-slate-500">現在、更新されたショップはありません</span>
+                                    )}
+                                </div>
+                                
+                                {updatedShopsList.length > 0 ? (
+                                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                                        {updatedShopsList.map(shop => (
+                                            <ShopCard key={shop.id} shop={shop} isUpdated={true} lastChecked={lastChecked} />
+                                        ))}
+                                    </div>
+                                ) : (
+                                    <div className="bg-white rounded-xl border border-slate-200 p-8 flex items-center justify-center gap-3 text-slate-500">
+                                        <Icon name="CheckCircle2" className="text-green-500" />
+                                        <span>すべてのショップは最新の状態です</span>
+                                    </div>
+                                )}
+
+                                {/* ヒント表示 */}
+                                <div className="mt-12 p-6 bg-slate-100 rounded-xl border border-slate-200 text-center">
+                                    <p className="text-slate-600 mb-2 font-bold">他のショップをお探しですか？</p>
+                                    <p className="text-sm text-slate-500 mb-4">ヘッダーの「ショップを探す」ボタンから、名前や都道府県で検索できます。</p>
+                                    <button 
+                                        onClick={() => setIsSearchOpen(true)}
+                                        className="inline-flex items-center gap-2 px-4 py-2 bg-white border border-slate-300 rounded-lg text-slate-700 font-bold hover:bg-slate-50 hover:border-slate-400 transition-colors"
+                                    >
+                                        <Icon name="Search" size={16} /> 検索メニューを開く
+                                    </button>
                                 </div>
                             </section>
                         )}
-
-                        {/* 2. 検索・探索セクション */}
-                        <section className="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
-                            <h2 className="text-lg font-bold text-slate-900 mb-6 flex items-center gap-2">
-                                <Icon name="Search" className="text-slate-400" /> ショップを探す
-                            </h2>
-                            
-                            {/* 検索ボックス */}
-                            <div className="relative mb-8">
-                                <Icon name="Search" className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={18} />
-                                <input 
-                                    type="text" 
-                                    placeholder="店舗名または都道府県で検索..." 
-                                    className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-slate-900 focus:bg-white transition-all font-medium"
-                                    value={searchQuery}
-                                    onChange={(e) => setSearchQuery(e.target.value)}
-                                />
-                            </div>
-
-                            {/* 検索結果の表示 */}
-                            {searchQuery ? (
-                                <div>
-                                    <h3 className="text-sm font-bold text-slate-500 mb-4">検索結果: {filteredShops.length}件</h3>
-                                    {filteredShops.length > 0 ? (
-                                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                                            {filteredShops.map(shop => (
-                                                <ShopCard key={shop.id} shop={shop} isUpdated={updatedShopIds.includes(shop.id)} lastChecked={lastChecked} />
-                                            ))}
-                                        </div>
-                                    ) : (
-                                        <div className="text-center py-10 text-slate-400">見つかりませんでした</div>
-                                    )}
-                                </div>
-                            ) : (
-                                /* 通常時: 都道府県リストまたは選択された都道府県のショップ */
-                                <div>
-                                    {activePrefecture ? (
-                                        <div>
-                                            <div className="flex items-center gap-4 mb-6">
-                                                <button onClick={() => setActivePrefecture(null)} className="flex items-center gap-1 text-slate-500 hover:text-slate-900 font-bold text-sm">
-                                                    <Icon name="ArrowLeft" size={16} /> 都道府県一覧に戻る
-                                                </button>
-                                                <h3 className="text-xl font-bold text-slate-900">{activePrefecture}のコーヒーショップ ({filteredShops.length})</h3>
-                                            </div>
-                                            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                                                {filteredShops.map(shop => (
-                                                    <ShopCard key={shop.id} shop={shop} isUpdated={updatedShopIds.includes(shop.id)} lastChecked={lastChecked} />
-                                                ))}
-                                            </div>
-                                        </div>
-                                    ) : (
-                                        <div>
-                                            <h3 className="text-sm font-bold text-slate-500 mb-4">地域から探す</h3>
-                                            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
-                                                {prefectureList.map(pref => (
-                                                    <button 
-                                                        key={pref}
-                                                        onClick={() => setActivePrefecture(pref)}
-                                                        className="flex justify-between items-center px-4 py-3 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-lg transition-colors text-left group"
-                                                    >
-                                                        <span className="font-bold text-slate-700 group-hover:text-slate-900">{pref}</span>
-                                                        <span className="bg-white text-slate-400 text-xs px-2 py-0.5 rounded-full border border-slate-100">{prefCounts[pref]}</span>
-                                                    </button>
-                                                ))}
-                                            </div>
-                                        </div>
-                                    )}
-                                </div>
-                            )}
-                        </section>
                     </main>
                 </div>
             );
