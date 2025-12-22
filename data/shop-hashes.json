@@ -1,416 +1,2462 @@
 {
   "glitch": {
-    "hash": "bd702857bb40e896e1c5ae95614454c2c66995f60b9cf5230a0215f695d3f79c",
+    "hash": "fc6449f5dcd91b2d94ec6f059b2a3c61e4d3d2613833a8cb42abe15fb636fa0b",
     "name": "GLITCH COFFEE & ROASTERS",
     "url": "https://glitchcoffeeroasters.myshopify.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "onibus": {
-    "hash": "5d33f8c0fb992979a10b2292c86dfd38eab071e78f675afb5fbde793e5496b2c",
+    "hash": "e024de7d67e8d98c593fba248dacd32ba9dca667c2d2870c579343caf616d381",
     "name": "Onibus Coffee",
     "url": "https://onibuscoffee.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "weekenders": {
     "hash": "943d86909599dec419d696ff64028157b0990275d2c3d800e938d5776939f16e",
     "name": "Weekenders Coffee",
     "url": "https://weekenderscoffee.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "rec": {
-    "hash": "c611bccd404b3850b11473cc435282287834778999e24dd4c0d4d78fa4e7922b",
+    "hash": "047768fdf78f80f5dab02d2816a1bd0c6552fb4fc3e6c94d06cd348c232237ff",
     "name": "REC COFFEE",
     "url": "https://rec-coffee.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "fuglen": {
-    "hash": "6ee0eac51b9dfcec419e1159a4e991189bd5f8736786e6023e56de9a9ffec10d",
+    "hash": "301cf4521ab59d45220fbada8dc1e09fbada022873cf9632ffa0854ab183d415",
     "name": "Fuglen Coffee",
     "url": "https://fuglencoffee.jp/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "post": {
-    "hash": "2b3bde1e01c81a3ca667628e53dcc2b4143ee16e4167e82791c28352617ce5a4",
+    "hash": "bbfbb543ea396f1af3ac0aafed75cfe2c75b879d6996685474d37628741a9bb4",
     "name": "PostCoffee",
     "url": "https://postcoffee.co/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "kurasu": {
-    "hash": "3e9be7354a2fd670e9ab193166c90639739f30b42faea96f2c8fc3df7c7bfa02",
+    "hash": "b99f2211f5c4f908caf1118c07329882e8b1e34d458ce73d31d7941c63690c9f",
     "name": "KURASU Kyoto",
     "url": "https://jp.kurasu.kyoto/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "philocoffea": {
-    "hash": "c692948182dffe35cdfba336e34f0d6beee35abdddef0d8fee17a94383d874bb",
+    "hash": "83bdc7112d89fcf1125d8f7864efc8ffc83e48a98fed9e5db9bf8433f4637a2c",
     "name": "Philocoffea",
     "url": "https://philocoffea.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "lightup": {
-    "hash": "c77f30818625172c02bcd9083276f2605a79b320ad01930c3bb1c9b814398d5e",
+    "hash": "e2e51b9e42d8831f011d97196f7f47e25262b6453145facedbe5db724adf9434",
     "name": "Light Up Coffee",
     "url": "https://lightupcoffee.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "8agarage": {
-    "hash": "55485d6815a4c377cc0674e62106568359ff435500e1e66df4e80df5145f8f17",
+    "hash": "09d8d8df8d8b2ac7b11ab96bbdf88bcd08c3058f0f6aee6cc29b93578aa30ea1",
     "name": "8A GARAGE",
     "url": "https://onlineshop-p.8agarage.co.jp/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "tokeinonai": {
-    "hash": "78db12a38a6fab969f697ff04ce97d816d2f7657c29df3bde06ee9ca526f3f34",
+    "hash": "f981f527f3411a41d9613bef6535f9d03b4d9d838e3c2ef31a3b761dfc5ad0ce",
     "name": "時計のない喫茶店",
     "url": "https://tokeinonai.thebase.in/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "coffee-node": {
     "hash": "5d55c7bbc5536a3fb94a8b6e852f0285f187fed636961ab45ad34b32d8f5eb19",
     "name": "COFFEE NODE",
     "url": "https://www.coffee-node.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "oniyanma": {
     "hash": "ceec367af2814688e0645d53d884db832eef1f538b72c87a74ffcf8edc3e4f0c",
     "name": "Oniyanma Coffee",
     "url": "https://oniyanmacoffee.jp/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "fenrir": {
-    "hash": "85457b61c1d818b5f291bd6d09644ecb5f9cfcf669fcdd9a18a5c84909b850ce",
+    "hash": "328f239b713bccaa7a7534db726afd18f97efd874fc00e051f7475a833a264b4",
     "name": "FENRIR BEVERAGE",
     "url": "https://www.fenrirbeverage.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "sawara": {
-    "hash": "422b6fccb06b9a4a55e12237c70cfb8818f5e817477fe86628219c83e5cdc8c9",
+    "hash": "1ba29cc2ff76b6d99754f54c11f7359be0fd88ac76bd480f9b1ae90f5e4f18cd",
     "name": "SAWARA COFFEE",
     "url": "https://sawaracoffee.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "kura": {
-    "hash": "541a202d0c1e8f48521d8cc719727036307369f9ed259f88fbe994c4370119a4",
+    "hash": "4a4af377bee9ada63b5fff98afce27d78a97fafd9c92c92995b24ff4ffed6236",
     "name": "Kura Coffee",
     "url": "https://kuracoffee.official.ec/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "baristart": {
     "hash": "adcd1c1a98be386e59f04a11debdfd032986e46d060b32625e2af7e1a7ead465",
     "name": "BARISTART COFFEE",
     "url": "https://www.baristartcoffee.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "kotan": {
-    "hash": "c1e05e21ab2a73352c9c37848306b8c09bf10ea5b7401c53d8d1f130103a05e7",
+    "hash": "3f2ceb92d699c5acb112123c187c545d05c28a946510530aa7358ed3d0dedb3b",
     "name": "KOTAN",
     "url": "https://kotan.theshop.jp/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "standard": {
     "hash": "9d6c1422e3e7804f4d76ac7f7842fe4b6d8e482b861e785f60c60d2aee485678",
     "name": "STANDARD COFFEE LAB.",
     "url": "https://standardcoffeelab.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "sprout": {
-    "hash": "a0c1ba40a67d41f677d995c99c4ad018057f76639f1b566d785a82de2acae02d",
+    "hash": "655d0dad9ad1e0766fec8c4efe0873e5125b12da6c3acb62de803c634fc2c901",
     "name": "SPROUT",
     "url": "https://sproutstore.thebase.in/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "ritaru": {
-    "hash": "cbf9c282fea766e886dfd75b094f381312a6b5dc9018d49fffc203c8c50be5f8",
+    "hash": "3036e6c46a3f31596cb5098354f1c6a4d8d05f2784a13d5052d7177060f9afe7",
     "name": "RITARU COFFEE",
     "url": "https://shop.ritaru.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "sountra": {
-    "hash": "abdd8af7055b51317d7cb9f92c0715613e1caecd78d457882059d53c0204b067",
+    "hash": "0a108b53304fbb100a1fad450195b017c4344b7920001cea6c4f29c0347b8484",
     "name": "SOUNTRA COFFEE",
     "url": "https://sountra.theshop.jp/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "canaan": {
-    "hash": "dce846fb4743a65a5b627843f96d631ba49e7543e23c528eedf0a2b98d8ddb13",
+    "hash": "54878c6cba5390f829868776d8a42ba7c2f93341fd5fce1b40cbc59372b5f2c8",
     "name": "CANAAN COFFEE",
     "url": "https://canaancoffee.thebase.in/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "alchemist": {
-    "hash": "e05fc172fa5db134f8767394669136a56e8a12067d43a7b609b5df3c659c7ef2",
+    "hash": "29eb24ad7c6c580c34eeeef54f5693adb855f40f35fc85ac155cc92e90ce209d",
     "name": "Alchemist Coffee",
     "url": "https://www.alchemist-coffee.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "wada": {
-    "hash": "ff6d70688468b48e9c5715d9ba389517c2ebdce8d585c7cd1d6a588daaafc4fb",
+    "hash": "758e75ff1324051914682d3998bcb49c7fe400911a0e52f405df8b30c7fece4b",
     "name": "Wada Coffee",
     "url": "https://wadacoffee.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "aurora": {
     "hash": "673a9489423264a2f1cfc8c8bcf35fc29b5ce9cb38ff4887d43bd91d35ed2aae",
     "name": "Aurora Coffee Roasters",
     "url": "https://www.auroracoffeeroasters.jp/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "nagasawa": {
-    "hash": "5e1c03a546f8cd1651c748825f059b9cab62dc34f8621695563a18c18d190768",
+    "hash": "0fb4b306709fd973762370e272ccbdf56e5f2a3a3da49363508a8cf74e436cb0",
     "name": "Nagasawa Coffee",
     "url": "https://www.nagasawa-coffee.net/product-list",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "flatwhite": {
-    "hash": "8fa88f64190fbf96771a1c29a03003640a0d28f3a2d0e2a72aa1b88f5b0c0cb8",
+    "hash": "5599d14b7652a8436359fd685b89c5d1c67da4f0dcaad1a5e4c77815d6c7d052",
     "name": "FLAT WHITE COFFEE",
     "url": "https://flatwhite.jp/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "invitro": {
-    "hash": "55b708cb82ed09bdb1b541cb8d6735c9828775075c9d8f0aecc10c63505eb11a",
+    "hash": "9359d7fa6b1533067e52ca5515cac218e718366fa6b3dc5d4236eae1372efd5f",
     "name": "IN VITRO COFFEE",
     "url": "https://invitro.thebase.in/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "keyaki": {
-    "hash": "1fa3c9868d4f701f0f606dd32a8aadbdd246552a3f44f83d7b16be8cd551a4f0",
+    "hash": "e31f46bcf0c52c66d60b19928d7c27ee2a64a9cb48374a73c0df5401730f33dd",
     "name": "KEYAKI COFFEE",
     "url": "https://keyakicoffee.base.shop/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "honoka": {
-    "hash": "7e69901a0e74b06c6579004fe6c449278814acc155be1f05c51105c5d2ea5ec1",
+    "hash": "2d2527d6b7fbd8060b96753f39659aed3793213e078fa625c0bc07456fd4dedb",
     "name": "HONOKA COFFEE",
     "url": "https://ec.honokacoffee.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "public": {
-    "hash": "a975e9e96a8ce49465778ad3838300f63d60161b523df153e6ff74f9bc4a1cfc",
+    "hash": "bd84c85028d78b04737269a4d6e8262b856f70e17b5a4e200af69c4995ba0bbc",
     "name": "PUBLIC COFFEE",
     "url": "https://publiccoffee.thebase.in/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "kuriya": {
-    "hash": "4e98b6a2e55f770ce239e3c08ba0224897bc19aa9d1a2e433aadd463132306c5",
+    "hash": "02064e105ae8d7b5934cbfc30a28566ba19eebd56273e6c92f0edded8b6a06ca",
     "name": "Kuriya Coffee Roasters",
     "url": "https://www.kuriya-lab.com/coffee-beans-store/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "balmusette": {
-    "hash": "92e74be1c8df07c742356104708b107f92014c3fe679f86a051ee1d4f1d0630b",
+    "hash": "07314cfd8fd4ae9fb8e2dab63272b7b3588bcddb78c9a1ad8f75df1464c414be",
     "name": "BAL MUSETTE",
     "url": "https://balmusette.thebase.in/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "45coffee": {
-    "hash": "04056a364150a5ee7583eaa53a6c4401a62df07bd6d4c26f8f20cab99bb57340",
+    "hash": "705f04c0d8f53c414b0db9fa428ba54b43eefe5dd03dcc8b8e9040f0ba80de26",
     "name": "45 COFFEE",
     "url": "https://45coffee.theshop.jp/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "spark": {
-    "hash": "bd6ec7e2886b4c861cc9ab1a8e7db3e0e9f1ac89d028f1cbfdc7fc3d644cc7c1",
+    "hash": "4e6350e4ba0fc2d7064cf70eff52201cb154d39e4e98362097ebb3bf457ce468",
     "name": "SPARK COFFEE ROASTERS",
     "url": "https://www.sparkcoffeeroasters.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "darestore": {
-    "hash": "a34f6dd1c3ee55aa682537c1eeae670759c4ad938dc549eb32109cd12372ee33",
+    "hash": "4cbd66c559941578f5e0876aa0752d495261b4551670d7dbbee4f089b7e9ec04",
     "name": "DARESTORE",
     "url": "https://darestore-jp.myshopify.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "cantus": {
-    "hash": "4a8705af884e233580ed75aff70e00620367d7810a6b9a044ff151267234a046",
+    "hash": "61c849d66becdbf1b6ecb0833c14a735fa46576d35922b05ad6c055c82dcf8c7",
     "name": "COFFEE CANTUS",
     "url": "https://coffeecantus.base.shop/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "apartment": {
-    "hash": "677551c516c4200e99115cb96ed1b25ff93b5cc80f62d8d61d08e7045b0d8d56",
+    "hash": "8fbe724456b235111dd727689c8fad926e67deba9fad8ce581c49d022f37e95d",
     "name": "The Apartment",
     "url": "https://theapartment.base.shop/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "08coffee": {
-    "hash": "4ec16712e69f545ec392929287ab8bf3003406510308c0005a0bc17ec6ddcb84",
+    "hash": "4bdf8889f460107a262cb13cea993396b44f7936ff5c4a676ad4bf6fd45f0cb5",
     "name": "08COFFEE",
     "url": "https://08coffee.thebase.in/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "yukihira": {
-    "hash": "36edb272c46eddd677a00612a0fb9ce77ab3f3572ea85a97b6f83544a7af005e",
+    "hash": "8a1b517ccb6d0af9dc5f36c5bb96ba1d972c51b4b6df077e4f4ce0a18ecbe79f",
     "name": "YUKIHIRA COFFEE",
     "url": "https://www.yukihiracoffee.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "paradiso": {
-    "hash": "94dbf5d8537332aa37dff7c70c831ad4db1dac81a5f14b42db54c8b92348f406",
+    "hash": "b403e15d2a03060a4b0ac38ae6cb94e9fc6d37eb2647f0c2d4ed7622099b5435",
     "name": "Paradiso",
     "url": "https://paradiso.shop-pro.jp/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "tsuki": {
-    "hash": "009b0f4222f2fb7e678ab18831bd9a7b5a9da170a69abeb41070be9173c3fb84",
+    "hash": "6b5204ebd3e37b5dc1d12844acd0b04ec1a901bd0773aa0e0115e558674ed8b4",
     "name": "TSUKI COFFEE",
     "url": "https://tsukicoffee.official.ec/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "obros": {
-    "hash": "51c8b34a9d633a80e35ad3777dd843edd7be906113d16b103f04ddf2ddd21432",
+    "hash": "3755b67cb0a569eb964f0b07878982a3d9d554fc17bd289d0969543749c39634",
     "name": "OBROS COFFEE",
     "url": "https://obroscoffee.jp/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "koshiba": {
-    "hash": "dc9af1a8adbb118617ac3c022d028a3a1d170cb2f07b083b1fda8c40389259c5",
+    "hash": "24135fb34cca7066a1a3779c91059c0e0c8b1c93b3cdbf98606bc06f7bfd09a9",
     "name": "KOSHIBA COFFEE",
     "url": "https://koshibaga.base.shop/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "bahnhof": {
-    "hash": "77ce7dd1c451a39860561149a15903ba59dcb8b9fcb9f436c80ffc5ae7e825cc",
+    "hash": "12474200da69a4316ee2020aa6b6118372ec167e0359c486867183fc672c5cca",
     "name": "COFFEE BAHNHOF",
     "url": "https://bahnhof.official.ec/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "unit": {
-    "hash": "8ca6e3c747528d833b394260b046b8d520d3e33217919e37b09e719ce4a6873f",
+    "hash": "3b597ad3b0610433afa9a63df3f9ab8a3dda89327cd9ff1c42f548a54f415a93",
     "name": "Unit Coffee",
     "url": "https://unitcoffee.base.shop/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "boushi": {
-    "hash": "ffd125f88d358d480c3b5dc4d4466fb39d2efe636744fb409762c4dcb3d64315",
+    "hash": "c6033f5d10a95b978fb19ba0866e0b2f457f818d6f02a3621792586231b36cb2",
     "name": "BOUSHI COFFEE",
     "url": "https://boushicoffee.thebase.in/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "wave": {
-    "hash": "c4f5fc97aa90f7465818bd56006e95596a6914e8b9ef75160e372e0a49536afc",
+    "hash": "1d8539cc0a14c9289b6ac9eb727d6aaede631581c8c2c7fadcf3fd7c10bff556",
     "name": "WAVE COFFEE",
     "url": "https://wavecoffee2.base.shop/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "knot": {
-    "hash": "5cd2d049c7f0274fbfacd6a02953f8a0e32d3b1bc44087d523aff823fc7550d7",
+    "hash": "52fdd9c6b76f3ae89bfd4e67bc1283071037208e6cbf58b2241fa80e16d98098",
     "name": "KNOT COFFEE",
     "url": "https://knot-coffee.shop-pro.jp/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "hitachino": {
-    "hash": "510f2284fc47fc2b2ad6bbadd2ef94fd3ab55fa7fc7a38f2cc1ef2a31112eb3e",
+    "hash": "1dae19e284c4850df4cf41c933d05f2e0c4d5807ce779e37b169498e5a6628b8",
     "name": "HITACHINO COFFEE",
     "url": "https://hitachino-coffee.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "factory": {
     "hash": "077d85882f7e1d13646810dbd5f7715c2ea7ef0b64ddb1a4074f062435dad48d",
     "name": "COFFEE FACTORY",
     "url": "http://coffeefactory.jp/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "mood": {
     "hash": "8c08549ec30255c2835c3a7f44d76e0aae2889a30f93d3d161e4ab7e7fca9e68",
     "name": "MOOD COFFEE & ESPRESSO",
     "url": "https://moodcoffee-espresso.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "bankoku": {
-    "hash": "0286f6849817be93f563335d0f9a6aaea1c4f62a547dd60c6ce7de1da269366c",
+    "hash": "5f2d1d51393bf074fcdc71e7b25bc8cfa97e8489b6cbad064f4460b347077926",
     "name": "BANKOKU COFFEE",
     "url": "https://bankoku-coffeeshop.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "saza": {
     "hash": "c01839878a70a812937898c8b44d4f8bb5d0553d984f80c40d371482752ff4ce",
     "name": "SAZA COFFEE",
     "url": "https://saza.coffee/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "fujinuma": {
     "hash": "598033b96bd412b63f961337e2363b2cd01f26ba1b832dc250d29f885f3b0f6b",
     "name": "CAFE FUJINUMA",
     "url": "http://cafefujinuma.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "konnichi": {
-    "hash": "f5f343f917fbe2a624b75af6f434513fd891a3d09f2dd6f004ebff251101d3cd",
+    "hash": "087df913813288ad2205a8b57f0da66678f8078bd0a9653aa4f43083d6d6b7a4",
     "name": "KONNICHI COFFEE",
     "url": "https://konnichilabo.base.shop/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "bluetokai": {
-    "hash": "9da261d5b4da6dbe019abb147cbf46a3408da299ad26e4ae3c67248835b0bec6",
+    "hash": "f63d07d2413edc138768d798c903d09cdaecee2b22a6a8f2f3047984ee694992",
     "name": "Blue Tokai Coffee",
     "url": "https://www.bluetokaicoffee.jp/collections/coffee",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "mokkei": {
-    "hash": "831ff7d948b4174c0a3feb81117e1b5dbbf4713bd3bed23e923ce38feee08362",
+    "hash": "bec7032b185e870030536ccbb72bd3bb2148d9d15298771f3bf42caa623890e5",
     "name": "MOKKEI COFFEE",
     "url": "https://mokkeicoffee.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "mamechamame": {
-    "hash": "2c61c046122c30d9bb8506c360d8b199e3a30a8ee8459e711a0ba950b57c150e",
+    "hash": "bbe7306875a4d13ad17482c72e7b52c00fbc45f64708a8b949ce2e691e53b36c",
     "name": "Mamecha Mame",
     "url": "https://www.mamechamame.com/s/shop",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "kametokame": {
-    "hash": "001b1ed6eae9ea403c6deae2374a363a0642315f48ef7299ec25bd2e29a22230",
+    "hash": "4cf4f006dd816b1b4f688cc955f82a2f2462a4afe84e282e1a3cc56c6667edc1",
     "name": "Kame to Kame",
     "url": "https://kametokame.theshop.jp/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "mateship": {
-    "hash": "a799af59a10a5a2450b8b729f9008a180d0a3408498b242b651dba30e6276b3d",
+    "hash": "5638cc1e4818f6cf2a5c95c93182493c1aa10316d671d0b1460d3740ce254175",
     "name": "MATESHIP",
     "url": "https://mateship.base.shop/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "shikishima": {
-    "hash": "1bf57512d56612487c87717d4dd20e560f09d2528123fd216e7821ea25ad8a4b",
+    "hash": "ba80509edcb950d33fd184810440c6351f600198fb1fc0dc1c367f4b26e87603",
     "name": "SHIKISHIMA COFFEE",
     "url": "https://shikishima.coffee/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "pyramid": {
-    "hash": "29a5931c3f264e1e227839a7c8ff7254fd4e22f1c2ee66bdf0b4b3b6492980b1",
+    "hash": "3a5942a55a09fafe8d49517017449ecf6be73640c6ba102cc0eb07767630c414",
     "name": "PYRAMID COFFEE",
     "url": "https://pyramid.base.shop/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "tonbi": {
     "hash": "426ed717bee19583c8e0b60ea94ff352d2ad0e077fa3d61594b7e440f2dffe01",
     "name": "TONBI COFFEE",
     "url": "https://tonbi-coffee.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "reboot": {
-    "hash": "d219a5be2729d307bb4d5c92b83f6f69858c049f173d560c8eb0f66c272656fa",
+    "hash": "5ae5e4b5f5f6068b28871d7eb30471c4fd7dbcb21bbb93e20834b6945d526c72",
     "name": "REBOOT COFFEE",
     "url": "https://reboot.base.ec/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "norrys": {
-    "hash": "f93e82fe3b69391cb9eec604b972bab0fe2923e931e32be8c6d72f10ad3a5198",
+    "hash": "127f685c89f4c699dc163023487e6efecbe192b1f90dcf88ae111c53ab5171dd",
     "name": "Norry's Coffee",
     "url": "https://norryscoffee.theshop.jp/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "coffeepost": {
-    "hash": "02b70ecc6e83789156f48c4720ba58a256360ce46ff0bed76cba6b0794d2e14c",
+    "hash": "21090ded53487fc2be50749a92a07d44860e0de2d441b8ce4714d538d3ae4c78",
     "name": "COFFEE POST",
     "url": "https://coffeepost.base.shop/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   },
   "koyanagi": {
-    "hash": "12fa78cb077c9bb635f8a251ca19cccdd64914708220e24d04475bf9a21e8f34",
+    "hash": "b7a81d69d725a94a5659fb35a9829a5d37c580f92ccd1b0ba8955ee5d4604038",
     "name": "KOYANAGI COFFEE",
     "url": "https://www.koyanagicoffeenippon.com/",
-    "lastChecked": "2025-12-22T04:54:22.573Z"
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "mackycoffee-80": {
+    "hash": "533b74490545e7a22288852d492236cf2d89d766c305b0c7904b24048e129d22",
+    "name": "Mackycoffee Coffee",
+    "url": "https://mackycoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "homiescoffee-82": {
+    "hash": "bf61f21d8c1cf0c5d1b1b2482239e2eda1f5f3d2f45b65e1b9a549c6bbcd9f54",
+    "name": "Homiescoffee Coffee",
+    "url": "https://homiescoffee.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "bespokecoffeeroasters-onlineshop-83": {
+    "hash": "1bbe7f7d4ac84255d008a7c10bc2f6cecc03510761770d608c1f3d162ec9859a",
+    "name": "Bespokecoffeeroasters-onlineshop Coffee",
+    "url": "https://www.bespokecoffeeroasters-onlineshop.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "square-84": {
+    "hash": "9b8c52fec7df12493c3010dd43acfd77d6b08bfe5e02badb3575e433b2ca5cab",
+    "name": "Square Coffee",
+    "url": "https://heycoffee-online-store.square.site/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "kurihara-coffee-85": {
+    "hash": "b3d59f98e4fd7849103622b96335018e8cbb655564cc7d2e6c497c5479db2819",
+    "name": "Kurihara-coffee Coffee",
+    "url": "https://store.kurihara-coffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "50coffeeandroastery-86": {
+    "hash": "0bd77570fcc92c37ec7c2ebd870a9125613cda57bccb73ec6489c2f75bd2d99a",
+    "name": "50coffeeandroastery Coffee",
+    "url": "https://50coffeeandroastery.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "chichibucoffee-89": {
+    "hash": "d321657e3d6281f1e536e9caeda00f361b06f12f0365177a5451e0789b9a5284",
+    "name": "Chichibucoffee Coffee",
+    "url": "https://www.chichibucoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "tokiwacoffee-91": {
+    "hash": "f8a7c2390aae1451264f5be8708a0a603dcb6b068298d9e13892d1f271e36558",
+    "name": "Tokiwacoffee Coffee",
+    "url": "https://tokiwacoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "sevenstepscoffeeclub-92": {
+    "hash": "aed9c5fad204d324e139ea7333f38bfcc114db945360b3b89625c871b7d653c3",
+    "name": "Sevenstepscoffeeclub Coffee",
+    "url": "https://sevenstepscoffeeclub.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "easecoffee-93": {
+    "hash": "1be814277867f56473388d0a82e83e1b92b7a75bb024bc3e1393be112767d956",
+    "name": "Easecoffee Coffee",
+    "url": "https://easecoffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "livingcoffee-94": {
+    "hash": "b0b836ff947b817eae66688ec095288aabd803f0ad3352cbd4733cb42fa9a497",
+    "name": "Livingcoffee Coffee",
+    "url": "https://livingcoffee.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "spaicecoffee-95": {
+    "hash": "d7e3003bf4066687da0b31c792691b578efe710102b56c4b66b38b3203f964b0",
+    "name": "Spaicecoffee Coffee",
+    "url": "https://spaicecoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "routemapcoffeeroasters-96": {
+    "hash": "d5e9d5c0b78ef71c67bcc51dee0e2959435437c02f1fe9da6e4249f206c3ec41",
+    "name": "Routemapcoffeeroasters Coffee",
+    "url": "https://routemapcoffeeroasters.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "scrop-coffee-roasters-97": {
+    "hash": "651d5b951436f9daa83455b93ca44f05aadc8ed0a7554f0f88587cbdc035d06c",
+    "name": "Scrop-coffee-roasters Coffee",
+    "url": "https://scrop-coffee-roasters.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "glitchcoffee-99": {
+    "hash": "fc6449f5dcd91b2d94ec6f059b2a3c61e4d3d2613833a8cb42abe15fb636fa0b",
+    "name": "Glitchcoffee Coffee",
+    "url": "https://shop.glitchcoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "leavescoffee-100": {
+    "hash": "5fcdfee2f937b42e8aa6151ce10c3dea08cc0174642b1d628e231b5976531fc0",
+    "name": "Leavescoffee Coffee",
+    "url": "https://leavescoffee.jp/shop/coffee",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "lifesizecribe-101": {
+    "hash": "3fd67b857515461a5557ba1eb91307ba7f60d421cf4a3661af9f13d5558bd9a7",
+    "name": "Lifesizecribe Coffee",
+    "url": "https://lifesizecribe.com/collections/beans",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "gpcoffee-102": {
+    "hash": "976c77824020d01d39dbbd2100fb4a7630bc83365e168b61a07de3349c95d179",
+    "name": "Gpcoffee Coffee",
+    "url": "https://gpcoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "brewmantokyo-103": {
+    "hash": "4d375b7dbd5c49fda0f5d2240c7f193268334cf78c5e3b8d36b315adfec0b0a5",
+    "name": "Brewmantokyo Coffee",
+    "url": "https://www.brewmantokyo.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-104": {
+    "hash": "5784b6fb545e439ad6ff74c14a0db982fa403c6aa5a18044003d6cc6fdf90e43",
+    "name": "Official Coffee",
+    "url": "https://joetalk.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-108": {
+    "hash": "0fe644d136f2d51f0fffeec52f24b14ebbebd41799da608da5fea00d04b5e597",
+    "name": "Official Coffee",
+    "url": "https://ironcoffee.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "finetime-109": {
+    "hash": "5aecb11daa3a047e79a25f9ecf75df32bf0ac02060abb3353aff10fc1e6fe998",
+    "name": "Finetime Coffee",
+    "url": "https://finetime.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-110": {
+    "hash": "dc13be26bf7bf007265ad7081561b000ac98f0a671816c1a412b0b91706b48ce",
+    "name": "Official Coffee",
+    "url": "https://meganecoffee.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-111": {
+    "hash": "4e0f15845bd690dd910c8b04f2d8e52b77a66c440801f24e93f900b1af902fd7",
+    "name": "Official Coffee",
+    "url": "https://porterscoffe.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-112": {
+    "hash": "8a79eb6c495bec0626002c1a1140730891a834d1161e55b729ed7bb7a71aefda",
+    "name": "Official Coffee",
+    "url": "https://lonich.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "shirokanedai-114": {
+    "hash": "29f029a092b2a1dec7c1c4b35dc4e99797433c9b22be0e85cc534147fa5a1113",
+    "name": "Shirokanedai Coffee",
+    "url": "https://shirokanedai.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "chouettetl-115": {
+    "hash": "10f7c3de37b0fbf155dc1e046a8798ed38de670408c8c63df9eb584fe19f2cba",
+    "name": "Chouettetl Coffee",
+    "url": "https://chouettetl.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "shop-pro-117": {
+    "hash": "5d2e8a3e6027cfe4bf5734eb5c3fe20a13cce82d1af48ad1b32f8044c10d65da",
+    "name": "Shop-pro Coffee",
+    "url": "https://hinatacafe.shop-pro.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "kitami-beanscoffee-118": {
+    "hash": "906fd061037181ad86189e39c41452136b68d7d322e5c24d218cd102a8d0c645",
+    "name": "Kitami-beanscoffee Coffee",
+    "url": "https://kitami-beanscoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "unir-coffee-119": {
+    "hash": "b9200179d6c5a7dea92de80dd1ec8cb0e5caedce98663df666143dfd62648109",
+    "name": "Unir-coffee Coffee",
+    "url": "https://unir-coffee.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-120": {
+    "hash": "fe5e2b39ab099b5b57c89b4327c7296560356fc4bb8e9f632d7301da6978441f",
+    "name": "Official Coffee",
+    "url": "https://papcoffee.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "fivecoffee-121": {
+    "hash": "5b75511324b361b3edd1af17504c12564b7ca2380eb0c884f1c983d682711430",
+    "name": "Fivecoffee Coffee",
+    "url": "https://www.fivecoffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "aoyamacoffee-122": {
+    "hash": "0d4a781e0b5fac09575aeca4d717029da9036264a91a3ccd553cc9792209c0f6",
+    "name": "Aoyamacoffee Coffee",
+    "url": "https://aoyamacoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "beagoodneighbor-123": {
+    "hash": "92c18566a6b2de8ba3f729d66984cd2b8c9cb29f38347c20cf2d2228b5adb65f",
+    "name": "Beagoodneighbor Coffee",
+    "url": "https://beagoodneighbor.net/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "ariowlcoffee-124": {
+    "hash": "d2a5911e66e0a4e162d53dc3a778f681aea63432140d8d3e602b03a081ff221e",
+    "name": "Ariowlcoffee Coffee",
+    "url": "https://ariowlcoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "nozycoffee-onlinestore-125": {
+    "hash": "8d3e1c565b157b4c911f4cf5be6e5eb7206a323a6dbe9f667cf83c0a51820580",
+    "name": "Nozycoffee-onlinestore Coffee",
+    "url": "https://nozycoffee-onlinestore.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "karmanncoffe-126": {
+    "hash": "68ddd9cf9a9eb1775f1602d47865b2033c8b5c1d0278c490a3ba2d672ac04a0d",
+    "name": "Karmanncoffe Coffee",
+    "url": "https://karmanncoffe.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "nexpect-128": {
+    "hash": "5f2dad5047f8e8607bed4e9f4cff62d9960c02162fe12c58e51de14f1c4990dc",
+    "name": "Nexpect Coffee",
+    "url": "https://nexpect.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "cafecajon-129": {
+    "hash": "247a104e17a797200e6fe681ad90ed34859d0adfa8a26f83ac6750d68431c549",
+    "name": "Cafecajon Coffee",
+    "url": "https://www.cafecajon.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "takbeans-130": {
+    "hash": "bbca17e30debd84e08917ee0211f63c8305d20bee6d31342efd2b403e2edaff0",
+    "name": "Takbeans Coffee",
+    "url": "http://takbeans.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "woodberrycoffee-131": {
+    "hash": "f8554099135583cf991372b3608261408939b68aa7d5ff7463d9bd84bac2d003",
+    "name": "Woodberrycoffee Coffee",
+    "url": "https://www.woodberrycoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "takaito-132": {
+    "hash": "70e7ebd9c713d09ab974c918e9596dea6809e7996f1241689e077fa7b2656f7e",
+    "name": "Takaito Coffee",
+    "url": "https://takaito.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "abno-133": {
+    "hash": "1568fdb9d8de35bf85a86d18d8749399882b8e767b0a0f259e2dc9dda28ba97d",
+    "name": "Abno Coffee",
+    "url": "https://abno.base.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "frescocoffee-134": {
+    "hash": "cce2179ef5475e555f542c3a804d979c495f3c2df5f36a18020d993ae8f70277",
+    "name": "Frescocoffee Coffee",
+    "url": "https://frescocoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "coffee-nova-135": {
+    "hash": "99ba886304fd4902ec15dea094b30bc01fd7afbdaef8fede6383199bff9ed413",
+    "name": "Coffee-nova Coffee",
+    "url": "https://www.coffee-nova.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "rostro-136": {
+    "hash": "b9fa0335c2393da69fdbf0c45bb134e2fc112adda63666b1cbc47d98b30c556e",
+    "name": "Rostro Coffee",
+    "url": "https://rostro.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "littledarlingcoffeeroasters-137": {
+    "hash": "dd29450e016cf5c5052f150f466b7f115baf479b74a6d703bd35d609559d2e81",
+    "name": "Littledarlingcoffeeroasters Coffee",
+    "url": "http://www.littledarlingcoffeeroasters.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "square-138": {
+    "hash": "9760069de7161f98c919e1096c2615ba22a7f9d8ba88c75b3c83505db07b20ef",
+    "name": "Square Coffee",
+    "url": "https://task-coffee.square.site/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "firstcrop-141": {
+    "hash": "e0811bad49bbe1aa16704d1c9e1114ab4df01a01a1d9aef6444045a3cfd68d98",
+    "name": "Firstcrop Coffee",
+    "url": "https://firstcrop.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "tabitocoffee-142": {
+    "hash": "560cb48e8eb8a48f8a6035ef93e2cf161b4f6030edb5cd05d3e486ba4079efd0",
+    "name": "Tabitocoffee Coffee",
+    "url": "https://tabitocoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "pharoscoffee-143": {
+    "hash": "01d1e59bbaab4cbdd3d8c9c3f56b89efd0be81b14e4a0bfa61ddaed03745368c",
+    "name": "Pharoscoffee Coffee",
+    "url": "https://pharoscoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "apollons-gold-145": {
+    "hash": "c8f7970af3f656fbddbcb26c084292f6f93b76d5ae7b05c8b076cb1b2be8ecb5",
+    "name": "Apollons-gold Coffee",
+    "url": "https://ja.apollons-gold.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "blue-6-coffee-146": {
+    "hash": "847693b6bd05c222161e74910a1a8e03fe5373f339201ac7b268938cf3623c38",
+    "name": "Blue-6-coffee Coffee",
+    "url": "https://blue-6-coffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "obscura-coffee-147": {
+    "hash": "50a982f0b94e4d3ae7b3ac0af26155f4edcc20e703297e527982a4b3686b1ca2",
+    "name": "Obscura-coffee Coffee",
+    "url": "https://shop.obscura-coffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "sachiopia-149": {
+    "hash": "090cd68d0d0c781b659921be633dbc2f4370a13a8675ab22f6e9e8e5b6ef07c2",
+    "name": "Sachiopia Coffee",
+    "url": "https://sachiopia.base.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-150": {
+    "hash": "d874349d9a187efb28c1b1ff728033721d57fe066416275e65a9caf485d14009",
+    "name": "Official Coffee",
+    "url": "https://swellc.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "nogcoffeeroasters-151": {
+    "hash": "c34d3dd4262020673c1dc5f4ab86c60990ba5778f85e9241b44cf169d9c942b1",
+    "name": "Nogcoffeeroasters Coffee",
+    "url": "https://nogcoffeeroasters.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "coffeesupreme-154": {
+    "hash": "04d129d183f716bb1ba98ae303b30ffebad1663c65fb1327987cfebc654063e5",
+    "name": "Coffeesupreme Coffee",
+    "url": "https://shopjp.coffeesupreme.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "streamercoffee-estore-156": {
+    "hash": "baf22459194c442cde95a84ac4f64d950c574824ee04e1966c707cecae140b08",
+    "name": "Streamercoffee-estore Coffee",
+    "url": "https://www.streamercoffee-estore.tokyo/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "because1-157": {
+    "hash": "48ac83a80c1432dc764912e3d3da2f351b78e047eee2c84c930bb3bfee9553ee",
+    "name": "Because1 Coffee",
+    "url": "https://because1.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "stockholmroast-158": {
+    "hash": "f06f012146d60da7d918b1a351dddc4c41b72f023c6e88f2ef0f4b4a684f1749",
+    "name": "Stockholmroast Coffee",
+    "url": "https://stockholmroast.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "paddlerscoffee-159": {
+    "hash": "9a2821b4d6fac4c879feb55fa1f6140184cf582bd71e3c45329b5968a88e64d4",
+    "name": "Paddlerscoffee Coffee",
+    "url": "https://paddlerscoffee.com/access/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "tokyocoffee-160": {
+    "hash": "34de3b0073d46273cc6762071f85efca16abbee94c7ccab15211c2fcfdfb377d",
+    "name": "Tokyocoffee Coffee",
+    "url": "https://tokyocoffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "akhaama-161": {
+    "hash": "ab3d7ee295136008cf057975a5cef7f03d642ed0eac22c77790f53f18009d973",
+    "name": "Akhaama Coffee",
+    "url": "https://akhaama.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "entocoffee-162": {
+    "hash": "141067451829a89f396bb12116d73c16958cdbd98a4d2fced132bb88cc612ca5",
+    "name": "Entocoffee Coffee",
+    "url": "https://entocoffee.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "slopecoffee-163": {
+    "hash": "e9549e8e619a1f6b1592d75d4ddf96df55b606c2a47d76c47a31e11f29ba5b10",
+    "name": "Slopecoffee Coffee",
+    "url": "https://slopecoffee.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "adayinthecoffee-164": {
+    "hash": "dddfe039421e5baa118842e07c06dcb84436a2cb0b448927113a6573aa0ddfce",
+    "name": "Adayinthecoffee Coffee",
+    "url": "https://adayinthecoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "virtuoso-coffee-165": {
+    "hash": "905f70d54c0c6de23acf8d91d1500b64c7c74c6dbb6adf801b895624c20f5b00",
+    "name": "Virtuoso-coffee Coffee",
+    "url": "https://virtuoso-coffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-166": {
+    "hash": "ee3286474ddccab031db022a18d340e4a9ddb709eb4c837a28b91aae12d9b3a1",
+    "name": "Official Coffee",
+    "url": "https://rocacoffee.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "thewordcoffee-167": {
+    "hash": "d23898e79655adea8a04f213ca55569d65a7ccfbe5400cfd1263cf562deb46cc",
+    "name": "Thewordcoffee Coffee",
+    "url": "https://thewordcoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-168": {
+    "hash": "01ae19e9d373bb18c159c3cce88a3aaaa2d95dac9cca74bdef8b4c1d3ad1f7b7",
+    "name": "Official Coffee",
+    "url": "https://berg.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "kakyocoffee-169": {
+    "hash": "bf22c62b03c32dd806fc76e3d378e4a770c774554fdfe24a6dbdc66f73dafa88",
+    "name": "Kakyocoffee Coffee",
+    "url": "https://kakyocoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "conzen-170": {
+    "hash": "ac53f99ae086108aa01137f5018139f69f299b1cc75f271ad867996a1ba0ad46",
+    "name": "Conzen Coffee",
+    "url": "https://conzen.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "shop-pro-171": {
+    "hash": "fdadf59a0315375b9b8aa5d072151b792610a0d480fb46ee6e34e30555bc7727",
+    "name": "Shop-pro Coffee",
+    "url": "https://glaubell.shop-pro.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "27coffee-173": {
+    "hash": "5eedf52184cc4295b13169107f100ccb6132b23e9f9e774ecef7e8c778db60e7",
+    "name": "27coffee Coffee",
+    "url": "https://27coffee.jp/collections/all-coffee",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "no13-174": {
+    "hash": "a17fb9d35fd2bd25a72e86641eb2a367465ac9df8e4338420c69d6ccea4938f1",
+    "name": "No13 Coffee",
+    "url": "https://no13.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "red-poison-175": {
+    "hash": "c693ac02412db26a5a7ecbccb3e54274bd7609bbabd5dd2522eaad2cc10c56a2",
+    "name": "Red-poison Coffee",
+    "url": "https://red-poison.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "darkartscoffee-176": {
+    "hash": "7b338dc5acbd1384394df28845163d23e0911d1cf3ed0552b3bcfab98dcb8a5e",
+    "name": "Darkartscoffee Coffee",
+    "url": "https://darkartscoffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "thegoodgoodies-177": {
+    "hash": "a7708762e61555bec211b95f7790fdf0543108eacf8ec7b96bbc73fc26fa3887",
+    "name": "Thegoodgoodies Coffee",
+    "url": "https://thegoodgoodies.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-178": {
+    "hash": "2003860015c9a7750306f6f2014edfe93e873d04bc81168712b67648f8e831bf",
+    "name": "Official Coffee",
+    "url": "https://somethingsch.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "instagram-179": {
+    "hash": "6db0eed71c741634e50527ce8557110a45b65d1a202d4816dabeffd42ca4bdcc",
+    "name": "Instagram Coffee",
+    "url": "https://www.instagram.com/roastdesigncoffee/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "mame-connect-180": {
+    "hash": "9f9cf35d8334800c4e5a668aea715e8bef6e062846212aad95f9fb216951b65b",
+    "name": "Mame-connect Coffee",
+    "url": "https://www.mame-connect.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "pluscoffee-181": {
+    "hash": "0d79558b500587584347a0ec652c4e1790b9e91002932a56aa98be8c259a29a0",
+    "name": "Pluscoffee Coffee",
+    "url": "https://shop.pluscoffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "yazawacoffee-182": {
+    "hash": "a2550c6b2baa96452cfe78e4fe44000522b8f8e2f76548100df8d900cd4c35e4",
+    "name": "Yazawacoffee Coffee",
+    "url": "https://yazawacoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "shop-pro-183": {
+    "hash": "e52ac9e9a344ffbcaf6e8dcf7f78c252cbc7c8cb94ce662ff623eff79c995ea1",
+    "name": "Shop-pro Coffee",
+    "url": "https://tsukikoyacoffee.shop-pro.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "terasucoffee-184": {
+    "hash": "3846ec5957e0aa80350694b4cf569e818329ba0bde29d9e1a1df25f96798688a",
+    "name": "Terasucoffee Coffee",
+    "url": "https://terasucoffee.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "breathercoffee-185": {
+    "hash": "b4492be1a35529008e11934e8981a8ce1b78dda1cc810a6d587413d5ea66fe53",
+    "name": "Breathercoffee Coffee",
+    "url": "https://breathercoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "handcrafted-187": {
+    "hash": "db30a0a095535d6ae6ac845a640eac4bf38f7f693f379941cc853f7515975364",
+    "name": "Handcrafted Coffee",
+    "url": "https://mellowcoffee.handcrafted.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-188": {
+    "hash": "be6f8c42c5997f7804f1690a14353f91da1aa617b31a1cc21839c132f8abf00d",
+    "name": "Official Coffee",
+    "url": "https://leafletter.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "tonari-no-baiten-189": {
+    "hash": "1b3c1c40eb50598aad9a5e14748285a666e14d0806774b38dcdc8e9589797767",
+    "name": "Tonari-no-baiten Coffee",
+    "url": "https://tonari-no-baiten.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "akitocoffee-191": {
+    "hash": "3ebdcec6f97e4168da55b09060d1e3b2e74d2f1c62101a4f0d131b9255b1310c",
+    "name": "Akitocoffee Coffee",
+    "url": "https://akitocoffee.com/pages/shop",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "instagram-192": {
+    "hash": "acf79109c7af67a13aba0f16f3798ab80abbc7b36e187238a105821785f5650c",
+    "name": "Instagram Coffee",
+    "url": "https://www.instagram.com/gray_coffee_roastery/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "dotscoffee-193": {
+    "hash": "ec9a504b115986cc3e37f2cec95b152bb59407466fa42a56f0feb8f05d1e4038",
+    "name": "Dotscoffee Coffee",
+    "url": "https://dotscoffee.jp/index.php/shopping/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-194": {
+    "hash": "74dad3b280d9835d414bc5f9b786c726b54e19cd0aca7bc653c77f2b4768f451",
+    "name": "Official Coffee",
+    "url": "https://hiranocoffee.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "tomicoffee-195": {
+    "hash": "552f7eada15a52c7385159dea48c5ed609ac8678a963b077a4e50e1f55a6135e",
+    "name": "Tomicoffee Coffee",
+    "url": "https://tomicoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "koseligcoffee-196": {
+    "hash": "af87a971ba3806ccfcfaacc3de8a3864642520691c40415026542d09c8e3860d",
+    "name": "Koseligcoffee Coffee",
+    "url": "https://shop.koseligcoffee.net/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "dayscoffeeroaster-198": {
+    "hash": "c397fb121acd45a90c0161b2d1f876b8a134f5bd532551d4e3bfbf68ae01f333",
+    "name": "Dayscoffeeroaster Coffee",
+    "url": "https://dayscoffeeroaster.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "shop-pro-201": {
+    "hash": "a8ad25c9a3da3c01347a84aa6c42d9521d8677e4049392016e39e43264e4cec6",
+    "name": "Shop-pro Coffee",
+    "url": "http://roastcafe.shop-pro.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "bellmate-203": {
+    "hash": "67e6d393d62a0c8238702e19580c7e8ea05e8fbf0e15f3e13ee8c2f7b7d47a3e",
+    "name": "Bellmate Coffee",
+    "url": "https://bellmate.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "tsumugu2019-205": {
+    "hash": "c168490c378d23f436213bb742d29a95398daefdd5db0f9c2ee79d46fa43642f",
+    "name": "Tsumugu2019 Coffee",
+    "url": "https://tsumugu2019.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "hazerucoffee-206": {
+    "hash": "c47b4a6ce29944f7333376353c642c53eacccfbdd70235198bdfbdb93b7d44dc",
+    "name": "Hazerucoffee Coffee",
+    "url": "https://hazerucoffee.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "haizcoffee-207": {
+    "hash": "0b777648944dea559dbc6fd319258e4bbc0844a0a3b9493cb5ef8d51a092e24e",
+    "name": "Haizcoffee Coffee",
+    "url": "https://haizcoffee.myshopify.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "pessoacoffee-209": {
+    "hash": "46ae97438cc3cb550e8dba6d6bfcf5c19f9930af7bc6044e65233dfa7c40a7d6",
+    "name": "Pessoacoffee Coffee",
+    "url": "https://pessoacoffee.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "miecoffeemii-210": {
+    "hash": "c2225c26c4e2c456877f61bb30e300040a7093e0f8e15d5db95f5b79a28abe71",
+    "name": "Miecoffeemii Coffee",
+    "url": "https://miecoffeemii.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "sunnybell-211": {
+    "hash": "350ed2e294d36c5b9df0079390dbb793b35b60284ee0d9c8c227c6107eee2246",
+    "name": "Sunnybell Coffee",
+    "url": "https://sunnybell.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "nscoffee-212": {
+    "hash": "59b48f85d21d136ed7b8acbe8c035cd0a2d0e0205ecf1c51d59d6af389fd96cf",
+    "name": "Nscoffee Coffee",
+    "url": "https://nscoffee.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "base-213": {
+    "hash": "c3b3701947a1365290940406267587b42a9875860c3f906211f5b9fe8d5d65a6",
+    "name": "Base Coffee",
+    "url": "https://base.nittacoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "possecoffee-214": {
+    "hash": "73343750d145d1a9dbedd1c95b4b653340e877d60478ea43de4086dc57d19237",
+    "name": "Possecoffee Coffee",
+    "url": "https://www.possecoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "vengacoffee-216": {
+    "hash": "442da4072c7bfe694b364374bf5d9d9a0b5d6c0db6d51a9e46cf69d22c7825df",
+    "name": "Vengacoffee Coffee",
+    "url": "https://vengacoffee.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "wakoya-217": {
+    "hash": "f1b44d82ce393fd3c521ee0f61ca87dc7baf5b80e20cf74a649c7172aa1cd5df",
+    "name": "Wakoya Coffee",
+    "url": "https://shop.wakoya.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "heibon-218": {
+    "hash": "4945b7b28f6a7324ea6d3a28c421c066ce878da7eee7af8c90a5dd2b1b76f78e",
+    "name": "Heibon Coffee",
+    "url": "https://heibon.base.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "cocucoffee-221": {
+    "hash": "6823db0415e1c53587bf290bcd80c753c42d8d64481778cf38989058d7cf4748",
+    "name": "Cocucoffee Coffee",
+    "url": "https://cocucoffee.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "instagram-222": {
+    "hash": "f491dab164a0d0e6ed5e8f86a9ca26cf7b7591996d5e198935d379e55f7bdb32",
+    "name": "Instagram Coffee",
+    "url": "https://www.instagram.com/cafe_adachi/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "cafetabibito-223": {
+    "hash": "439ac2a1b1116313865f5147a0e65fd938c4a98a994f00357d617d91db339339",
+    "name": "Cafetabibito Coffee",
+    "url": "https://cafetabibito.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "yamadacoffee-224": {
+    "hash": "415e34ce5371ee83ff18e12d8aec832fd4a23149906079d52c707631d080d875",
+    "name": "Yamadacoffee Coffee",
+    "url": "https://www.yamadacoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "ethicus-store-225": {
+    "hash": "b98d34b4c7fce58f4aa7ed155e468e4c875d5b19e1c789424c2c76c6669b6b0a",
+    "name": "Ethicus-store Coffee",
+    "url": "https://ethicus-store.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-227": {
+    "hash": "666d861082ee3c7e7167b18bca36aee6beda825a02872ee2dbfdc2e422b67f89",
+    "name": "Official Coffee",
+    "url": "https://g2conline.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "hugcoffee-229": {
+    "hash": "5c1dda4982d09bf32eac646f06a74e44e560717e5f0a942fe9b6b6b1509a31a1",
+    "name": "Hugcoffee Coffee",
+    "url": "https://hugcoffee.co/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "ichicoffee-230": {
+    "hash": "526121ec6e9e2efe994487af03f0e47a6854fbc47b7ead356bfd35db1809aa03",
+    "name": "Ichicoffee Coffee",
+    "url": "https://www.ichicoffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "tiescoffee-231": {
+    "hash": "2dbd52eb30218078cfd9e4e81ef5a0aea2631c3e9c7b80ca16f4ef250c637b4f",
+    "name": "Tiescoffee Coffee",
+    "url": "https://tiescoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "moksa-234": {
+    "hash": "f0790aff2999165c505aac89e87d434f16b536a9455a1d2fb15f5ac5ab0a5da1",
+    "name": "Moksa Coffee",
+    "url": "https://moksa.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "nomadlife333-235": {
+    "hash": "65154b1ccfb85f4d80827c0dc1269ead58505862be51c5733fc688e6b67c4508",
+    "name": "Nomadlife333 Coffee",
+    "url": "https://nomadlife333.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "partcoffeeroaster-236": {
+    "hash": "02575e97f01eb38f6433b23c25887b9e674d8500181592cd2971f80014a15684",
+    "name": "Partcoffeeroaster Coffee",
+    "url": "https://partcoffeeroaster.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "coffelab0238-237": {
+    "hash": "5bf72c2c74314289072681ac86ea0db8fe6774af7088826103b9dfd96a034822",
+    "name": "Coffelab0238 Coffee",
+    "url": "https://coffelab0238.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "keigancoffee-238": {
+    "hash": "20099c2196fa7821a45dc8991807c1e31d8759cc97587541ff190453520f05a5",
+    "name": "Keigancoffee Coffee",
+    "url": "https://keigancoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "trunkcoffee-239": {
+    "hash": "c9b22a2ccb5e614689151f9bdb6e67a7f707e7129d4b36c2c3efe0a80ea8e63f",
+    "name": "Trunkcoffee Coffee",
+    "url": "https://trunkcoffee.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "qolcoffee-240": {
+    "hash": "07cedb65607a140fef4017c232661e1700c0b9952b95922d203cbde5d525ee53",
+    "name": "Qolcoffee Coffee",
+    "url": "https://qolcoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "jyunikagetsu-241": {
+    "hash": "ca529941a7a125bb4ec6060c69be66dce683f98e7dd42bfab69eb5521dea612f",
+    "name": "Jyunikagetsu Coffee",
+    "url": "https://www.jyunikagetsu.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "freak-coffee-242": {
+    "hash": "b28c5985732d356aeb13ea7e83047499f50cc0f01db53c482e0529a1fa129c91",
+    "name": "Freak-coffee Coffee",
+    "url": "https://freak-coffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "hikure-244": {
+    "hash": "4ded89adfac0a93a30c975eb45c8616a49676519f058d280fdd4180fb14faa17",
+    "name": "Hikure Coffee",
+    "url": "https://hikure.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "littleflowercoffee-245": {
+    "hash": "7035cbfe51056a723364b6b89c48c943d08bb1214f7490e1e096ed08d03067dc",
+    "name": "Littleflowercoffee Coffee",
+    "url": "https://www.littleflowercoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "co-246": {
+    "hash": "56c4060c4d9e56fc49783b39095bc02c89781c30aa25c0ba3559a5fc1ec87e21",
+    "name": "Co Coffee",
+    "url": "https://imom.co.jp/service/coffee.html",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "sohcoffee-247": {
+    "hash": "e9550f9ec0a174679fab57a98546af6edbb85b18e9aed9b447d980eb1a86bbf6",
+    "name": "Sohcoffee Coffee",
+    "url": "https://sohcoffee.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "buntcoffee-248": {
+    "hash": "8aec2dec77e5359357a44e257f9b9c25bc2fcfe67f1dfa12c88250731aba111f",
+    "name": "Buntcoffee Coffee",
+    "url": "https://buntcoffee.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "fukusukecoffee-249": {
+    "hash": "4ec86bf78b14d6e684ffbb167bcaaf319ce087fe766d840080c1b0742320f05f",
+    "name": "Fukusukecoffee Coffee",
+    "url": "https://fukusukecoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "oiseaucoffee-250": {
+    "hash": "0e20ef14f2b3bc1d7c4c3b2a9af33fc05e2287a05a8da32bb4705165c10a761b",
+    "name": "Oiseaucoffee Coffee",
+    "url": "https://oiseaucoffee.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "kissatoi-252": {
+    "hash": "ad47eca772f96090fe81cf6ae8c65a9c1ed8ae1ca8b55442df5f5ff8fc7577b2",
+    "name": "Kissatoi Coffee",
+    "url": "https://kissatoi.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "harumagari-253": {
+    "hash": "c6af47a8c2d1d243e46c1a394fe0f674d76bf1a57d392f57796bd13f887c8e83",
+    "name": "Harumagari Coffee",
+    "url": "https://harumagari.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "magnis-254": {
+    "hash": "f72d9e747b9fd18d96698d759921a6fbba3f03f7415f2cb7bf139df36eb6dbf2",
+    "name": "Magnis Coffee",
+    "url": "https://magnis.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "coffeebotan-255": {
+    "hash": "533d444a3906aed54bf42390238fe0c0af511596e56c41f4961c6255911f285a",
+    "name": "Coffeebotan Coffee",
+    "url": "https://coffeebotan.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "apollocoffee-258": {
+    "hash": "094ea9f65290f9eafb13ab54ff29ac2b862748e221ce6bfa453742f65ee179db",
+    "name": "Apollocoffee Coffee",
+    "url": "https://store.apollocoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "deaicoffee-259": {
+    "hash": "3be08850b374e8a39c6406fcb223937fa98841aac1ca01ea9d60739abf738ef0",
+    "name": "Deaicoffee Coffee",
+    "url": "https://deaicoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "ooakcoffee-260": {
+    "hash": "dbd7563eb4c1a2f7bef59298f4981883710f95845024e9e1204d4eb24cb283db",
+    "name": "Ooakcoffee Coffee",
+    "url": "https://ooakcoffee.net/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "soyogocoffee-261": {
+    "hash": "4bade0fdb8476e43ac62cf36d8b1e76678b67b87c3679e4639a54b81a863ccbb",
+    "name": "Soyogocoffee Coffee",
+    "url": "https://soyogocoffee.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "5454cm-262": {
+    "hash": "991a00074b54cdf3777cd7fe2cd239dac4a53680674c37bf6292b31d28d6d185",
+    "name": "5454cm Coffee",
+    "url": "https://5454cm.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "coffeeuno-263": {
+    "hash": "02106d8914d2150f0480cc2bd0623e8cc26a2294ccbd0ac6acc44f6d29eb2bc3",
+    "name": "Coffeeuno Coffee",
+    "url": "https://coffeeuno.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "colorfulcoffee-265": {
+    "hash": "2b5afaee1eeb3a5a1e752e463f04e3f01fe7a28b0dd05290fc12f0233455fce3",
+    "name": "Colorfulcoffee Coffee",
+    "url": "https://colorfulcoffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "nakamura-coffee-266": {
+    "hash": "d3f199eb6ac2ef4599af2a48d8727fb71bcff136b88b48356208c1d766b6d9a2",
+    "name": "Nakamura-coffee Coffee",
+    "url": "https://nakamura-coffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "otomoni-267": {
+    "hash": "b91003da564c3711aebf85e47ac67529a09c280ffee157c0a473171b129c70b2",
+    "name": "Otomoni Coffee",
+    "url": "https://otomoni.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-268": {
+    "hash": "6f16f0bea2574c325d3deb9583763e1de5fa7d7f79816df24d4435b7394797d8",
+    "name": "Official Coffee",
+    "url": "https://38coffee.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "kimitocoffee-272": {
+    "hash": "4be5b1daf4063d3d578fbe75d73e1fe4c65695a70c380d73c3ef1c2cf7504040",
+    "name": "Kimitocoffee Coffee",
+    "url": "https://kimitocoffee.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "yetifazenda-coffee-273": {
+    "hash": "4ec455364c7fb7bbff7ee43aeaedd38bcf6e2afe067f45ad05e4dd71b456433c",
+    "name": "Yetifazenda-coffee Coffee",
+    "url": "https://yetifazenda-coffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "square-274": {
+    "hash": "bb7c8d547325e79086e961cb65a54afa7a9c67782379fa64a3b7ae746d6557cb",
+    "name": "Square Coffee",
+    "url": "https://ataracoffee.square.site/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "handcrafted-276": {
+    "hash": "a4522f89bf633a51782e314f4fedd4820b7f3f2325b7ecc41b54e4e2e5131e5d",
+    "name": "Handcrafted Coffee",
+    "url": "https://dongree.handcrafted.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "kanondo-280": {
+    "hash": "07860d3d6306086c3b7beefc7380915a39527b0956c312d47b3d594d334ce248",
+    "name": "Kanondo Coffee",
+    "url": "https://kanondo.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "ru3coffee-282": {
+    "hash": "7cf98ddb09e27063dd9d048e28f2c48ccbfff3ea18a9e5d8a1b1992ae44ba637",
+    "name": "Ru3coffee Coffee",
+    "url": "https://www.ru3coffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "stylecoffee-283": {
+    "hash": "4b6c464f35f1d9d49c9b7df23a7b379168735f54894f6e055d9a6f119967934d",
+    "name": "Stylecoffee Coffee",
+    "url": "https://www.stylecoffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "bastetcoffee-284": {
+    "hash": "ca583974cbce180a3d24372c6c3be58d6856f63ce57ef4b8ea85ff28de7e0b4f",
+    "name": "Bastetcoffee Coffee",
+    "url": "https://bastetcoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "weekenderscoffee-285": {
+    "hash": "a5343fa4682683f764c4f369d30cd0494c66a803b1387ff5eee7c17f7a3abef9",
+    "name": "Weekenderscoffee Coffee",
+    "url": "https://www.weekenderscoffee.com/onlineshop/index.html",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "oyamazakicr-286": {
+    "hash": "5a351cc0dd26a3d6747bc35d44b05f88ad182a2ee9621f83a2eda5f038fe10e5",
+    "name": "Oyamazakicr Coffee",
+    "url": "https://oyamazakicr.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "goodmanroaster-287": {
+    "hash": "878b8b997770650fcd7be323cba1f660e8cfff5739e66c2e49cbfa081e684a0f",
+    "name": "Goodmanroaster Coffee",
+    "url": "https://goodmanroaster.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "buyshop-288": {
+    "hash": "790956ec429a359bad17caa0108f18ec8d62bf533c468735e6beb3790affc381",
+    "name": "Buyshop Coffee",
+    "url": "https://wandh.buyshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "sentidocoffe-289": {
+    "hash": "2a3a93418d7ee4684e3a6b2ad0e6da71442be955a735f58bdf82a16f89952a43",
+    "name": "Sentidocoffe Coffee",
+    "url": "https://sentidocoffe.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "nakayamacoffee-290": {
+    "hash": "07a1a9e40464fa09dade408bea0bfa9d58e0a3728c2e39bd2b8550fe1d957e4a",
+    "name": "Nakayamacoffee Coffee",
+    "url": "https://www.nakayamacoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "kitaoji-roastery-lab-293": {
+    "hash": "fff65dc802af39275f28ff168326aa2d0a698bd6388b4190c55377d300a01827",
+    "name": "Kitaoji-roastery-lab Coffee",
+    "url": "https://kitaoji-roastery-lab.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "arabica-295": {
+    "hash": "459c20496e230d9759d22ccd8d276414b388b2a10191c6a545a459f7825b03e9",
+    "name": "Arabica Coffee",
+    "url": "https://arabica.coffee/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "drpdrp-296": {
+    "hash": "9d97226ecd1c92d36a0c97c7720259c074c0c00519eb145cf8b7bf55ec2bd171",
+    "name": "Drpdrp Coffee",
+    "url": "https://drpdrp.com/collections",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "shigacoffee-298": {
+    "hash": "f55ee2d1919ebd6b28cdf4cd25b8783a6ad7ccfeffe5abd2b255d5f22147aa3c",
+    "name": "Shigacoffee Coffee",
+    "url": "https://www.shigacoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "bbckyoto-299": {
+    "hash": "ce8a505c264193f24cddf289a42ed501a462d57e836a0cdb775e6e946c102e47",
+    "name": "Bbckyoto Coffee",
+    "url": "https://bbckyoto.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "misoraxxx-300": {
+    "hash": "f3454bbed3ceae1152fedf96af4681007670c9d6cac94358dd8f06c994dd86f2",
+    "name": "Misoraxxx Coffee",
+    "url": "https://misoraxxx.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "globe-mountain-coffee-301": {
+    "hash": "52d7192462aa412de49cd71077c77ba3381bfd33a3f068384ca4849036810d8e",
+    "name": "Globe-mountain-coffee Coffee",
+    "url": "https://shop.globe-mountain-coffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "blend-302": {
+    "hash": "3bd6182e165339a58a95b35316f1fa36181238310f7a2f70535be45a9ca6154f",
+    "name": "Blend Coffee",
+    "url": "https://blend.kyoto/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "shop-pro-303": {
+    "hash": "921655bea7fcf4676a04982ec3346abdd5299e17fb9d129ea134efff7e18d5c9",
+    "name": "Shop-pro Coffee",
+    "url": "http://miepump.shop-pro.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "wako-coffee-305": {
+    "hash": "f6f1fc7cfbc47bdd4916242ca9085440bd9333e7ff3a28b9dc8649095c88fca0",
+    "name": "Wako-coffee Coffee",
+    "url": "https://www.wako-coffee.com/shopbrand/all_items/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "aomacoffee-306": {
+    "hash": "97d0a31fa6f47716ab23c0c794b2727c144fcd64966cb93029c8cbd60e928c44",
+    "name": "Aomacoffee Coffee",
+    "url": "https://aomacoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "terracoffeeroasters-307": {
+    "hash": "047c8ea50e9d9a4be0d6f295aa9a7bcf82023457ee87f0ecce7f71c9b72c8fd3",
+    "name": "Terracoffeeroasters Coffee",
+    "url": "https://terracoffeeroasters.earth/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "liloinveve-308": {
+    "hash": "617f5b19c16881b193e61c4576004285eb3840f088bc4b7343783bac8ebd3ddd",
+    "name": "Liloinveve Coffee",
+    "url": "https://coffee.liloinveve.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "coffee-market-309": {
+    "hash": "ddd6c42a2a249f120b3950628ee28a3fe75a41a048628b378dc505084e0e12f3",
+    "name": "Coffee-market Coffee",
+    "url": "https://coffee-market.net/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "elmersgreen-310": {
+    "hash": "370603f681419fbabf495d4dabde53fc70d99ec270803adbb2be97af0a840588",
+    "name": "Elmersgreen Coffee",
+    "url": "https://elmersgreen.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "yardosaka-311": {
+    "hash": "d718311fc13f988647526c19157aa3583d4b8ab999f6c0816b3dfd884f05e675",
+    "name": "Yardosaka Coffee",
+    "url": "https://yardosaka.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-312": {
+    "hash": "82bff6a8e480fd72dbda9705dd09ad2d3d63918060344326b65863de0d90e5d1",
+    "name": "Official Coffee",
+    "url": "https://slothcoffee.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "takamura-coffee-313": {
+    "hash": "5200b0e19447e47c6381f6309bafb47d04c210c1a20bb2f269e214b33a2a3376",
+    "name": "Takamura-coffee Coffee",
+    "url": "https://takamura-coffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-314": {
+    "hash": "3f0bc3663d80a281327dd3e548bc19066e6f4473e48429f021fed21779e244d2",
+    "name": "Official Coffee",
+    "url": "https://kissaaoi.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "haaaaaach-315": {
+    "hash": "b531d1c38cd8fb4a49d87fe4b7b9b3ebb07cfe138dd2d6c94d6e1abdc3809176",
+    "name": "Haaaaaach Coffee",
+    "url": "https://haaaaaach.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "ohouiouicoffee-316": {
+    "hash": "7914c1ae76cd365de446427d19ffb65450f59102c03446f72737d56d5454f148",
+    "name": "Ohouiouicoffee Coffee",
+    "url": "https://www.ohouiouicoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "sotcoffee-318": {
+    "hash": "d5aa38f0bf94a335a470a78f29d0a9b671906d5e61ad23118a67a4082213e5ee",
+    "name": "Sotcoffee Coffee",
+    "url": "https://www.sotcoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "ijiricoffee-319": {
+    "hash": "518a89e1da0712a6364fde0ca89f8b1224984d0a4dcd4ee2cc13a3fbdd4f771c",
+    "name": "Ijiricoffee Coffee",
+    "url": "https://ijiricoffee.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "longseason-320": {
+    "hash": "e7bedcb17e252d7bbec81aee45e18c1af6588a3f43bccbd698f1487d34af7506",
+    "name": "Longseason Coffee",
+    "url": "https://longseason.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "cafetales-321": {
+    "hash": "f691b8ccbff5d88ee823564f7610157683e192cb13ba21400dce4045c553384c",
+    "name": "Cafetales Coffee",
+    "url": "https://cafetales.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "shinsaibashi-323": {
+    "hash": "b5b3d2ed1cc8c0ba0bd18f84c8b9d05a2c6e7840dd20732c27bbd7dbb69bb6e2",
+    "name": "Shinsaibashi Coffee",
+    "url": "https://shinsaibashi.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-325": {
+    "hash": "cef26db68d9130b51522e39aa72bc2cfee9c6adc3e5f6e4437ad6370328f341b",
+    "name": "Official Coffee",
+    "url": "https://uecoffee.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "handcrafted-326": {
+    "hash": "db8f7a014b1906178d0cabcab6b7f9201335a1ddeaa511b89c2abcb84713c708",
+    "name": "Handcrafted Coffee",
+    "url": "https://linoandaia.handcrafted.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "baristamap-327": {
+    "hash": "6e2d244e7295b3e3820c502f868a8313e406e7bce4a6ec15e5c1d66ef2b1d085",
+    "name": "Baristamap Coffee",
+    "url": "https://baristamap.coffee/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "mametomo1-330": {
+    "hash": "55d59029c7413d28be029b3fdd423bd8c6fa3dfa0d1fb2f7fecf52b9a9127e99",
+    "name": "Mametomo1 Coffee",
+    "url": "https://mametomo1.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "muguet0807-331": {
+    "hash": "e054ea8c472794ae9eae4f9f47ee586af430832e2ddd1fa3ff7c14f39c5ef114",
+    "name": "Muguet0807 Coffee",
+    "url": "https://muguet0807.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "hoop-coffee-332": {
+    "hash": "58b7e0c7fee452283ed2f179e365590de0ec21762d8e0f901c477efedc93a005",
+    "name": "Hoop-coffee Coffee",
+    "url": "https://hoop-coffee.jp/collections/coffee-beans",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "indigocoffee-333": {
+    "hash": "87d897f0839ec3e7f91e8086a061b24aa608665d6fc3f849e90993d54d1771ea",
+    "name": "Indigocoffee Coffee",
+    "url": "https://indigocoffee.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "4trees-coffee-334": {
+    "hash": "5db3eeeaa725ab2b5a1c9d03fed43ebfc838309036941c0c5b92aa211aa8941c",
+    "name": "4trees-coffee Coffee",
+    "url": "https://4trees-coffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "co-339": {
+    "hash": "b7c7352a366091e8ae02514dcb129b95e43377de2f9c75106de8c7829bc5958c",
+    "name": "Co Coffee",
+    "url": "https://www.hirocoffee.co.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "forestcoffeeroasters-340": {
+    "hash": "a09d787130f55b6137e880b6773f26f291036e755e0e0e6cc4a32bc8fc9ee670",
+    "name": "Forestcoffeeroasters Coffee",
+    "url": "https://www.forestcoffeeroasters.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "basecoffee-341": {
+    "hash": "cfaf101db581ae60b0add1c1f1e9b149f6d12a974a4c37ad7681d62d10d99e58",
+    "name": "Basecoffee Coffee",
+    "url": "https://basecoffee.net/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "brocante-342": {
+    "hash": "98c5b523fec4e1d719769093002a14836c447777f76e6c3e51f573e11fb03d57",
+    "name": "Brocante Coffee",
+    "url": "https://brocante.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "limacoffee-343": {
+    "hash": "aeffcc97d2e4116178dd4fe286e675c9b90830a97b60ac287c0d2f5c0d5b639d",
+    "name": "Limacoffee Coffee",
+    "url": "https://limacoffee.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "taisanji-coffee-works-344": {
+    "hash": "a90cbd4f2973cec61947c7efbf6b4a58c8850dd17dfe3f55203fbeb2208ca559",
+    "name": "Taisanji-coffee-works Coffee",
+    "url": "https://shop.taisanji-coffee-works.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "square-345": {
+    "hash": "0fae36de2e7793886971ffa99bb8186cf82033aa37c9dce6db0b52462014525c",
+    "name": "Square Coffee",
+    "url": "https://3roastery.square.site/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "gasse-349": {
+    "hash": "799449cad070673216dbc1a33dfc507f0019e1a112d6d8bf7890f82d8a5b47b9",
+    "name": "Gasse Coffee",
+    "url": "https://gasse.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "kakudocoffee-350": {
+    "hash": "490a52237fb623f2d1c0065e756330fb85a2b05cb2a05fb541dd466a1ac8d576",
+    "name": "Kakudocoffee Coffee",
+    "url": "https://kakudocoffee.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "kuuhakubeans-353": {
+    "hash": "598be23dd99ca07c65e8f6fe58c1c34409881a5273f892dff7c8590fb865a806",
+    "name": "Kuuhakubeans Coffee",
+    "url": "https://kuuhakubeans.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "tentcoffee-356": {
+    "hash": "fc80ed3c4cc5192beb77d9f4678dc7616a24d8929bed3d95512157d97fee9365",
+    "name": "Tentcoffee Coffee",
+    "url": "https://tentcoffee.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "6coffee-357": {
+    "hash": "30404db04aabe4e82064edbe23237f739af880ec1511740f13b352ccb4f5fe42",
+    "name": "6coffee Coffee",
+    "url": "https://6coffee.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "tobera-358": {
+    "hash": "c7e1c6532be4f5912e7541947dc9b34e6a8fb5c5efed575cbd0afc5e6112c13a",
+    "name": "Tobera Coffee",
+    "url": "https://www.tobera.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "akekurebeans-360": {
+    "hash": "71677c87be2bb0843b0f8a99b57fe085ca074a3ab77e682cfd46fa3587137bc1",
+    "name": "Akekurebeans Coffee",
+    "url": "https://akekurebeans.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "teikibin-366": {
+    "hash": "fc00b49b906770ec7528f2812d07a62253402fca84fa503706231e2ae43c134d",
+    "name": "Teikibin Coffee",
+    "url": "https://teikibin.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "square-367": {
+    "hash": "842dedff67d62c233725acbd1ed112476a8a30993a6de40c597434628935b011",
+    "name": "Square Coffee",
+    "url": "https://piecebypiececoffee.square.site/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "tasterscoffee-368": {
+    "hash": "aa5f4d5a11d178372943501d9eaa7dbb9d8e1bce54607167c37ea3d3b7a52f54",
+    "name": "Tasterscoffee Coffee",
+    "url": "https://tasterscoffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "kcoffee-369": {
+    "hash": "fd6fd426258bedb49c7d1d8e3f67b1fb6186df8f838165328eec928f56d2ee55",
+    "name": "Kcoffee Coffee",
+    "url": "https://kcoffee.jp/collections",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "helloanyjapan-371": {
+    "hash": "495596771dc3f8bd44419ccf65d8f23d84aaec2e276c9c2ea08abcaed51be372",
+    "name": "Helloanyjapan Coffee",
+    "url": "https://shop.helloanyjapan.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "theinycoffee-372": {
+    "hash": "c84fbdd135402a00df14dd5c2d83381b79f03b8e791232705c11a3e627db6b52",
+    "name": "Theinycoffee Coffee",
+    "url": "https://theinycoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "buyshop-373": {
+    "hash": "09b88b2eda73f62e12f65744a6990e4ff7aceaa762dd7aeaeb1df08115ae06c9",
+    "name": "Buyshop Coffee",
+    "url": "https://muradish.buyshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "daiichi-mottainai-375": {
+    "hash": "9d02ec335dc8cba2bc513db3291c1b660810e6f1b84cb293536dc292a9e30f6c",
+    "name": "Daiichi-mottainai Coffee",
+    "url": "https://daiichi-mottainai.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "theroasters-376": {
+    "hash": "b93f4529df486b4afc96633f821b95681149970f1489c8de9025f88dd97777dd",
+    "name": "Theroasters Coffee",
+    "url": "https://theroasters.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "medelcoffee-380": {
+    "hash": "f83dc54336d845c9de30bf58df5221cd3035a4caf3f6fab330ddc927ad253ae9",
+    "name": "Medelcoffee Coffee",
+    "url": "https://medelcoffee.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "tsubameroaster-381": {
+    "hash": "eda1ee15c7e52ee6f6ba864e538f5c0170c7398cc7c8ab88bc423c51127212b4",
+    "name": "Tsubameroaster Coffee",
+    "url": "https://www.tsubameroaster.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "zerocoffee-382": {
+    "hash": "346dc824323ef65ddbdae35783915299f7573309633e8019434e777f23a6dfac",
+    "name": "Zerocoffee Coffee",
+    "url": "https://zerocoffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "tottoricoffeeroaster-383": {
+    "hash": "d2ac2892e66977bb0b0c8431c5020ce3c510a10dbd2c08e4d21d6fdd49656c8e",
+    "name": "Tottoricoffeeroaster Coffee",
+    "url": "https://tottoricoffeeroaster.com/cafe/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "imaginecoffe-384": {
+    "hash": "55b6c5615125220c7f65e8b8ee00d130a03eaaad47d2d0e60812fd63787ec29e",
+    "name": "Imaginecoffe Coffee",
+    "url": "https://imaginecoffe.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "coffeeblanks-385": {
+    "hash": "ddf09c99ec858428e9a2988e02664fb8e75d7a93ef0a59345208d7ef5b674149",
+    "name": "Coffeeblanks Coffee",
+    "url": "https://coffeeblanks.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "azucoffee-386": {
+    "hash": "a26998f29759b7d27a62bd73bc1b6cf36ebe542df8286e83a982532425ef06db",
+    "name": "Azucoffee Coffee",
+    "url": "https://azucoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "masuocoffee-387": {
+    "hash": "051912e519c2f40ebdf666a602871582954a81ac5a96ec752798d03d1b3a28f0",
+    "name": "Masuocoffee Coffee",
+    "url": "https://masuocoffee.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "coffeeporte-389": {
+    "hash": "27f6da169d06c1f7fc725d25ec0d0182c9af98181a47001c50225284883fc9e5",
+    "name": "Coffeeporte Coffee",
+    "url": "https://coffeeporte.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "tostinocoffee-390": {
+    "hash": "95613da20849e0ac57569374cea532bb83e46698e8c6e68cd62621782ec6e118",
+    "name": "Tostinocoffee Coffee",
+    "url": "https://tostinocoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "thecorner-391": {
+    "hash": "73dcdb4df2522b874a63f1962c0456f82794f292fb52dae78b03a577fbd2ad67",
+    "name": "Thecorner Coffee",
+    "url": "https://thecorner.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "onsaya-392": {
+    "hash": "91006b7a61f16ca295207c5fa4e2dec77983b25f8ef28716b9bd25635c85c75e",
+    "name": "Onsaya Coffee",
+    "url": "https://onsaya.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "konishikoffe-394": {
+    "hash": "3cee16acbc45064474ca2684a9631b9b180ac87983168271037c1e72b68e2b15",
+    "name": "Konishikoffe Coffee",
+    "url": "https://konishikoffe.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-396": {
+    "hash": "eb1483b404bec661209d78117dc151c777874cc16c8c70d67555c826adcccb7c",
+    "name": "Official Coffee",
+    "url": "https://stylecoffee.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "latteart-397": {
+    "hash": "7a297fb7f1e32e746374638e533cee0fd9c9d8f2a95df19cae6b0e743fe0896c",
+    "name": "Latteart Coffee",
+    "url": "https://latteart.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "akamcoffee-398": {
+    "hash": "e87fe5b11fdf0f36f1b9dab32764333c9c198656a9015ae2960945bfac39fb79",
+    "name": "Akamcoffee Coffee",
+    "url": "https://akamcoffee.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "breath-hiroshima-399": {
+    "hash": "82fa81c7cd03ba2a8dbde4bb142e6207d187b7707b3a138aab3c7f368355bb1b",
+    "name": "Breath-hiroshima Coffee",
+    "url": "https://www.breath-hiroshima.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "bagtowncoffee-400": {
+    "hash": "9cd5bdd1759d71011238d21d985d18ba85646958d7edce0b93bbb8593e9d8af9",
+    "name": "Bagtowncoffee Coffee",
+    "url": "https://bagtowncoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "overviewcoffee-401": {
+    "hash": "e606b4b3794ccba566bac38c3025a732ff425fed910249a8a2efb7c7a1853edd",
+    "name": "Overviewcoffee Coffee",
+    "url": "https://overviewcoffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "imm-coffee-403": {
+    "hash": "476d3af56b5f15a34eb6bc9ebbf007e0bb1857c667420e1bb6c136c758d8c57e",
+    "name": "Imm-coffee Coffee",
+    "url": "https://shop.imm-coffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "saicoffeeroastery-404": {
+    "hash": "146506ee5c3858a6f6d420da34b60765392b57a4f81522bbbbb6bb3e9bc67f9b",
+    "name": "Saicoffeeroastery Coffee",
+    "url": "https://shop.saicoffeeroastery.com/collections/%E7%84%BC",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "fujiyamacoffeeroasters-405": {
+    "hash": "cfc33b41765df9f9bed105a4270798fde7a275d771ef58b3fd8889a17d7e0459",
+    "name": "Fujiyamacoffeeroasters Coffee",
+    "url": "https://fujiyamacoffeeroasters.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "uminone-kanmon-406": {
+    "hash": "75861b0a6afa1f51ef5cd1ede08d2cdc83d03eb7a3c615b6a8152f119e055e07",
+    "name": "Uminone-kanmon Coffee",
+    "url": "https://shop.uminone-kanmon.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "migliorecoffee-407": {
+    "hash": "227b8be2e74aa5f833bf8eacbad1a84d468c8633222871d621793a5f72ed43b3",
+    "name": "Migliorecoffee Coffee",
+    "url": "https://migliorecoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "co-408": {
+    "hash": "7d682e0f9a1b8d0d40651afe6ffe2cd9017c8ac3ad159e1998ba518892a8f5a5",
+    "name": "Co Coffee",
+    "url": "https://www.coffeeboy.co.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "coffeewaves-410": {
+    "hash": "c7aa8afbb7d337bef6653991e1bf9f691f395192c0afefec535d96b386bf9470",
+    "name": "Coffeewaves Coffee",
+    "url": "https://coffeewaves.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "haretoke-d-411": {
+    "hash": "9bf8b3954d7a41d11b681a95768f18db163037bc3d6a16d9f15df1729dc70a1e",
+    "name": "Haretoke-d Coffee",
+    "url": "https://www.haretoke-d.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "coffeean-413": {
+    "hash": "46cc382f88efa84e72a4b7a9d44ea989162cdc575a4cc1df7d8f4efd7b6aa01c",
+    "name": "Coffeean Coffee",
+    "url": "https://coffeean.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "quailcoffee-414": {
+    "hash": "c7323d7c00f79cbb9d0bd105dc9ad50fad65111576c56a1daed8a7981f2e641e",
+    "name": "Quailcoffee Coffee",
+    "url": "https://quailcoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "4chomecoffee-415": {
+    "hash": "5ad9b9d8af2803461630b4099481096dced358b495daea1d354fbf8883523385",
+    "name": "4chomecoffee Coffee",
+    "url": "https://4chomecoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "coffee-w-417": {
+    "hash": "ca5d600f1daa057cc7b8725b2bc8a7fb986803bf2262cfaf760cd22cfc663255",
+    "name": "Coffee-w Coffee",
+    "url": "https://coffee-w.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "corsicacoffee-419": {
+    "hash": "4e9ca955ac524537ebabc411083fbd2c0e52c541c8ab749ab7f7e3fc709158ee",
+    "name": "Corsicacoffee Coffee",
+    "url": "https://shop.corsicacoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "toyotomicoffee-421": {
+    "hash": "d58ff6e94a73661c52cd85fd00f97ce0d89d05e392c173a3a71f29f706dd229b",
+    "name": "Toyotomicoffee Coffee",
+    "url": "https://toyotomicoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "icoicoffee-422": {
+    "hash": "996ecd0662a899fb69fdc7607d47f21d66622ae3996fc5d6faf16ab623a20b37",
+    "name": "Icoicoffee Coffee",
+    "url": "https://www.icoicoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "yawatabaisen-423": {
+    "hash": "04e0fa7ec372218a9a04e5b346c636e43345e3937486b946f2e9ec873ab215ba",
+    "name": "Yawatabaisen Coffee",
+    "url": "https://yawatabaisen.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "shop-pro-424": {
+    "hash": "f0d2fa69dc05556d90467c0fd76999ce0da090115c51ad6c29ccdb255407b44e",
+    "name": "Shop-pro Coffee",
+    "url": "https://catracha-cb.shop-pro.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "kitasaya-425": {
+    "hash": "3b0517fa90ba0ccb5f648d8a2b8873e443ac279008a3f7b184ecef5713f1ba92",
+    "name": "Kitasaya Coffee",
+    "url": "https://kitasaya.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "pieceful-426": {
+    "hash": "d532ff6a6c882a8b46e70fc0933a0d5e1c072085c8f5ee09769459d87b43c93c",
+    "name": "Pieceful Coffee",
+    "url": "https://pieceful.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "cafecrema-427": {
+    "hash": "5518ffd16d7cbbdaf5b329ee625f06a28789d1dfeef0735e0a580c8600a21e75",
+    "name": "Cafecrema Coffee",
+    "url": "https://cafecrema.coffee/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "sommarlek-428": {
+    "hash": "0cf3aeaf8919d9e89cae01877098d2e1e26cc529150bb9e447ce0c23621667b7",
+    "name": "Sommarlek Coffee",
+    "url": "https://sommarlek.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "jokicoffee-429": {
+    "hash": "b84719ea5f2c697be19df05b6c006a6ed8c2e4ab31ae3b2cdcf5ab6769249892",
+    "name": "Jokicoffee Coffee",
+    "url": "https://www.jokicoffee.com/category/kahvi",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "kuroshiocoffee-430": {
+    "hash": "57a442841137641af61644c9dc959f3729e70d9e58f495bd404bbeff38861ccd",
+    "name": "Kuroshiocoffee Coffee",
+    "url": "https://kuroshiocoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "coffeecounty-431": {
+    "hash": "f49948ec613c9d1da2cd8172301b9621227638717239d5d9db5998fa57d8e794",
+    "name": "Coffeecounty Coffee",
+    "url": "https://shop.coffeecounty.cc/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "manly-coffee-432": {
+    "hash": "d6e2f97b3ba4a1d12f4cb7853d130f13cc87b4734d0b949791dc67419bde18e8",
+    "name": "Manly-coffee Coffee",
+    "url": "https://manly-coffee.com/collections/frontpage",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "aslancoffeefactory-434": {
+    "hash": "2b5ee6276ceefd5b09ec8a78796ad4ff324f139be91d004cf606ba34c6b40d4f",
+    "name": "Aslancoffeefactory Coffee",
+    "url": "https://aslancoffeefactory.store/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "kuromon-coffee-435": {
+    "hash": "10b1a9cc1d0bf201f3e8cf76c7ec84691685dec9853b9358cb23d02202886111",
+    "name": "Kuromon-coffee Coffee",
+    "url": "https://kuromon-coffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "budounotane-437": {
+    "hash": "5ad8000be28e8ee8db7199c096f469622b64774228319f0e7a043702b68d2545",
+    "name": "Budounotane Coffee",
+    "url": "https://www.budounotane.com/zelkova_coffee/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "fuk-coffee-439": {
+    "hash": "ef3ab6f2e659b8eb4fe2708b63a0bd1a3bdbd962415bf9af907d9e231bea87a9",
+    "name": "Fuk-coffee Coffee",
+    "url": "https://fuk-coffee.com/shop/fuk-coffee-roastery/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "shop-pro-444": {
+    "hash": "62ddbffe8c6674785193735d7ee8cf9d43c74b1a98fe77e6ea7026bfcc9e2bed",
+    "name": "Shop-pro Coffee",
+    "url": "https://tokado-coffee.shop-pro.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "tohriyama-445": {
+    "hash": "66f924ee31eec178cb0a4179da37a59f00f1e659937e471f5c560ab0f888109b",
+    "name": "Tohriyama Coffee",
+    "url": "https://tohriyama.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "morrowcoffee-447": {
+    "hash": "7ae1510e5cc2114f69f853e8a32df571236a13fb33da0be134f1328ae93c56e8",
+    "name": "Morrowcoffee Coffee",
+    "url": "http://morrowcoffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "littlehoney-448": {
+    "hash": "79bb368d45f78ae65a8e2dbc456c2a44976e320db758278d991e906bb6271b87",
+    "name": "Littlehoney Coffee",
+    "url": "https://littlehoney.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "honeycoffee-449": {
+    "hash": "1e1484d274b406742e11823d003b143c99d8e9cc9fc19d2a1f18cd70d20ad1f3",
+    "name": "Honeycoffee Coffee",
+    "url": "https://www.honeycoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "roundcounter-450": {
+    "hash": "af161a36975cf1987f659883a8805ef5e119a5c46eaa885f4e8512a31470677a",
+    "name": "Roundcounter Coffee",
+    "url": "https://www.roundcounter.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "coffeeunidos-452": {
+    "hash": "e41d862aeef3b02e3c30f3a58727f17509425c553e28d37d22bbdc33255838b6",
+    "name": "Coffeeunidos Coffee",
+    "url": "https://coffeeunidos.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "roasterslabo-455": {
+    "hash": "8b1bfd6f5ab0f80a4ac66ff73138125ef31f1b1f0eca32583221f3bb45568bf9",
+    "name": "Roasterslabo Coffee",
+    "url": "https://roasterslabo.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "apartment101-456": {
+    "hash": "d168c135ff84cb28c94b0f5e6a544caf02a01c309130c97c97e85b2586df0323",
+    "name": "Apartment101 Coffee",
+    "url": "https://apartment101.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "nocoffee-457": {
+    "hash": "c95984055e99ad41610dc3ab41d43bcfbb803addb2111789f5a082d216777e9c",
+    "name": "Nocoffee Coffee",
+    "url": "https://www.nocoffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-458": {
+    "hash": "fca6b78f50aab35084efc30bdf4446725e9344b1a7367b00804e9abf97d02553",
+    "name": "Official Coffee",
+    "url": "https://roleplayingc.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "cafemitikusa-459": {
+    "hash": "98cfb786851daf47ba2d7c3dfd5d9172fd00f1e6a7b593f50d49cbbc90d67ad1",
+    "name": "Cafemitikusa Coffee",
+    "url": "https://cafemitikusa.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "hellocafe-460": {
+    "hash": "b233512e4ca732a4dc1c7c56c52cee62fd55fe5b7cd6c6736c6b659e3bca5e30",
+    "name": "Hellocafe Coffee",
+    "url": "https://hellocafe.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "kariomons-461": {
+    "hash": "39beb69d73f11b24714f0c38c8d449bed8cc325e47c60d98a8017ca60d8af63c",
+    "name": "Kariomons Coffee",
+    "url": "https://kariomons.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "naicoffee-462": {
+    "hash": "29067ef6eae2c68c05191112ee50ce454da7385b3c584796285c225db8b6e31a",
+    "name": "Naicoffee Coffee",
+    "url": "https://naicoffee.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "shop-pro-463": {
+    "hash": "1cd6600c7ce8439499a9a14f8a9b5c4bbcdb32bc4a17263067fb4b16f70a598f",
+    "name": "Shop-pro Coffee",
+    "url": "https://coffeehitomachi.shop-pro.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "almardgarden-464": {
+    "hash": "8b8a26afa5cd91b4313267b6e415323236652e3dd1589589e0aacf9e11a31c4e",
+    "name": "Almardgarden Coffee",
+    "url": "https://almardgarden.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "appartementcoffee-465": {
+    "hash": "31c29995b24059be7727a538a07a7a3140d8b2f84a15faaff06fd696ed2b492a",
+    "name": "Appartementcoffee Coffee",
+    "url": "https://www.appartementcoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "coffeeblue-467": {
+    "hash": "9399e7238b3b691b7b0b14dbb9facb718bf2e5e5f97b977db33e910b628043a5",
+    "name": "Coffeeblue Coffee",
+    "url": "https://coffeeblue.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "layerscoffee-official-468": {
+    "hash": "e29d4907795476a6b6b78b115de10040634e353a5f0372ad0ddbc0aabaa249c0",
+    "name": "Layerscoffee-official Coffee",
+    "url": "https://layerscoffee-official.myshopify.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "gluckcoffeespot-469": {
+    "hash": "98434608293ca04d276ca7089dfc0c38145210e7ddc4c221f475475ef3ce1ccd",
+    "name": "Gluckcoffeespot Coffee",
+    "url": "https://gluckcoffeespot.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "endelea-470": {
+    "hash": "ae5ad21803c0df1acca9f5c1eca8d349e7c3787591fce00f541076c119678855",
+    "name": "Endelea Coffee",
+    "url": "https://endelea.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "cafebanana-471": {
+    "hash": "c2e9f303b924c70e7459faa3e5ac1f95a7c5aae6a94690d669045d7e691f24cd",
+    "name": "Cafebanana Coffee",
+    "url": "https://cafebanana.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "junction-coffee-472": {
+    "hash": "8f9b256b3c0b21fb580f81d1eefd3245724c7a71b6dfcde8179d0619791cf279",
+    "name": "Junction-coffee Coffee",
+    "url": "https://junction-coffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-476": {
+    "hash": "07ab39f53c054ad7c3f20706126fe2a0277fa34bfec5da63182cd0babe3a8f98",
+    "name": "Official Coffee",
+    "url": "https://kusasenri.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "asabacoffee-477": {
+    "hash": "6bb68146c6a37604cae483f63c71934356c95cc0938e8a0b6340e6d3155f7172",
+    "name": "Asabacoffee Coffee",
+    "url": "https://asabacoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "ssssscoffee-478": {
+    "hash": "e906087a70076b5fd5f499a6214068f966452af67550ac1244a2fda9a27fc8a5",
+    "name": "Ssssscoffee Coffee",
+    "url": "https://ssssscoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "safaricoffee-479": {
+    "hash": "2d7cbcf2c8f6a976dd47ae0c3aad7505ab614c2ea31457fdfc710a3b16a14fac",
+    "name": "Safaricoffee Coffee",
+    "url": "https://safaricoffee.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "3cedarscoffee-480": {
+    "hash": "928ea1546b30c38f4872bcb9fc0dc5483c4cc5679468738448ec42c3f8d16cc0",
+    "name": "3cedarscoffee Coffee",
+    "url": "https://3cedarscoffee.com/store/products/list",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "oscr-483": {
+    "hash": "7a7ba84cac00ca1706cebbac75c183feea3c6e471b141d6742acd91106e6be9b",
+    "name": "Oscr Coffee",
+    "url": "https://oscr.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "tautona-coffee-484": {
+    "hash": "08633d22d8121206e0b8e7843c208a0d5ba1e8d86f9954f2da4dcb26fa309f86",
+    "name": "Tautona-coffee Coffee",
+    "url": "https://shop.tautona-coffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "suzunaricoffee-485": {
+    "hash": "1f696b0f8c2edaa01ebafc6c07ea56eee0d3765988d9450ecd32de1737ac207a",
+    "name": "Suzunaricoffee Coffee",
+    "url": "https://shop.suzunaricoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "rainydays51-486": {
+    "hash": "0f22fd18ff2ea5f95ba4a3023ad6911e46d26af10e46ce31b5273fa728a621af",
+    "name": "Rainydays51 Coffee",
+    "url": "https://rainydays51.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "square-487": {
+    "hash": "4a3415cebff9a77ddc896744f60b2326770a217b367732ef74721fd89b1d8996",
+    "name": "Square Coffee",
+    "url": "https://stelliumcoffee.square.site/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "renshirocoffee-488": {
+    "hash": "4beabf7197b7215faa90eedb5b8398e03519f1253d5df36eb5504627c59b4286",
+    "name": "Renshirocoffee Coffee",
+    "url": "https://www.renshirocoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "hyuga-490": {
+    "hash": "d4409706f3a785bbf920c7925e380c32099046b2aaa13dd34d3c8dcc3ff19d65",
+    "name": "Hyuga Coffee",
+    "url": "https://store.hyuga.coffee/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "official-491": {
+    "hash": "daa1021cb5f81a8d31a710084e1fb2e5ea02bc58f2225531c182c10856feddad",
+    "name": "Official Coffee",
+    "url": "https://garagecoffee.official.ec/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "rosacoffee-493": {
+    "hash": "1f9e1c06d15ab7100ac06fa59f2b3f9dbe19f1cecfc850a2c4e3e4c48223e863",
+    "name": "Rosacoffee Coffee",
+    "url": "https://www.rosacoffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "bythetree-494": {
+    "hash": "04c7a308b9e34f9872a74690c4b3d400d6205514540d8fe8fa561226b69b83d0",
+    "name": "Bythetree Coffee",
+    "url": "https://bythetree.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "potacupofcoffee-495": {
+    "hash": "52130fdc8d40aedced0d60b1bea5ee71cc4c48b8c9211c09684207deb8f57482",
+    "name": "Potacupofcoffee Coffee",
+    "url": "https://potacupofcoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "3510coffee-496": {
+    "hash": "b435b9ddf76d8a10e71467c834be8d0730461ac8c8a7e3d284223efe50867e58",
+    "name": "3510coffee Coffee",
+    "url": "https://3510coffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "grightroastery-497": {
+    "hash": "2d088fee8b707959d8bfb7e858479aa592ab15e8764c7986ca0b6dd9668f17cc",
+    "name": "Grightroastery Coffee",
+    "url": "https://grightroastery.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "issou-coffee-499": {
+    "hash": "da9c46334e89682b5f416cd7dfaff02c6460f1d87cb7255cf57ec075152f4f16",
+    "name": "Issou-coffee Coffee",
+    "url": "https://issou-coffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "luckapt-502": {
+    "hash": "32defed5d54a5fa7502d886106d94d88c2954a803ca68af3fab104f4504eda28",
+    "name": "Luckapt Coffee",
+    "url": "https://luckapt.theshop.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "voila-503": {
+    "hash": "cdc26b4c4fddcb27e716014e241938fbb62f30c76c5916aa2788b2f3e60812f9",
+    "name": "Voila Coffee",
+    "url": "https://voila.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "mamepolepole-505": {
+    "hash": "9e5674fc731db8769e99ea9c4d2d0f8d1fa9d09957d1ea543b67d259fe136db5",
+    "name": "Mamepolepole Coffee",
+    "url": "https://mamepolepole.okinawa/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "zhyvagocoffeeroastery-506": {
+    "hash": "315935d760f71d44a8ccfdf89657eba13fb3f4307e560ae92e2c772657cc7456",
+    "name": "Zhyvagocoffeeroastery Coffee",
+    "url": "https://shop.zhyvagocoffeeroastery.coffee/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "matayoshicoffee-507": {
+    "hash": "74271906214dfe91af186c82ae2fb9098e2fa101b070b94ab422b3085cad8f23",
+    "name": "Matayoshicoffee Coffee",
+    "url": "https://www.matayoshicoffee.jp/category/1/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "coffeeetomoiri-509": {
+    "hash": "bfd1e3061991acb3215e6c208cdbd757ec6a4905c1b2217fdd5a6f8a443f1952",
+    "name": "Coffeeetomoiri Coffee",
+    "url": "https://www.coffeeetomoiri.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "singleo-510": {
+    "hash": "073c7a72e39f4195ada3ebb81b4d3a0e210c5453582eba4c1a7b4e0f808cb848",
+    "name": "Singleo Coffee",
+    "url": "https://singleo.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "obtr-coffee-511": {
+    "hash": "3a2a2ced5bff984f15e98b0e474b74fdd79844647472f2d926538ca0659154e8",
+    "name": "Obtr-coffee Coffee",
+    "url": "https://obtr-coffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "a765coffee-512": {
+    "hash": "7209fd60fa8e1b98c9ec5245e0a7e34e378ec622fc94bd8f8f40b62415fd2f34",
+    "name": "A765coffee Coffee",
+    "url": "https://a765coffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "c4e-513": {
+    "hash": "d46d136a80152a7dbf3600e3370c55e9cb656494b4a18bd0b729be2d0fad3f45",
+    "name": "C4e Coffee",
+    "url": "https://c4e.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "kopikalyan-514": {
+    "hash": "ee44940fe8daf2c127db92172680efb63af7260db34bbf9ef87107ea8f4b75ff",
+    "name": "Kopikalyan Coffee",
+    "url": "https://kopikalyan.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "amazingcoffee-515": {
+    "hash": "18d839ad2b8a7af3d78d4782615e349d097c52538c81fe74b33c601d03a3b8cb",
+    "name": "Amazingcoffee Coffee",
+    "url": "https://www.amazingcoffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "fcoffee-516": {
+    "hash": "80050a1056d402878afc6561c4cd71fd690fe213d2efe0be76acac1b6618b067",
+    "name": "Fcoffee Coffee",
+    "url": "https://fcoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "corallocoffee-517": {
+    "hash": "1d24c25356b41627213a0a625d068e9437839831ef1fb446b2d7b22409d090ed",
+    "name": "Corallocoffee Coffee",
+    "url": "https://www.corallocoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "radarroom-518": {
+    "hash": "0a530c6749831818fe04d42c08dc5ab4ed50416f83bffd88158c8a8654dcf642",
+    "name": "Radarroom Coffee",
+    "url": "https://radarroom.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "chicoffee-519": {
+    "hash": "3bccef0ac867ded9c427d8febbd234a7eb1c0df7cad1799da3ca031448361e77",
+    "name": "Chicoffee Coffee",
+    "url": "https://chicoffee.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "co-521": {
+    "hash": "38c7cda942d2e7f33b5b695fcb3db112834687f23eeab8959881854549b9dd89",
+    "name": "Co Coffee",
+    "url": "https://coffee.lulalao.co.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "youshicoffee-522": {
+    "hash": "1ff523da0cad5896fb20644dc83a0ab36de3d9edde8ee247cf91e65906c74753",
+    "name": "Youshicoffee Coffee",
+    "url": "https://youshicoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "pnbcoffee-523": {
+    "hash": "1d5a8f94f9652c7d5f8bfbc6824c86fb285b3fefcfdad3f246cff1b7632325e5",
+    "name": "Pnbcoffee Coffee",
+    "url": "https://pnbcoffee.thebase.in/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "upepo-524": {
+    "hash": "fe9cab045c96c9cd0358f8d9da4cdb5b4c0292ab5ab096f29ff6805ab3859406",
+    "name": "Upepo Coffee",
+    "url": "https://store.upepo.life/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "mydeariecoffee-525": {
+    "hash": "10929506222dc668f5d9d1b78197b00733742f06681d95bfadd30c7105f0ffe9",
+    "name": "Mydeariecoffee Coffee",
+    "url": "https://shop.mydeariecoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "goodcoffeefarms-527": {
+    "hash": "f06a951f4a6eb7fc62bb45cd063c608b337f5c5ec2c9d3c27557b4c53519720c",
+    "name": "Goodcoffeefarms Coffee",
+    "url": "https://www.goodcoffeefarms.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "renagcoffee-528": {
+    "hash": "5659319097dd29e4a9f3d5a5fe4bdeac9aee003493e38b2aaf494eda28fda56f",
+    "name": "Renagcoffee Coffee",
+    "url": "https://shop.renagcoffee.jp/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "wecoffee-529": {
+    "hash": "798e1e4f31439a2682c71924fe77bf749d1b6ba408895a34a5677fcbc72a8257",
+    "name": "Wecoffee Coffee",
+    "url": "https://wecoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "cthoughtcoffee-530": {
+    "hash": "b177e258d5ef6f3b55d4df37776909da17a18d1c34a10441d83993ac40e3a65c",
+    "name": "Cthoughtcoffee Coffee",
+    "url": "https://www.cthoughtcoffee.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "breakel-531": {
+    "hash": "bc6a93aec42ecbe72f31a457eee22bc081e8a92b2249e3315580c6871ebc99e3",
+    "name": "Breakel Coffee",
+    "url": "https://breakel.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "hazecoffee-532": {
+    "hash": "14a1dad80cfc4c155c1ee04adb35bcc5d621e0958956ad30f14f0d94db7d81ee",
+    "name": "Hazecoffee Coffee",
+    "url": "https://hazecoffee.base.shop/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "coffeenote-533": {
+    "hash": "4c192c773e6fda95a8f169d8555adcc73d005d900c22007061322277ef0f6779",
+    "name": "Coffeenote Coffee",
+    "url": "https://www.coffeenote.biz/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
+  },
+  "nakagawawanicoffee-534": {
+    "hash": "8d1927c7288836c3d1d4528f1b4c168ead0ae855b797933d72ed63477b582e99",
+    "name": "Nakagawawanicoffee Coffee",
+    "url": "https://nakagawawanicoffee.com/",
+    "lastChecked": "2025-12-22T06:57:00.289Z"
   }
 }
