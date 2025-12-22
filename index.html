@@ -102,6 +102,9 @@
                         <div className="p-8 text-center bg-red-50 text-red-800 min-h-screen flex flex-col justify-center items-center">
                             <h2 className="text-xl font-bold mb-2">エラーが発生しました</h2>
                             <p className="mb-4">ページを再読み込みしてください。</p>
+                            <pre className="text-xs text-left bg-white p-4 rounded border border-red-200 overflow-auto max-w-lg">
+                                {this.state.error && this.state.error.toString()}
+                            </pre>
                         </div>
                     );
                 }
@@ -405,9 +408,9 @@
                                     Coffee Shop Monitorは、全国のコーヒーショップのオンラインストア更新情報を自動でチェックし、一覧表示するサービスです。
                                 </p>
                                 <ul className="list-disc list-inside space-y-2 pl-2">
-                                    <li>毎日午前3時 (UTC) に自動更新されます。</li>
+                                    <li>毎日午前3時 (UTC) = 日本時間 お昼12:00 に自動更新されます。</li>
                                     <li>各ショップのWebサイト内容に変更があった場合、「New」マークが表示されます。</li>
-                                    <li>現在 {shops.length} 店舗を監視中です。</li>
+                                    <li>現在 {shops.length} 店舗をチェック中です。</li>
                                 </ul>
                                 <p className="text-xs text-stone-400 mt-6 pt-4 border-t border-stone-100">
                                     ※本サイトは非公式のファンサイトであり、各店舗様とは直接の関係はありません。
