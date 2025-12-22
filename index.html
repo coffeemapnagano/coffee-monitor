@@ -102,9 +102,6 @@
                         <div className="p-8 text-center bg-red-50 text-red-800 min-h-screen flex flex-col justify-center items-center">
                             <h2 className="text-xl font-bold mb-2">エラーが発生しました</h2>
                             <p className="mb-4">ページを再読み込みしてください。</p>
-                            <pre className="text-xs text-left bg-white p-4 rounded border border-red-200 overflow-auto max-w-lg">
-                                {this.state.error && this.state.error.toString()}
-                            </pre>
                         </div>
                     );
                 }
@@ -481,7 +478,7 @@
                                 )}
 
                                 <div className="mt-16 text-center border-t border-stone-200 pt-10">
-                                    <p className="text-stone-500 font-bold mb-2">お探しのショップは見つかりませんか？</p>
+                                    <p className="text-stone-500 font-bold mb-2">店舗をチェック中です。</p>
                                     <p className="text-sm text-stone-400 mb-6">全国 {shops.length} 店舗のデータベースから検索できます</p>
                                     <button 
                                         onClick={() => setIsSearchOpen(true)}
@@ -503,7 +500,9 @@
                     </button>
 
                     <footer className="max-w-7xl mx-auto px-4 py-8 text-center border-t border-stone-200 mt-12 bg-[#FAFAF9]">
-                         <p className="text-stone-400 text-xs font-medium">&copy; 2025 Coffee Shop Monitor.</p>
+                         <p className="text-stone-400 text-xs font-medium">
+                            &copy; <a href="https://note.com/mokusuru" target="_blank" rel="noopener noreferrer" className="hover:text-coffee hover:underline">2025 WhereCoffeeMeetsDailyLife</a>
+                         </p>
                     </footer>
                 </div>
             );
