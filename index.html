@@ -8,8 +8,6 @@
     <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
         
@@ -39,6 +37,21 @@
     <script type="text/babel">
         const { useState, useEffect, useMemo, Component } = React;
 
+        // アイコン定義 (SVGパスを直接埋め込むことでCDN依存を排除)
+        const ICONS = {
+            Coffee: <path d="M17 8h1a4 4 0 1 1 0 8h-1M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z M6 1v3 M10 1v3 M14 1v3" />,
+            Search: <path d="m21 21-4.3-4.3M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16z" />,
+            RefreshCw: <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8M21 3v5h-5M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16M3 21v-5h5" />,
+            Sparkles: <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" />,
+            MapPin: <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z M12 10a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />,
+            Clock: <path d="M12 6v6l4 2M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20z" />,
+            ExternalLink: <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3" />,
+            X: <path d="M18 6 6 18M6 6l12 12" />,
+            XCircle: <path d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zM15 9l-6 6M9 9l6 6" />,
+            CheckCircle: <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14 M22 4 12 14.01l-3-3" />,
+            ArrowUp: <path d="m5 12 7-7 7 7M12 19V5" />
+        };
+
         class ErrorBoundary extends Component {
             constructor(props) { super(props); this.state = { hasError: false }; }
             static getDerivedStateFromError(error) { return { hasError: true }; }
@@ -50,56 +63,24 @@
         }
 
         const Icon = ({ name, size = 20, className = "" }) => {
-            const [isLoaded, setIsLoaded] = useState(false);
-
-            useEffect(() => {
-                // Check if lucide is available
-                if (window.lucide && window.lucide.icons) {
-                    setIsLoaded(true);
-                } else {
-                    const checkInterval = setInterval(() => {
-                        if (window.lucide && window.lucide.icons) {
-                            setIsLoaded(true);
-                            clearInterval(checkInterval);
-                        }
-                    }, 100);
-                    return () => clearInterval(checkInterval);
-                }
-            }, []);
-
-            // Fallback for icons not yet loaded or missing
-            if (!isLoaded) {
-                const fallbackMap = {
-                    "Coffee": "☕",
-                    "Search": "🔍",
-                    "RefreshCw": "↻",
-                    "Sparkles": "✨",
-                    "MapPin": "📍",
-                    "Clock": "🕒",
-                    "ExternalLink": "↗",
-                    "X": "✕",
-                    "XCircle": "✕",
-                    "CheckCircle": "✓",
-                    "CheckCircle2": "✓",
-                    "ArrowUp": "⬆"
-                };
-                return <span className={className} style={{ fontSize: size }}>{fallbackMap[name] || "•"}</span>;
-            }
-
-            const iconName = name === "CheckCircle2" ? "CheckCircle" : name;
-            const iconNode = window.lucide.icons[iconName];
-
-            if (!iconNode) {
-                 return <span className={className} style={{ fontSize: size }}>•</span>;
-            }
-
-            const svgHtml = iconNode.toSvg({
-                width: size,
-                height: size,
-                class: className
-            });
-
-            return <span dangerouslySetInnerHTML={{ __html: svgHtml }} className="inline-flex items-center" />;
+            const content = ICONS[name];
+            if (!content) return <span className={className}>?</span>;
+            return (
+                <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    width={size} 
+                    height={size} 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    strokeWidth="2" 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
+                    className={className}
+                >
+                    {content}
+                </svg>
+            );
         };
 
         const ShopCard = ({ shop, isUpdated, lastChecked }) => {
@@ -154,13 +135,13 @@
             const [lastChecked, setLastChecked] = useState(null);
             const [updatedShopIds, setUpdatedShopIds] = useState([]);
             const [showScrollTop, setShowScrollTop] = useState(false);
+            const [notification, setNotification] = useState(null);
             
             // 検索・フィルタ用
             const [searchQuery, setSearchQuery] = useState("");
             const [activePrefecture, setActivePrefecture] = useState(null);
             const [isSearchOpen, setIsSearchOpen] = useState(false);
 
-            // スクロール検知でトップへ戻るボタンを表示
             useEffect(() => {
                 const handleScroll = () => {
                     if (window.scrollY > 300) setShowScrollTop(true);
@@ -174,18 +155,25 @@
                 const initData = async () => {
                     setLoading(true);
                     try {
-                        const [shopsRes, updatesRes] = await Promise.all([
-                            fetch('./data/shops.json').then(r => r.json()),
-                            fetch('./data/updates.json?' + new Date().getTime()).then(r => r.ok ? r.json() : null)
-                        ]);
+                        // データロードの試行
+                        const shopsRes = await fetch('./data/shops.json');
+                        if (!shopsRes.ok) throw new Error("Shop data not found");
+                        const shopsData = await shopsRes.json();
+                        setShops(shopsData);
 
-                        setShops(shopsRes);
-                        if (updatesRes) {
-                            setUpdatedShopIds(updatesRes.updatedShops.map(s => s.id));
-                            setLastChecked(new Date(updatesRes.timestamp));
+                        try {
+                            const updatesRes = await fetch('./data/updates.json?' + new Date().getTime());
+                            if (updatesRes.ok) {
+                                const updatesData = await updatesRes.json();
+                                setUpdatedShopIds(updatesData.updatedShops.map(s => s.id));
+                                setLastChecked(new Date(updatesData.timestamp));
+                            }
+                        } catch (e) {
+                            console.log("No updates data yet, which is fine for initial load");
                         }
                     } catch (e) {
-                        console.error("Data load failed", e);
+                        console.error("Critical Data load failed", e);
+                        setNotification({type: 'error', message: 'データの読み込みに失敗しました'});
                     } finally {
                         setLoading(false);
                     }
@@ -239,14 +227,22 @@
             };
 
             const handleShowResults = () => {
-                setIsSearchOpen(false); // オーバーレイを閉じる
-                window.scrollTo({ top: 0, behavior: 'smooth' }); // 上部へスクロール
+                setIsSearchOpen(false); 
+                window.scrollTo({ top: 0, behavior: 'smooth' });
             };
 
             const clearFilters = () => {
                 setSearchQuery("");
                 setActivePrefecture(null);
             };
+
+            if (loading) {
+                return (
+                    <div className="min-h-screen flex items-center justify-center bg-[#FAFAF9]">
+                        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-stone-800"></div>
+                    </div>
+                );
+            }
 
             return (
                 <div className="min-h-screen pb-20 relative bg-[#FAFAF9] text-[#44403C]">
@@ -292,10 +288,11 @@
                                 </button>
                             </div>
 
-                            {/* キーワード検索 */}
                             <div className="mb-8">
                                 <div className="relative">
-                                    <Icon name="Search" className="absolute left-4 top-1/2 -translate-y-1/2 text-stone-400" size={20} />
+                                    <span className="absolute left-4 top-1/2 -translate-y-1/2 text-stone-400">
+                                        <Icon name="Search" size={20} />
+                                    </span>
                                     <input 
                                         type="text" 
                                         placeholder="店舗名を入力して検索..." 
@@ -312,7 +309,6 @@
                                 </div>
                             </div>
 
-                            {/* 都道府県フィルタ */}
                             <div className="mb-24">
                                 <div className="flex justify-between items-end mb-4 border-b border-stone-100 pb-2">
                                     <h3 className="text-sm font-bold text-stone-400 uppercase tracking-wider">地域で絞り込み</h3>
@@ -342,9 +338,8 @@
                                 </div>
                             </div>
 
-                            {/* 結果表示ボタン (固定フッター) */}
                             {(searchQuery || activePrefecture) && (
-                                <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t border-stone-200 flex justify-center shadow-lg animate-slide-up">
+                                <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t border-stone-200 flex justify-center shadow-lg">
                                     <button 
                                         onClick={handleShowResults}
                                         className="w-full max-w-md bg-coffee text-white font-bold py-3 rounded-xl shadow-lg hover:bg-coffee-dark transition-colors flex items-center justify-center gap-2"
@@ -358,8 +353,6 @@
                     </div>
 
                     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
-                        
-                        {/* 状態表示エリア（検索結果 or 更新情報） */}
                         {(searchQuery || activePrefecture) ? (
                             <section className="animate-fade-in">
                                 <div className="flex items-center justify-between mb-6">
@@ -389,7 +382,6 @@
                                 )}
                             </section>
                         ) : (
-                            /* 通常モード (本日の更新) */
                             <section>
                                 <div className="flex items-center justify-between mb-6">
                                     <div className="flex items-baseline gap-3">
@@ -412,7 +404,7 @@
                                 ) : (
                                     <div className="bg-white rounded-2xl border border-stone-100 p-10 flex flex-col items-center justify-center gap-4 text-center shadow-sm">
                                         <div className="p-4 bg-green-50 rounded-full text-green-600">
-                                            <Icon name="CheckCircle2" size={32} />
+                                            <Icon name="CheckCircle" size={32} />
                                         </div>
                                         <div>
                                             <p className="font-bold text-stone-600 text-lg">すべてのショップは最新の状態です</p>
@@ -421,7 +413,6 @@
                                     </div>
                                 )}
 
-                                {/* 下部のナビゲーションヒント */}
                                 <div className="mt-16 text-center border-t border-stone-200 pt-10">
                                     <p className="text-stone-500 font-bold mb-2">お探しのショップは見つかりませんか？</p>
                                     <p className="text-sm text-stone-400 mb-6">全国 {shops.length} 店舗のデータベースから検索できます</p>
@@ -436,7 +427,6 @@
                         )}
                     </main>
 
-                    {/* トップへ戻るボタン */}
                     <button
                         onClick={scrollToTop}
                         className={`fixed bottom-6 right-6 p-3 rounded-full bg-white text-coffee shadow-lg border border-stone-100 transition-all duration-300 hover:bg-coffee hover:text-white z-40 ${showScrollTop ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'}`}
