@@ -1,0 +1,46 @@
+name: Check Coffee Shop Updates
+
+on:
+  schedule:
+    # 毎日午前 3 時 (UTC) = 日本時間 午後 12 時
+    - cron: '0 3 * * *'
+  workflow_dispatch: # 手動実行用ボタン
+
+permissions:
+  contents: write # リポジトリへの書き込み権限（JSON更新用）
+
+jobs:
+  check-and-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci || npm install 
+
+      - name: Run update check script
+        run: node scripts/check-updates.mjs
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "Coffee Shop Monitor Bot"
+          git config user.email "actions@github.com"
+          
+          # dataディレクトリの変更を確認してコミット
+          git add data/
+          
+          # 変更がある場合のみコミット
+          if ! git diff --staged --quiet; then
+            git commit -m "Update shop data: $(date +'%Y-%m-%d')"
+            git push
+          else
+            echo "No changes to commit"
+          fi

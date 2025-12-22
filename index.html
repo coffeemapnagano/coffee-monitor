@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Monitor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@0.263.1/dist/umd/lucide.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
+
+        body {
+            font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
+            background-color: #f8fafc;
+            color: #0f172a;
+        }
+        .card-shadow { box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); }
+        .card-hover:hover {
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            transform: translateY(-2px);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useEffect, useMemo, Component } = React;
+
+        class ErrorBoundary extends Component {
+            constructor(props) { super(props); this.state = { hasError: false }; }
+            static getDerivedStateFromError(error) { return { hasError: true }; }
+            componentDidCatch(error, errorInfo) { console.error(error, errorInfo); }
+            render() {
+                if (this.state.hasError) return <div className="p-8 text-center text-red-600">エラーが発生しました。再読み込みしてください。</div>;
+                return this.props.children;
+            }
+        }
+
+        const ALL_SHOPS = [
+            { id: "glitch", name: "GLITCH COFFEE & ROASTERS", url: "https://glitchcoffeeroasters.myshopify.com/", platform: "Shopify", prefecture: "東京都", prefCode: 13 },
+            { id: "onibus", name: "Onibus Coffee", url: "https://onibuscoffee.com/", platform: "自社サイト", prefecture: "東京都", prefCode: 13 },
+            { id: "mel", name: "Mel Coffee Roasters", url: "https://melcoffee.shop/", platform: "Shopify", prefecture: "大阪府", prefCode: 27 },
+            { id: "weekenders", name: "Weekenders Coffee", url: "https://weekenderscoffee.com/", platform: "自社サイト", prefecture: "京都府", prefCode: 26 },
+            { id: "rec", name: "REC COFFEE", url: "https://rec-coffee.com/", platform: "自社サイト", prefecture: "福岡県", prefCode: 40 },
+            { id: "fuglen", name: "Fuglen Coffee", url: "https://fuglencoffee.jp/", platform: "自社サイト", prefecture: "東京都", prefCode: 13 },
+            { id: "post", name: "PostCoffee", url: "https://postcoffee.co/", platform: "自社サイト", prefecture: "東京都", prefCode: 13 },
+            { id: "kurasu", name: "KURASU Kyoto", url: "https://jp.kurasu.kyoto/", platform: "自社サイト", prefecture: "京都府", prefCode: 26 },
+            { id: "philocoffea", name: "Philocoffea", url: "https://philocoffea.com/", platform: "自社サイト", prefecture: "千葉県", prefCode: 12 },
+            { id: "lightup", name: "Light Up Coffee", url: "https://lightupcoffee.com/", platform: "自社サイト", prefecture: "東京都", prefCode: 13 },
+            { id: "8agarage", name: "8A GARAGE", url: "https://onlineshop-p.8agarage.co.jp/", platform: "自社サイト", prefecture: "北海道", prefCode: 1 },
+            { id: "ishibashi", name: "ISHIBASHI COFFEE", url: "https://ishibashicoffee.stores.jp/", platform: "STORES", prefecture: "北海道", prefCode: 1 },
+            { id: "tokeinonai", name: "時計のない喫茶店", url: "https://tokeinonai.thebase.in/", platform: "BASE", prefecture: "北海道", prefCode: 1 },
+            { id: "coffee-node", name: "COFFEE NODE", url: "https://www.coffee-node.com/", platform: "自社サイト", prefecture: "北海道", prefCode: 1 },
+            { id: "oniyanma", name: "Oniyanma Coffee", url: "https://oniyanmacoffee.jp/", platform: "自社サイト", prefecture: "北海道", prefCode: 1 },
+            { id: "fenrir", name: "FENRIR BEVERAGE", url: "https://www.fenrirbeverage.com/", platform: "自社サイト", prefecture: "北海道", prefCode: 1 },
+            { id: "sawara", name: "SAWARA COFFEE", url: "https://sawaracoffee.com/", platform: "自社サイト", prefecture: "北海道", prefCode: 1 },
+            { id: "kura", name: "Kura Coffee", url: "https://kuracoffee.official.ec/", platform: "BASE", prefecture: "北海道", prefCode: 1 },
+            { id: "baristart", name: "BARISTART COFFEE", url: "https://www.baristartcoffee.com/", platform: "自社サイト", prefecture: "北海道", prefCode: 1 },
+            { id: "kotan", name: "KOTAN", url: "https://kotan.theshop.jp/", platform: "BASE", prefecture: "北海道", prefCode: 1 },
+            { id: "standard", name: "STANDARD COFFEE LAB.", url: "https://standardcoffeelab.com/", platform: "自社サイト", prefecture: "北海道", prefCode: 1 },
+            { id: "sprout", name: "SPROUT", url: "https://sproutstore.thebase.in/", platform: "BASE", prefecture: "北海道", prefCode: 1 },
+            { id: "ritaru", name: "RITARU COFFEE", url: "https://shop.ritaru.com/", platform: "自社サイト", prefecture: "北海道", prefCode: 1 },
+            { id: "sountra", name: "SOUNTRA COFFEE", url: "https://sountra.theshop.jp/", platform: "BASE", prefecture: "北海道", prefCode: 1 },
+            { id: "taneyaka", name: "TANEYAKA", url: "https://taneyaka.shop/", platform: "自社サイト", prefecture: "北海道", prefCode: 1 },
+            { id: "canaan", name: "CANAAN COFFEE", url: "https://canaancoffee.thebase.in/", platform: "BASE", prefecture: "北海道", prefCode: 1 },
+            { id: "alchemist", name: "Alchemist Coffee", url: "https://www.alchemist-coffee.com/", platform: "自社サイト", prefecture: "北海道", prefCode: 1 },
+            { id: "coffeeman", name: "COFFEE MAN good", url: "https://coffeemangood.stores.jp/", platform: "STORES", prefecture: "青森県", prefCode: 2 },
+            { id: "wada", name: "Wada Coffee", url: "https://wadacoffee.com/", platform: "自社サイト", prefecture: "青森県", prefCode: 2 },
+            { id: "aurora", name: "Aurora Coffee Roasters", url: "https://www.auroracoffeeroasters.jp/", platform: "自社サイト", prefecture: "岩手県", prefCode: 3 },
+            { id: "nagasawa", name: "Nagasawa Coffee", url: "https://www.nagasawa-coffee.net/product-list", platform: "自社サイト", prefecture: "岩手県", prefCode: 3 },
+            { id: "rokugatsu", name: "六月の鹿", url: "https://rokugatsunoshika.stores.jp/", platform: "STORES", prefecture: "岩手県", prefCode: 3 },
+            { id: "flatwhite", name: "FLAT WHITE COFFEE", url: "https://flatwhite.jp/", platform: "自社サイト", prefecture: "宮城県", prefCode: 4 },
+            { id: "invitro", name: "IN VITRO COFFEE", url: "https://invitro.thebase.in/", platform: "BASE", prefecture: "宮城県", prefCode: 4 },
+            { id: "keyaki", name: "KEYAKI COFFEE", url: "https://keyakicoffee.base.shop/", platform: "BASE", prefecture: "宮城県", prefCode: 4 },
+            { id: "honoka", name: "HONOKA COFFEE", url: "https://ec.honokacoffee.com/", platform: "自社サイト", prefecture: "宮城県", prefCode: 4 },
+            { id: "public", name: "PUBLIC COFFEE", url: "https://publiccoffee.thebase.in/", platform: "BASE", prefecture: "宮城県", prefCode: 4 },
+            { id: "kuriya", name: "Kuriya Coffee Roasters", url: "https://www.kuriya-lab.com/coffee-beans-store/", platform: "自社サイト", prefecture: "宮城県", prefCode: 4 },
+            { id: "balmusette", name: "BAL MUSETTE", url: "https://balmusette.thebase.in/", platform: "BASE", prefecture: "宮城県", prefCode: 4 },
+            { id: "45coffee", name: "45 COFFEE", url: "https://45coffee.theshop.jp/", platform: "BASE", prefecture: "宮城県", prefCode: 4 },
+            { id: "spark", name: "SPARK COFFEE ROASTERS", url: "https://www.sparkcoffeeroasters.com/", platform: "自社サイト", prefecture: "宮城県", prefCode: 4 },
+            { id: "darestore", name: "DARESTORE", url: "https://darestore-jp.myshopify.com/", platform: "Shopify", prefecture: "宮城県", prefCode: 4 },
+            { id: "cantus", name: "COFFEE CANTUS", url: "https://coffeecantus.base.shop/", platform: "BASE", prefecture: "宮城県", prefCode: 4 },
+            { id: "apartment", name: "The Apartment", url: "https://theapartment.base.shop/", platform: "BASE", prefecture: "宮城県", prefCode: 4 },
+            { id: "08coffee", name: "08COFFEE", url: "https://08coffee.thebase.in/", platform: "BASE", prefecture: "秋田県", prefCode: 5 },
+            { id: "yukihira", name: "YUKIHIRA COFFEE", url: "https://www.yukihiracoffee.com/", platform: "自社サイト", prefecture: "山形県", prefCode: 6 },
+            { id: "paradiso", name: "Paradiso", url: "https://paradiso.shop-pro.jp/", platform: "カラーミー", prefecture: "山形県", prefCode: 6 },
+            { id: "tsuki", name: "TSUKI COFFEE", url: "https://tsukicoffee.official.ec/", platform: "BASE", prefecture: "山形県", prefCode: 6 },
+            { id: "0123", name: "0123 COFFEE", url: "https://0123coffee.stores.jp/", platform: "STORES", prefecture: "山形県", prefCode: 6 },
+            { id: "obros", name: "OBROS COFFEE", url: "https://obroscoffee.jp/", platform: "自社サイト", prefecture: "福島県", prefCode: 7 },
+            { id: "koshiba", name: "KOSHIBA COFFEE", url: "https://koshibaga.base.shop/", platform: "BASE", prefecture: "福島県", prefCode: 7 },
+            { id: "bahnhof", name: "COFFEE BAHNHOF", url: "https://bahnhof.official.ec/", platform: "BASE", prefecture: "福島県", prefCode: 7 },
+            { id: "unit", name: "Unit Coffee", url: "https://unitcoffee.base.shop/", platform: "BASE", prefecture: "福島県", prefCode: 7 },
+            { id: "nichinichi", name: "Nichi Nichi Coffee", url: "https://nichi-nichi-coffee.stores.jp/", platform: "STORES", prefecture: "福島県", prefCode: 7 },
+            { id: "boushi", name: "BOUSHI COFFEE", url: "https://boushicoffee.thebase.in/", platform: "BASE", prefecture: "福島県", prefCode: 7 },
+            { id: "wave", name: "WAVE COFFEE", url: "https://wavecoffee2.base.shop/", platform: "BASE", prefecture: "福島県", prefCode: 7 },
+            { id: "knot", name: "KNOT COFFEE", url: "https://knot-coffee.shop-pro.jp/", platform: "カラーミー", prefecture: "茨城県", prefCode: 8 },
+            { id: "hitachino", name: "HITACHINO COFFEE", url: "https://hitachino-coffee.com/", platform: "自社サイト", prefecture: "茨城県", prefCode: 8 },
+            { id: "factory", name: "COFFEE FACTORY", url: "http://coffeefactory.jp/", platform: "自社サイト", prefecture: "茨城県", prefCode: 8 },
+            { id: "mood", name: "MOOD COFFEE & ESPRESSO", url: "https://moodcoffee-espresso.com/", platform: "自社サイト", prefecture: "茨城県", prefCode: 8 },
+            { id: "bankoku", name: "BANKOKU COFFEE", url: "https://bankoku-coffeeshop.com/", platform: "自社サイト", prefecture: "茨城県", prefCode: 8 },
+            { id: "saza", name: "SAZA COFFEE", url: "https://saza.coffee/", platform: "自社サイト", prefecture: "茨城県", prefCode: 8 },
+            { id: "washi", name: "鷲の工房", url: "https://washi-no-kobo.stores.jp/", platform: "STORES", prefecture: "茨城県", prefCode: 8 },
+            { id: "fujinuma", name: "CAFE FUJINUMA", url: "http://cafefujinuma.com/", platform: "自社サイト", prefecture: "栃木県", prefCode: 9 },
+            { id: "konnichi", name: "KONNICHI COFFEE", url: "https://konnichilabo.base.shop/", platform: "BASE", prefecture: "栃木県", prefCode: 9 },
+            { id: "bluetokai", name: "Blue Tokai Coffee", url: "https://www.bluetokaicoffee.jp/collections/coffee", platform: "自社サイト", prefecture: "栃木県", prefCode: 9 },
+            { id: "mokkei", name: "MOKKEI COFFEE", url: "https://mokkeicoffee.com/", platform: "自社サイト", prefecture: "栃木県", prefCode: 9 },
+            { id: "mamechamame", name: "Mamecha Mame", url: "https://www.mamechamame.com/s/shop", platform: "自社サイト", prefecture: "栃木県", prefCode: 9 },
+            { id: "kametokame", name: "Kame to Kame", url: "https://kametokame.theshop.jp/", platform: "BASE", prefecture: "栃木県", prefCode: 9 },
+            { id: "mateship", name: "MATESHIP", url: "https://mateship.base.shop/", platform: "BASE", prefecture: "栃木県", prefCode: 9 },
+            { id: "warmth", name: "WARMTH", url: "https://mainwarmth.stores.jp/", platform: "STORES", prefecture: "群馬県", prefCode: 10 },
+            { id: "niksen", name: "NIKSEN", url: "https://niksen.stores.jp/", platform: "STORES", prefecture: "群馬県", prefCode: 10 },
+            { id: "shikishima", name: "SHIKISHIMA COFFEE", url: "https://shikishima.coffee/", platform: "自社サイト", prefecture: "群馬県", prefCode: 10 },
+            { id: "13coffee", name: "13 COFFEE ROASTERS", url: "https://13coffee.com/", platform: "自社サイト", prefecture: "群馬県", prefCode: 10 },
+            { id: "pyramid", name: "PYRAMID COFFEE", url: "https://pyramid.base.shop/", platform: "BASE", prefecture: "群馬県", prefCode: 10 },
+            { id: "tonbi", name: "TONBI COFFEE", url: "https://tonbi-coffee.com/", platform: "自社サイト", prefecture: "群馬県", prefCode: 10 },
+            { id: "reboot", name: "REBOOT COFFEE", url: "https://reboot.base.ec/", platform: "BASE", prefecture: "群馬県", prefCode: 10 },
+            { id: "norrys", name: "Norry's Coffee", url: "https://norryscoffee.theshop.jp/", platform: "BASE", prefecture: "群馬県", prefCode: 10 },
+            { id: "coffeepost", name: "COFFEE POST", url: "https://coffeepost.base.shop/", platform: "BASE", prefecture: "埼玉県", prefCode: 11 },
+            { id: "koyanagi", name: "KOYANAGI COFFEE", url: "https://www.koyanagicoffeenippon.com/", platform: "自社サイト", prefecture: "埼玉県", prefCode: 11 }
+        ];
+
+        const Icon = ({ name, size = 20, className = "" }) => {
+            if (!window.lucide || !window.lucide.icons || !window.lucide.icons[name]) return <span className={`inline-block w-[${size}px] h-[${size}px] bg-gray-200 rounded-full ${className}`}></span>;
+            const lucideIcon = window.lucide.icons[name];
+            return <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} dangerouslySetInnerHTML={{ __html: lucideIcon.toSvg().match(/>(.*)<\/svg>/)[1] }} />;
+        };
+
+        const App = () => {
+            const [shops, setShops] = useState([]);
+            const [loading, setLoading] = useState(false);
+            const [lastChecked, setLastChecked] = useState(null);
+            const [updatedShopIds, setUpdatedShopIds] = useState([]);
+            const [sortBy, setSortBy] = useState('updated');
+            const [statusMessage, setStatusMessage] = useState("");
+            const [notification, setNotification] = useState(null);
+
+            useEffect(() => {
+                setShops(ALL_SHOPS);
+                loadUpdates();
+            }, []);
+
+            useEffect(() => {
+                if (notification) {
+                    const timer = setTimeout(() => setNotification(null), 3000);
+                    return () => clearTimeout(timer);
+                }
+            }, [notification]);
+
+            const loadUpdates = async () => {
+                try {
+                    const res = await fetch('./data/updates.json?' + new Date().getTime());
+                    if (!res.ok) throw new Error("Data file not found");
+                    const data = await res.json();
+                    
+                    if (data.updatedShops) setUpdatedShopIds(data.updatedShops.map(s => s.id));
+                    if (data.timestamp) setLastChecked(new Date(data.timestamp));
+                    return data;
+                } catch (e) {
+                    console.log("No updates yet or fetch error:", e);
+                    return null;
+                }
+            };
+
+            const handleManualCheck = async () => {
+                setLoading(true);
+                setNotification(null);
+                setStatusMessage("最新データを確認中...");
+                
+                try {
+                    await new Promise(resolve => setTimeout(resolve, 800));
+                    const data = await loadUpdates();
+                    
+                    if (data) {
+                        const count = data.updatedShops ? data.updatedShops.length : 0;
+                        const msg = count > 0 ? `${count}件の更新データがあります` : "更新データはありません";
+                        setNotification({ type: 'success', message: "データ同期完了: " + msg });
+                        if (count > 0) setSortBy('updated');
+                    } else {
+                        setNotification({ type: 'success', message: "まだデータが生成されていません" });
+                    }
+                } catch (error) {
+                    console.error("Check failed", error);
+                    setNotification({ type: 'error', message: "データの確認に失敗しました" });
+                } finally {
+                    setLoading(false);
+                }
+            };
+
+            const sortedShops = useMemo(() => {
+                let sorted = [...shops];
+                if (sortBy === 'updated') {
+                    sorted.sort((a, b) => {
+                        const aUpdated = updatedShopIds.includes(a.id);
+                        const bUpdated = updatedShopIds.includes(b.id);
+                        if (aUpdated !== bUpdated) return bUpdated - aUpdated;
+                        return a.id.localeCompare(b.id);
+                    });
+                } else if (sortBy === 'prefecture') {
+                    sorted.sort((a, b) => {
+                        if (a.prefCode !== b.prefCode) return a.prefCode - b.prefCode;
+                        return a.id.localeCompare(b.id);
+                    });
+                }
+                return sorted;
+            }, [shops, updatedShopIds, sortBy]);
+
+            const formatDate = (date) => {
+                if (!date) return "データ待ち...";
+                return date.toLocaleString('ja-JP', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' });
+            };
+
+            return (
+                <div className="min-h-screen pb-12 relative">
+                    {notification && (
+                        <div className={`fixed bottom-4 right-4 z-50 px-6 py-4 rounded-xl shadow-2xl text-white flex items-center gap-3 border ${notification.type === 'error' ? 'bg-red-600 border-red-700' : 'bg-slate-900 border-slate-950'}`}>
+                            <Icon name={notification.type === 'error' ? "AlertCircle" : "CheckCircle2"} size={20} className="text-white" />
+                            <span className="font-medium text-sm">{notification.message}</span>
+                        </div>
+                    )}
+                    <header className="bg-white/80 backdrop-blur-md border-b border-slate-200 sticky top-0 z-40">
+                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+                            <div className="flex items-center gap-2">
+                                <div className="p-2 bg-slate-900 rounded-lg text-white"><Icon name="Coffee" /></div>
+                                <h1 className="text-xl font-bold text-slate-900 tracking-tight hidden sm:block">Coffee Shop Monitor</h1>
+                                <h1 className="text-xl font-bold text-slate-900 tracking-tight sm:hidden">CS Monitor</h1>
+                            </div>
+                            <button onClick={handleManualCheck} disabled={loading} className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-all text-sm ${loading ? 'bg-slate-100 text-slate-400 cursor-not-allowed border border-slate-200' : 'bg-slate-900 hover:bg-slate-800 text-white shadow-sm active:scale-95'}`}>
+                                <Icon name={loading ? "Loader2" : "RefreshCw"} className={loading ? "animate-spin" : ""} size={16} />
+                                {loading ? "確認中..." : "最新データを読込"}
+                            </button>
+                        </div>
+                    </header>
+                    <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <div className="bg-white p-6 rounded-2xl border border-slate-200 card-shadow">
+                                <div className="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-1 flex items-center gap-1"><Icon name="Sparkles" size={12} className="text-rose-500"/> 本日の更新</div>
+                                <div className="flex items-baseline gap-2">
+                                    <span className="text-3xl font-bold text-rose-500">{updatedShopIds.length}</span>
+                                    <span className="text-sm text-slate-400">/ {shops.length} ショップ</span>
+                                </div>
+                            </div>
+                            <div className="bg-white p-6 rounded-2xl border border-slate-200 card-shadow">
+                                <div className="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-1 flex items-center gap-1"><Icon name="Store" size={12} className="text-slate-400"/> 監視中のショップ</div>
+                                <div className="text-3xl font-bold text-slate-900">{shops.length}</div>
+                            </div>
+                            <div className="bg-white p-6 rounded-2xl border border-slate-200 card-shadow">
+                                <div className="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-1 flex items-center gap-1"><Icon name="Clock" size={12} className="text-slate-400"/> 最終チェック</div>
+                                <div className="text-xl font-bold text-slate-900">{formatDate(lastChecked)}</div>
+                                <div className="text-xs text-slate-400 mt-1">毎日午前3時(UTC)に自動実行</div>
+                            </div>
+                        </div>
+                        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200 pb-4">
+                            <h2 className="text-lg font-bold text-slate-900 flex items-center gap-2"><Icon name="LayoutGrid" size={20} className="text-slate-500" />監視中のコーヒーショップ</h2>
+                            <div className="flex items-center gap-2">
+                                <label className="text-sm text-slate-500 font-medium">並び替え:</label>
+                                <div className="relative">
+                                    <select value={sortBy} onChange={(e) => setSortBy(e.target.value)} className="appearance-none bg-white border border-slate-300 text-slate-700 py-1.5 pl-3 pr-8 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-slate-500 font-medium">
+                                        <option value="updated">更新状況順</option>
+                                        <option value="prefecture">都道府県順</option>
+                                    </select>
+                                    <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-slate-500"><Icon name="ChevronDown" size={14} /></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            {sortedShops.map(shop => {
+                                const isUpdated = updatedShopIds.includes(shop.id);
+                                return (
+                                    <div key={shop.id} className={`relative bg-white rounded-2xl overflow-hidden transition-all duration-300 card-hover flex flex-col h-full group ${isUpdated ? 'border border-rose-200 ring-2 ring-rose-100 shadow-lg shadow-rose-50' : 'border border-slate-200'}`}>
+                                        {isUpdated && <div className="absolute top-0 right-0 bg-rose-500 text-white text-[10px] font-bold px-3 py-1.5 rounded-bl-xl flex items-center gap-1 z-10 shadow-sm uppercase tracking-wide"><Icon name="Sparkles" size={10} />Update</div>}
+                                        <div className="p-6 flex flex-col h-full">
+                                            <div className="flex justify-between items-start mb-4">
+                                                <div className="flex flex-col items-start"><span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-slate-100 text-slate-600 text-xs font-bold border border-slate-200"><Icon name="MapPin" size={10} />{shop.prefecture}</span></div>
+                                                <span className={`text-[10px] uppercase tracking-wider px-2 py-1 rounded-full font-bold border ${shop.platform === 'Shopify' ? 'bg-green-50 text-green-700 border-green-100' : 'bg-slate-50 text-slate-500 border-slate-100'}`}>{shop.platform}</span>
+                                            </div>
+                                            <h3 className="text-lg font-bold text-slate-900 mb-1 line-clamp-1 group-hover:text-rose-600 transition-colors duration-200" title={shop.name}>{shop.name}</h3>
+                                            <a href={shop.url} target="_blank" rel="noopener noreferrer" className="text-sm text-slate-500 hover:text-rose-600 mb-5 block truncate font-medium transition-colors">{shop.url.replace('https://', '')}</a>
+                                            <div className="border-t border-slate-100 pt-4 mt-auto">
+                                                {isUpdated ? (
+                                                    <div className="text-xs text-rose-600 font-bold mb-3 flex items-center gap-1.5 bg-rose-50 p-2.5 rounded-lg border border-rose-100"><Icon name="Clock" size={12} />更新検出: {formatDate(lastChecked)}</div>
+                                                ) : (
+                                                    <div className="text-xs text-slate-400 mb-3 flex items-center gap-1.5 px-2.5 py-2.5"><Icon name="CheckCircle2" size={14} />更新なし</div>
+                                                )}
+                                                <a href={shop.url} target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center gap-2 py-2.5 rounded-lg bg-slate-50 hover:bg-slate-100 text-sm font-bold text-slate-700 transition-colors border border-slate-200 hover:border-slate-300">ショップを開く<Icon name="ExternalLink" size={14} /></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </main>
+                    <footer className="max-w-7xl mx-auto px-4 py-8 text-center border-t border-slate-200 mt-12 bg-white">
+                         <p className="text-slate-500 text-sm mb-2 font-medium">&copy; 2025 Coffee Shop Monitor.</p>
+                         <p className="text-slate-400 text-xs">Powered by GitHub Actions & React.</p>
+                    </footer>
+                </div>
+            );
+        };
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<ErrorBoundary><App /></ErrorBoundary>);
+    </script>
+</body>
+</html>

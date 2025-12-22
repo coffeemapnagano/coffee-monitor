@@ -1,0 +1,14 @@
+{
+  "name": "coffee-shop-monitor",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Monitors coffee shop website updates",
+  "scripts": {
+    "check": "node scripts/check-updates.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
