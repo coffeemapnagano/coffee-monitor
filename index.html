@@ -13,11 +13,10 @@
         
         body { 
             font-family: 'Noto Sans JP', sans-serif; 
-            background-color: #FAFAF9; /* warm-gray-50 */
-            color: #44403C; /* warm-gray-700 */
+            background-color: #FAFAF9;
+            color: #44403C;
         }
         
-        /* Coffee Theme Colors */
         .text-coffee { color: #5D4037; }
         .bg-coffee { background-color: #5D4037; }
         .bg-coffee-hover:hover { background-color: #4E342E; }
@@ -66,12 +65,18 @@
     </style>
 </head>
 <body>
-    <div id="root"></div>
+    <div id="root">
+        <!-- 初期ローディング表示（Reactがマウントされるまでのつなぎ） -->
+        <div style="height: 100vh; display: flex; justify-content: center; align-items: center; background-color: #FAFAF9;">
+            <div style="color: #5D4037; font-weight: bold; font-family: sans-serif;">Loading...</div>
+        </div>
+    </div>
 
     <script type="text/babel">
         const { useState, useEffect, useMemo, Component } = React;
 
         // アイコン定義 (SVGパスを直接埋め込むことでCDN依存を排除)
+        // 注意: JSX内ではトップレベルの要素は1つである必要があるため、複数のパスを持つアイコンは<g>タグで囲む
         const ICONS = {
             Coffee: <path d="M17 8h1a4 4 0 1 1 0 8h-1M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z M6 1v3 M10 1v3 M14 1v3" />,
             Search: <path d="m21 21-4.3-4.3M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16z" />,
@@ -85,15 +90,25 @@
             CheckCircle: <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14 M22 4 12 14.01l-3-3" />,
             ArrowUp: <path d="m5 12 7-7 7 7M12 19V5" />,
             Map: <path d="M3 7l6-3 6 3 6-3v13l-6 3-6-3-6 3V7z M9 4v13 M15 7v13" />,
-            Instagram: <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+            Instagram: <g><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></g>
         };
 
         class ErrorBoundary extends Component {
-            constructor(props) { super(props); this.state = { hasError: false }; }
-            static getDerivedStateFromError(error) { return { hasError: true }; }
-            componentDidCatch(error, errorInfo) { console.error(error, errorInfo); }
+            constructor(props) { super(props); this.state = { hasError: false, error: null }; }
+            static getDerivedStateFromError(error) { return { hasError: true, error }; }
+            componentDidCatch(error, errorInfo) { console.error("Uncaught error:", error, errorInfo); }
             render() {
-                if (this.state.hasError) return <div className="p-8 text-center text-red-600">エラーが発生しました。再読み込みしてください。</div>;
+                if (this.state.hasError) {
+                    return (
+                        <div className="p-8 text-center bg-red-50 text-red-800 min-h-screen flex flex-col justify-center items-center">
+                            <h2 className="text-xl font-bold mb-2">エラーが発生しました</h2>
+                            <p className="mb-4">ページを再読み込みしてください。</p>
+                            <pre className="text-xs text-left bg-white p-4 rounded border border-red-200 overflow-auto max-w-lg">
+                                {this.state.error && this.state.error.toString()}
+                            </pre>
+                        </div>
+                    );
+                }
                 return this.props.children;
             }
         }
@@ -138,6 +153,7 @@
                             <span className="inline-flex items-center gap-1 px-2 py-1 rounded bg-stone-100 text-stone-600 text-[10px] font-bold">
                                 <Icon name="MapPin" size={10} />{shop.prefecture}
                             </span>
+                            {/* プラットフォームバッジを横に移動 */}
                             <span className="text-[10px] px-2 py-1 rounded border bg-stone-50 text-stone-500 border-stone-100">
                                 {shop.platform}
                             </span>
@@ -220,6 +236,7 @@
                         }
                     } catch (e) {
                         console.error("Data load failed", e);
+                        setNotification({type: 'error', message: 'データの読み込みに失敗しました'});
                     } finally {
                         setLoading(false);
                     }
@@ -281,11 +298,7 @@
             };
 
             if (loading) {
-                return (
-                    <div className="min-h-screen flex items-center justify-center bg-[#FAFAF9]">
-                        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-stone-800"></div>
-                    </div>
-                );
+                return null; // 初期ローディングはHTML側で表示済み
             }
 
             return (
