@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="usiyev1Tl8IkzSyeCunyQ0U3LcxUT0opfdeojCezvpk" />
     <title>Coffee Shop Monitor</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
@@ -66,7 +68,6 @@
 </head>
 <body>
     <div id="root">
-        <!-- 初期ローディング表示（Reactがマウントされるまでのつなぎ） -->
         <div style="height: 100vh; display: flex; justify-content: center; align-items: center; background-color: #FAFAF9;">
             <div style="color: #5D4037; font-weight: bold; font-family: sans-serif;">Loading...</div>
         </div>
@@ -75,7 +76,6 @@
     <script type="text/babel">
         const { useState, useEffect, useMemo, Component } = React;
 
-        // アイコン定義 (SVGパスを直接埋め込むことでCDN依存を排除)
         const ICONS = {
             Coffee: <path d="M17 8h1a4 4 0 1 1 0 8h-1M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z M6 1v3 M10 1v3 M14 1v3" />,
             Search: <path d="m21 21-4.3-4.3M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16z" />,
@@ -102,9 +102,6 @@
                         <div className="p-8 text-center bg-red-50 text-red-800 min-h-screen flex flex-col justify-center items-center">
                             <h2 className="text-xl font-bold mb-2">エラーが発生しました</h2>
                             <p className="mb-4">ページを再読み込みしてください。</p>
-                            <pre className="text-xs text-left bg-white p-4 rounded border border-red-200 overflow-auto max-w-lg">
-                                {this.state.error && this.state.error.toString()}
-                            </pre>
                         </div>
                     );
                 }
@@ -116,18 +113,7 @@
             const content = ICONS[name];
             if (!content) return <span className={className}>?</span>;
             return (
-                <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
-                    width={size} 
-                    height={size} 
-                    viewBox="0 0 24 24" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    strokeWidth="2" 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round" 
-                    className={className}
-                >
+                <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
                     {content}
                 </svg>
             );
@@ -147,23 +133,19 @@
                         </div>
                     )}
                     <div className="p-5 flex flex-col h-full">
-                        {/* ヘッダーエリア（場所＆プラットフォーム） */}
                         <div className="flex flex-wrap items-center gap-2 mb-3">
                             <span className="inline-flex items-center gap-1 px-2 py-1 rounded bg-stone-100 text-stone-600 text-[10px] font-bold">
                                 <Icon name="MapPin" size={10} />{shop.prefecture}
                             </span>
-                            {/* プラットフォームバッジを横に移動 */}
                             <span className="text-[10px] px-2 py-1 rounded border bg-stone-50 text-stone-500 border-stone-100">
                                 {shop.platform}
                             </span>
                         </div>
                         
-                        {/* 店名 */}
                         <h3 className="text-base font-bold text-coffee mb-4 line-clamp-2 group-hover:text-amber-700 transition-colors duration-200 flex-grow" title={shop.name}>
                             {shop.name}
                         </h3>
                         
-                        {/* アクションエリア */}
                         <div className="border-t border-stone-100 pt-3 mt-auto">
                             {isUpdated && (
                                 <div className="text-[10px] text-amber-700 font-bold mb-2 flex items-center gap-1">
@@ -176,7 +158,6 @@
                                     ショップへ移動 <Icon name="ExternalLink" size={12} />
                                 </a>
                                 
-                                {/* 将来的な機能拡張用ボタン（現在は無効化） */}
                                 <div className="flex gap-2">
                                     <button disabled className="flex-1 py-1.5 rounded-lg border border-stone-100 flex items-center justify-center text-stone-300 pointer-events-none opacity-50">
                                         <Icon name="Map" size={12} />
@@ -198,7 +179,6 @@
             const [lastChecked, setLastChecked] = useState(null);
             const [updatedShopIds, setUpdatedShopIds] = useState([]);
             const [showScrollTop, setShowScrollTop] = useState(false);
-            const [notification, setNotification] = useState(null);
             
             const [searchQuery, setSearchQuery] = useState("");
             const [activePrefecture, setActivePrefecture] = useState(null);
@@ -235,7 +215,6 @@
                         }
                     } catch (e) {
                         console.error("Data load failed", e);
-                        setNotification({type: 'error', message: 'データの読み込みに失敗しました'});
                     } finally {
                         setLoading(false);
                     }
@@ -297,12 +276,11 @@
             };
 
             if (loading) {
-                return null; // 初期ローディングはHTML側で表示済み
+                return null;
             }
 
             return (
                 <div className="min-h-screen pb-20 relative bg-[#FAFAF9] text-[#44403C]">
-                    
                     <header className="bg-white border-b border-stone-200 sticky top-0 z-40 shadow-sm">
                         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
                             <div 
