@@ -1,82 +1,4282 @@
 [
-  { "id": "glitch", "name": "GLITCH COFFEE & ROASTERS", "url": "https://glitchcoffeeroasters.myshopify.com/", "platform": "Shopify", "prefecture": "東京都", "prefCode": 13 },
-  { "id": "onibus", "name": "Onibus Coffee", "url": "https://onibuscoffee.com/", "platform": "自社サイト", "prefecture": "東京都", "prefCode": 13 },
-  { "id": "mel", "name": "Mel Coffee Roasters", "url": "https://melcoffee.shop/", "platform": "Shopify", "prefecture": "大阪府", "prefCode": 27 },
-  { "id": "weekenders", "name": "Weekenders Coffee", "url": "https://weekenderscoffee.com/", "platform": "自社サイト", "prefecture": "京都府", "prefCode": 26 },
-  { "id": "rec", "name": "REC COFFEE", "url": "https://rec-coffee.com/", "platform": "自社サイト", "prefecture": "福岡県", "prefCode": 40 },
-  { "id": "fuglen", "name": "Fuglen Coffee", "url": "https://fuglencoffee.jp/", "platform": "自社サイト", "prefecture": "東京都", "prefCode": 13 },
-  { "id": "post", "name": "PostCoffee", "url": "https://postcoffee.co/", "platform": "自社サイト", "prefecture": "東京都", "prefCode": 13 },
-  { "id": "kurasu", "name": "KURASU Kyoto", "url": "https://jp.kurasu.kyoto/", "platform": "自社サイト", "prefecture": "京都府", "prefCode": 26 },
-  { "id": "philocoffea", "name": "Philocoffea", "url": "https://philocoffea.com/", "platform": "自社サイト", "prefecture": "千葉県", "prefCode": 12 },
-  { "id": "lightup", "name": "Light Up Coffee", "url": "https://lightupcoffee.com/", "platform": "自社サイト", "prefecture": "東京都", "prefCode": 13 },
-  { "id": "8agarage", "name": "8A GARAGE", "url": "https://onlineshop-p.8agarage.co.jp/", "platform": "自社サイト", "prefecture": "北海道", "prefCode": 1 },
-  { "id": "ishibashi", "name": "ISHIBASHI COFFEE", "url": "https://ishibashicoffee.stores.jp/", "platform": "STORES", "prefecture": "北海道", "prefCode": 1 },
-  { "id": "tokeinonai", "name": "時計のない喫茶店", "url": "https://tokeinonai.thebase.in/", "platform": "BASE", "prefecture": "北海道", "prefCode": 1 },
-  { "id": "coffee-node", "name": "COFFEE NODE", "url": "https://www.coffee-node.com/", "platform": "自社サイト", "prefecture": "北海道", "prefCode": 1 },
-  { "id": "oniyanma", "name": "Oniyanma Coffee", "url": "https://oniyanmacoffee.jp/", "platform": "自社サイト", "prefecture": "北海道", "prefCode": 1 },
-  { "id": "fenrir", "name": "FENRIR BEVERAGE", "url": "https://www.fenrirbeverage.com/", "platform": "自社サイト", "prefecture": "北海道", "prefCode": 1 },
-  { "id": "sawara", "name": "SAWARA COFFEE", "url": "https://sawaracoffee.com/", "platform": "自社サイト", "prefecture": "北海道", "prefCode": 1 },
-  { "id": "kura", "name": "Kura Coffee", "url": "https://kuracoffee.official.ec/", "platform": "BASE", "prefecture": "北海道", "prefCode": 1 },
-  { "id": "baristart", "name": "BARISTART COFFEE", "url": "https://www.baristartcoffee.com/", "platform": "自社サイト", "prefecture": "北海道", "prefCode": 1 },
-  { "id": "kotan", "name": "KOTAN", "url": "https://kotan.theshop.jp/", "platform": "BASE", "prefecture": "北海道", "prefCode": 1 },
-  { "id": "standard", "name": "STANDARD COFFEE LAB.", "url": "https://standardcoffeelab.com/", "platform": "自社サイト", "prefecture": "北海道", "prefCode": 1 },
-  { "id": "sprout", "name": "SPROUT", "url": "https://sproutstore.thebase.in/", "platform": "BASE", "prefecture": "北海道", "prefCode": 1 },
-  { "id": "ritaru", "name": "RITARU COFFEE", "url": "https://shop.ritaru.com/", "platform": "自社サイト", "prefecture": "北海道", "prefCode": 1 },
-  { "id": "sountra", "name": "SOUNTRA COFFEE", "url": "https://sountra.theshop.jp/", "platform": "BASE", "prefecture": "北海道", "prefCode": 1 },
-  { "id": "taneyaka", "name": "TANEYAKA", "url": "https://taneyaka.shop/", "platform": "自社サイト", "prefecture": "北海道", "prefCode": 1 },
-  { "id": "canaan", "name": "CANAAN COFFEE", "url": "https://canaancoffee.thebase.in/", "platform": "BASE", "prefecture": "北海道", "prefCode": 1 },
-  { "id": "alchemist", "name": "Alchemist Coffee", "url": "https://www.alchemist-coffee.com/", "platform": "自社サイト", "prefecture": "北海道", "prefCode": 1 },
-  { "id": "coffeeman", "name": "COFFEE MAN good", "url": "https://coffeemangood.stores.jp/", "platform": "STORES", "prefecture": "青森県", "prefCode": 2 },
-  { "id": "wada", "name": "Wada Coffee", "url": "https://wadacoffee.com/", "platform": "自社サイト", "prefecture": "青森県", "prefCode": 2 },
-  { "id": "aurora", "name": "Aurora Coffee Roasters", "url": "https://www.auroracoffeeroasters.jp/", "platform": "自社サイト", "prefecture": "岩手県", "prefCode": 3 },
-  { "id": "nagasawa", "name": "Nagasawa Coffee", "url": "https://www.nagasawa-coffee.net/product-list", "platform": "自社サイト", "prefecture": "岩手県", "prefCode": 3 },
-  { "id": "rokugatsu", "name": "六月の鹿", "url": "https://rokugatsunoshika.stores.jp/", "platform": "STORES", "prefecture": "岩手県", "prefCode": 3 },
-  { "id": "flatwhite", "name": "FLAT WHITE COFFEE", "url": "https://flatwhite.jp/", "platform": "自社サイト", "prefecture": "宮城県", "prefCode": 4 },
-  { "id": "invitro", "name": "IN VITRO COFFEE", "url": "https://invitro.thebase.in/", "platform": "BASE", "prefecture": "宮城県", "prefCode": 4 },
-  { "id": "keyaki", "name": "KEYAKI COFFEE", "url": "https://keyakicoffee.base.shop/", "platform": "BASE", "prefecture": "宮城県", "prefCode": 4 },
-  { "id": "honoka", "name": "HONOKA COFFEE", "url": "https://ec.honokacoffee.com/", "platform": "自社サイト", "prefecture": "宮城県", "prefCode": 4 },
-  { "id": "public", "name": "PUBLIC COFFEE", "url": "https://publiccoffee.thebase.in/", "platform": "BASE", "prefecture": "宮城県", "prefCode": 4 },
-  { "id": "kuriya", "name": "Kuriya Coffee Roasters", "url": "https://www.kuriya-lab.com/coffee-beans-store/", "platform": "自社サイト", "prefecture": "宮城県", "prefCode": 4 },
-  { "id": "balmusette", "name": "BAL MUSETTE", "url": "https://balmusette.thebase.in/", "platform": "BASE", "prefecture": "宮城県", "prefCode": 4 },
-  { "id": "45coffee", "name": "45 COFFEE", "url": "https://45coffee.theshop.jp/", "platform": "BASE", "prefecture": "宮城県", "prefCode": 4 },
-  { "id": "spark", "name": "SPARK COFFEE ROASTERS", "url": "https://www.sparkcoffeeroasters.com/", "platform": "自社サイト", "prefecture": "宮城県", "prefCode": 4 },
-  { "id": "darestore", "name": "DARESTORE", "url": "https://darestore-jp.myshopify.com/", "platform": "Shopify", "prefecture": "宮城県", "prefCode": 4 },
-  { "id": "cantus", "name": "COFFEE CANTUS", "url": "https://coffeecantus.base.shop/", "platform": "BASE", "prefecture": "宮城県", "prefCode": 4 },
-  { "id": "apartment", "name": "The Apartment", "url": "https://theapartment.base.shop/", "platform": "BASE", "prefecture": "宮城県", "prefCode": 4 },
-  { "id": "08coffee", "name": "08COFFEE", "url": "https://08coffee.thebase.in/", "platform": "BASE", "prefecture": "秋田県", "prefCode": 5 },
-  { "id": "yukihira", "name": "YUKIHIRA COFFEE", "url": "https://www.yukihiracoffee.com/", "platform": "自社サイト", "prefecture": "山形県", "prefCode": 6 },
-  { "id": "paradiso", "name": "Paradiso", "url": "https://paradiso.shop-pro.jp/", "platform": "カラーミー", "prefecture": "山形県", "prefCode": 6 },
-  { "id": "tsuki", "name": "TSUKI COFFEE", "url": "https://tsukicoffee.official.ec/", "platform": "BASE", "prefecture": "山形県", "prefCode": 6 },
-  { "id": "0123", "name": "0123 COFFEE", "url": "https://0123coffee.stores.jp/", "platform": "STORES", "prefecture": "山形県", "prefCode": 6 },
-  { "id": "obros", "name": "OBROS COFFEE", "url": "https://obroscoffee.jp/", "platform": "自社サイト", "prefecture": "福島県", "prefCode": 7 },
-  { "id": "koshiba", "name": "KOSHIBA COFFEE", "url": "https://koshibaga.base.shop/", "platform": "BASE", "prefecture": "福島県", "prefCode": 7 },
-  { "id": "bahnhof", "name": "COFFEE BAHNHOF", "url": "https://bahnhof.official.ec/", "platform": "BASE", "prefecture": "福島県", "prefCode": 7 },
-  { "id": "unit", "name": "Unit Coffee", "url": "https://unitcoffee.base.shop/", "platform": "BASE", "prefecture": "福島県", "prefCode": 7 },
-  { "id": "nichinichi", "name": "Nichi Nichi Coffee", "url": "https://nichi-nichi-coffee.stores.jp/", "platform": "STORES", "prefecture": "福島県", "prefCode": 7 },
-  { "id": "boushi", "name": "BOUSHI COFFEE", "url": "https://boushicoffee.thebase.in/", "platform": "BASE", "prefecture": "福島県", "prefCode": 7 },
-  { "id": "wave", "name": "WAVE COFFEE", "url": "https://wavecoffee2.base.shop/", "platform": "BASE", "prefecture": "福島県", "prefCode": 7 },
-  { "id": "knot", "name": "KNOT COFFEE", "url": "https://knot-coffee.shop-pro.jp/", "platform": "カラーミー", "prefecture": "茨城県", "prefCode": 8 },
-  { "id": "hitachino", "name": "HITACHINO COFFEE", "url": "https://hitachino-coffee.com/", "platform": "自社サイト", "prefecture": "茨城県", "prefCode": 8 },
-  { "id": "factory", "name": "COFFEE FACTORY", "url": "http://coffeefactory.jp/", "platform": "自社サイト", "prefecture": "茨城県", "prefCode": 8 },
-  { "id": "mood", "name": "MOOD COFFEE & ESPRESSO", "url": "https://moodcoffee-espresso.com/", "platform": "自社サイト", "prefecture": "茨城県", "prefCode": 8 },
-  { "id": "bankoku", "name": "BANKOKU COFFEE", "url": "https://bankoku-coffeeshop.com/", "platform": "自社サイト", "prefecture": "茨城県", "prefCode": 8 },
-  { "id": "saza", "name": "SAZA COFFEE", "url": "https://saza.coffee/", "platform": "自社サイト", "prefecture": "茨城県", "prefCode": 8 },
-  { "id": "washi", "name": "鷲の工房", "url": "https://washi-no-kobo.stores.jp/", "platform": "STORES", "prefecture": "茨城県", "prefCode": 8 },
-  { "id": "fujinuma", "name": "CAFE FUJINUMA", "url": "http://cafefujinuma.com/", "platform": "自社サイト", "prefecture": "栃木県", "prefCode": 9 },
-  { "id": "konnichi", "name": "KONNICHI COFFEE", "url": "https://konnichilabo.base.shop/", "platform": "BASE", "prefecture": "栃木県", "prefCode": 9 },
-  { "id": "bluetokai", "name": "Blue Tokai Coffee", "url": "https://www.bluetokaicoffee.jp/collections/coffee", "platform": "自社サイト", "prefecture": "栃木県", "prefCode": 9 },
-  { "id": "mokkei", "name": "MOKKEI COFFEE", "url": "https://mokkeicoffee.com/", "platform": "自社サイト", "prefecture": "栃木県", "prefCode": 9 },
-  { "id": "mamechamame", "name": "Mamecha Mame", "url": "https://www.mamechamame.com/s/shop", "platform": "自社サイト", "prefecture": "栃木県", "prefCode": 9 },
-  { "id": "kametokame", "name": "Kame to Kame", "url": "https://kametokame.theshop.jp/", "platform": "BASE", "prefecture": "栃木県", "prefCode": 9 },
-  { "id": "mateship", "name": "MATESHIP", "url": "https://mateship.base.shop/", "platform": "BASE", "prefecture": "栃木県", "prefCode": 9 },
-  { "id": "warmth", "name": "WARMTH", "url": "https://mainwarmth.stores.jp/", "platform": "STORES", "prefecture": "群馬県", "prefCode": 10 },
-  { "id": "niksen", "name": "NIKSEN", "url": "https://niksen.stores.jp/", "platform": "STORES", "prefecture": "群馬県", "prefCode": 10 },
-  { "id": "shikishima", "name": "SHIKISHIMA COFFEE", "url": "https://shikishima.coffee/", "platform": "自社サイト", "prefecture": "群馬県", "prefCode": 10 },
-  { "id": "13coffee", "name": "13 COFFEE ROASTERS", "url": "https://13coffee.com/", "platform": "自社サイト", "prefecture": "群馬県", "prefCode": 10 },
-  { "id": "pyramid", "name": "PYRAMID COFFEE", "url": "https://pyramid.base.shop/", "platform": "BASE", "prefecture": "群馬県", "prefCode": 10 },
-  { "id": "tonbi", "name": "TONBI COFFEE", "url": "https://tonbi-coffee.com/", "platform": "自社サイト", "prefecture": "群馬県", "prefCode": 10 },
-  { "id": "reboot", "name": "REBOOT COFFEE", "url": "https://reboot.base.ec/", "platform": "BASE", "prefecture": "群馬県", "prefCode": 10 },
-  { "id": "norrys", "name": "Norry's Coffee", "url": "https://norryscoffee.theshop.jp/", "platform": "BASE", "prefecture": "群馬県", "prefCode": 10 },
-  { "id": "coffeepost", "name": "COFFEE POST", "url": "https://coffeepost.base.shop/", "platform": "BASE", "prefecture": "埼玉県", "prefCode": 11 },
-  { "id": "koyanagi", "name": "KOYANAGI COFFEE", "url": "https://www.koyanagicoffeenippon.com/", "platform": "自社サイト", "prefecture": "埼玉県", "prefCode": 11 }
+  {
+    "id": "glitch",
+    "name": "GLITCH COFFEE & ROASTERS",
+    "url": "https://glitchcoffeeroasters.myshopify.com/",
+    "platform": "Shopify",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "onibus",
+    "name": "Onibus Coffee",
+    "url": "https://onibuscoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "mel",
+    "name": "Mel Coffee Roasters",
+    "url": "https://melcoffee.shop/",
+    "platform": "Shopify",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "weekenders",
+    "name": "Weekenders Coffee",
+    "url": "https://weekenderscoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "rec",
+    "name": "REC COFFEE",
+    "url": "https://rec-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "fuglen",
+    "name": "Fuglen Coffee",
+    "url": "https://fuglencoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "post",
+    "name": "PostCoffee",
+    "url": "https://postcoffee.co/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "kurasu",
+    "name": "KURASU Kyoto",
+    "url": "https://jp.kurasu.kyoto/",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "philocoffea",
+    "name": "Philocoffea",
+    "url": "https://philocoffea.com/",
+    "platform": "自社サイト",
+    "prefecture": "千葉県",
+    "prefCode": 12
+  },
+  {
+    "id": "lightup",
+    "name": "Light Up Coffee",
+    "url": "https://lightupcoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "8agarage",
+    "name": "8A GARAGE",
+    "url": "https://onlineshop-p.8agarage.co.jp/",
+    "platform": "自社サイト",
+    "prefecture": "北海道",
+    "prefCode": 1
+  },
+  {
+    "id": "ishibashi",
+    "name": "ISHIBASHI COFFEE",
+    "url": "https://ishibashicoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "北海道",
+    "prefCode": 1
+  },
+  {
+    "id": "tokeinonai",
+    "name": "時計のない喫茶店",
+    "url": "https://tokeinonai.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "北海道",
+    "prefCode": 1
+  },
+  {
+    "id": "coffee-node",
+    "name": "COFFEE NODE",
+    "url": "https://www.coffee-node.com/",
+    "platform": "自社サイト",
+    "prefecture": "北海道",
+    "prefCode": 1
+  },
+  {
+    "id": "oniyanma",
+    "name": "Oniyanma Coffee",
+    "url": "https://oniyanmacoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "北海道",
+    "prefCode": 1
+  },
+  {
+    "id": "fenrir",
+    "name": "FENRIR BEVERAGE",
+    "url": "https://www.fenrirbeverage.com/",
+    "platform": "自社サイト",
+    "prefecture": "北海道",
+    "prefCode": 1
+  },
+  {
+    "id": "sawara",
+    "name": "SAWARA COFFEE",
+    "url": "https://sawaracoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "北海道",
+    "prefCode": 1
+  },
+  {
+    "id": "kura",
+    "name": "Kura Coffee",
+    "url": "https://kuracoffee.official.ec/",
+    "platform": "BASE",
+    "prefecture": "北海道",
+    "prefCode": 1
+  },
+  {
+    "id": "baristart",
+    "name": "BARISTART COFFEE",
+    "url": "https://www.baristartcoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "北海道",
+    "prefCode": 1
+  },
+  {
+    "id": "kotan",
+    "name": "KOTAN",
+    "url": "https://kotan.theshop.jp/",
+    "platform": "BASE",
+    "prefecture": "北海道",
+    "prefCode": 1
+  },
+  {
+    "id": "standard",
+    "name": "STANDARD COFFEE LAB.",
+    "url": "https://standardcoffeelab.com/",
+    "platform": "自社サイト",
+    "prefecture": "北海道",
+    "prefCode": 1
+  },
+  {
+    "id": "sprout",
+    "name": "SPROUT",
+    "url": "https://sproutstore.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "北海道",
+    "prefCode": 1
+  },
+  {
+    "id": "ritaru",
+    "name": "RITARU COFFEE",
+    "url": "https://shop.ritaru.com/",
+    "platform": "自社サイト",
+    "prefecture": "北海道",
+    "prefCode": 1
+  },
+  {
+    "id": "sountra",
+    "name": "SOUNTRA COFFEE",
+    "url": "https://sountra.theshop.jp/",
+    "platform": "BASE",
+    "prefecture": "北海道",
+    "prefCode": 1
+  },
+  {
+    "id": "taneyaka",
+    "name": "TANEYAKA",
+    "url": "https://taneyaka.shop/",
+    "platform": "自社サイト",
+    "prefecture": "北海道",
+    "prefCode": 1
+  },
+  {
+    "id": "canaan",
+    "name": "CANAAN COFFEE",
+    "url": "https://canaancoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "北海道",
+    "prefCode": 1
+  },
+  {
+    "id": "alchemist",
+    "name": "Alchemist Coffee",
+    "url": "https://www.alchemist-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "北海道",
+    "prefCode": 1
+  },
+  {
+    "id": "coffeeman",
+    "name": "COFFEE MAN good",
+    "url": "https://coffeemangood.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "青森県",
+    "prefCode": 2
+  },
+  {
+    "id": "wada",
+    "name": "Wada Coffee",
+    "url": "https://wadacoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "青森県",
+    "prefCode": 2
+  },
+  {
+    "id": "aurora",
+    "name": "Aurora Coffee Roasters",
+    "url": "https://www.auroracoffeeroasters.jp/",
+    "platform": "自社サイト",
+    "prefecture": "岩手県",
+    "prefCode": 3
+  },
+  {
+    "id": "nagasawa",
+    "name": "Nagasawa Coffee",
+    "url": "https://www.nagasawa-coffee.net/product-list",
+    "platform": "自社サイト",
+    "prefecture": "岩手県",
+    "prefCode": 3
+  },
+  {
+    "id": "rokugatsu",
+    "name": "六月の鹿",
+    "url": "https://rokugatsunoshika.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "岩手県",
+    "prefCode": 3
+  },
+  {
+    "id": "flatwhite",
+    "name": "FLAT WHITE COFFEE",
+    "url": "https://flatwhite.jp/",
+    "platform": "自社サイト",
+    "prefecture": "宮城県",
+    "prefCode": 4
+  },
+  {
+    "id": "invitro",
+    "name": "IN VITRO COFFEE",
+    "url": "https://invitro.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "宮城県",
+    "prefCode": 4
+  },
+  {
+    "id": "keyaki",
+    "name": "KEYAKI COFFEE",
+    "url": "https://keyakicoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "宮城県",
+    "prefCode": 4
+  },
+  {
+    "id": "honoka",
+    "name": "HONOKA COFFEE",
+    "url": "https://ec.honokacoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "宮城県",
+    "prefCode": 4
+  },
+  {
+    "id": "public",
+    "name": "PUBLIC COFFEE",
+    "url": "https://publiccoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "宮城県",
+    "prefCode": 4
+  },
+  {
+    "id": "kuriya",
+    "name": "Kuriya Coffee Roasters",
+    "url": "https://www.kuriya-lab.com/coffee-beans-store/",
+    "platform": "自社サイト",
+    "prefecture": "宮城県",
+    "prefCode": 4
+  },
+  {
+    "id": "balmusette",
+    "name": "BAL MUSETTE",
+    "url": "https://balmusette.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "宮城県",
+    "prefCode": 4
+  },
+  {
+    "id": "45coffee",
+    "name": "45 COFFEE",
+    "url": "https://45coffee.theshop.jp/",
+    "platform": "BASE",
+    "prefecture": "宮城県",
+    "prefCode": 4
+  },
+  {
+    "id": "spark",
+    "name": "SPARK COFFEE ROASTERS",
+    "url": "https://www.sparkcoffeeroasters.com/",
+    "platform": "自社サイト",
+    "prefecture": "宮城県",
+    "prefCode": 4
+  },
+  {
+    "id": "darestore",
+    "name": "DARESTORE",
+    "url": "https://darestore-jp.myshopify.com/",
+    "platform": "Shopify",
+    "prefecture": "宮城県",
+    "prefCode": 4
+  },
+  {
+    "id": "cantus",
+    "name": "COFFEE CANTUS",
+    "url": "https://coffeecantus.base.shop/",
+    "platform": "BASE",
+    "prefecture": "宮城県",
+    "prefCode": 4
+  },
+  {
+    "id": "apartment",
+    "name": "The Apartment",
+    "url": "https://theapartment.base.shop/",
+    "platform": "BASE",
+    "prefecture": "宮城県",
+    "prefCode": 4
+  },
+  {
+    "id": "08coffee",
+    "name": "08COFFEE",
+    "url": "https://08coffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "秋田県",
+    "prefCode": 5
+  },
+  {
+    "id": "yukihira",
+    "name": "YUKIHIRA COFFEE",
+    "url": "https://www.yukihiracoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "山形県",
+    "prefCode": 6
+  },
+  {
+    "id": "paradiso",
+    "name": "Paradiso",
+    "url": "https://paradiso.shop-pro.jp/",
+    "platform": "カラーミー",
+    "prefecture": "山形県",
+    "prefCode": 6
+  },
+  {
+    "id": "tsuki",
+    "name": "TSUKI COFFEE",
+    "url": "https://tsukicoffee.official.ec/",
+    "platform": "BASE",
+    "prefecture": "山形県",
+    "prefCode": 6
+  },
+  {
+    "id": "0123",
+    "name": "0123 COFFEE",
+    "url": "https://0123coffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "山形県",
+    "prefCode": 6
+  },
+  {
+    "id": "obros",
+    "name": "OBROS COFFEE",
+    "url": "https://obroscoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "福島県",
+    "prefCode": 7
+  },
+  {
+    "id": "koshiba",
+    "name": "KOSHIBA COFFEE",
+    "url": "https://koshibaga.base.shop/",
+    "platform": "BASE",
+    "prefecture": "福島県",
+    "prefCode": 7
+  },
+  {
+    "id": "bahnhof",
+    "name": "COFFEE BAHNHOF",
+    "url": "https://bahnhof.official.ec/",
+    "platform": "BASE",
+    "prefecture": "福島県",
+    "prefCode": 7
+  },
+  {
+    "id": "unit",
+    "name": "Unit Coffee",
+    "url": "https://unitcoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "福島県",
+    "prefCode": 7
+  },
+  {
+    "id": "nichinichi",
+    "name": "Nichi Nichi Coffee",
+    "url": "https://nichi-nichi-coffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "福島県",
+    "prefCode": 7
+  },
+  {
+    "id": "boushi",
+    "name": "BOUSHI COFFEE",
+    "url": "https://boushicoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "福島県",
+    "prefCode": 7
+  },
+  {
+    "id": "wave",
+    "name": "WAVE COFFEE",
+    "url": "https://wavecoffee2.base.shop/",
+    "platform": "BASE",
+    "prefecture": "福島県",
+    "prefCode": 7
+  },
+  {
+    "id": "knot",
+    "name": "KNOT COFFEE",
+    "url": "https://knot-coffee.shop-pro.jp/",
+    "platform": "カラーミー",
+    "prefecture": "茨城県",
+    "prefCode": 8
+  },
+  {
+    "id": "hitachino",
+    "name": "HITACHINO COFFEE",
+    "url": "https://hitachino-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "茨城県",
+    "prefCode": 8
+  },
+  {
+    "id": "factory",
+    "name": "COFFEE FACTORY",
+    "url": "http://coffeefactory.jp/",
+    "platform": "自社サイト",
+    "prefecture": "茨城県",
+    "prefCode": 8
+  },
+  {
+    "id": "mood",
+    "name": "MOOD COFFEE & ESPRESSO",
+    "url": "https://moodcoffee-espresso.com/",
+    "platform": "自社サイト",
+    "prefecture": "茨城県",
+    "prefCode": 8
+  },
+  {
+    "id": "bankoku",
+    "name": "BANKOKU COFFEE",
+    "url": "https://bankoku-coffeeshop.com/",
+    "platform": "自社サイト",
+    "prefecture": "茨城県",
+    "prefCode": 8
+  },
+  {
+    "id": "saza",
+    "name": "SAZA COFFEE",
+    "url": "https://saza.coffee/",
+    "platform": "自社サイト",
+    "prefecture": "茨城県",
+    "prefCode": 8
+  },
+  {
+    "id": "washi",
+    "name": "鷲の工房",
+    "url": "https://washi-no-kobo.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "茨城県",
+    "prefCode": 8
+  },
+  {
+    "id": "fujinuma",
+    "name": "CAFE FUJINUMA",
+    "url": "http://cafefujinuma.com/",
+    "platform": "自社サイト",
+    "prefecture": "栃木県",
+    "prefCode": 9
+  },
+  {
+    "id": "konnichi",
+    "name": "KONNICHI COFFEE",
+    "url": "https://konnichilabo.base.shop/",
+    "platform": "BASE",
+    "prefecture": "栃木県",
+    "prefCode": 9
+  },
+  {
+    "id": "bluetokai",
+    "name": "Blue Tokai Coffee",
+    "url": "https://www.bluetokaicoffee.jp/collections/coffee",
+    "platform": "自社サイト",
+    "prefecture": "栃木県",
+    "prefCode": 9
+  },
+  {
+    "id": "mokkei",
+    "name": "MOKKEI COFFEE",
+    "url": "https://mokkeicoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "栃木県",
+    "prefCode": 9
+  },
+  {
+    "id": "mamechamame",
+    "name": "Mamecha Mame",
+    "url": "https://www.mamechamame.com/s/shop",
+    "platform": "自社サイト",
+    "prefecture": "栃木県",
+    "prefCode": 9
+  },
+  {
+    "id": "kametokame",
+    "name": "Kame to Kame",
+    "url": "https://kametokame.theshop.jp/",
+    "platform": "BASE",
+    "prefecture": "栃木県",
+    "prefCode": 9
+  },
+  {
+    "id": "mateship",
+    "name": "MATESHIP",
+    "url": "https://mateship.base.shop/",
+    "platform": "BASE",
+    "prefecture": "栃木県",
+    "prefCode": 9
+  },
+  {
+    "id": "warmth",
+    "name": "WARMTH",
+    "url": "https://mainwarmth.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "群馬県",
+    "prefCode": 10
+  },
+  {
+    "id": "niksen",
+    "name": "NIKSEN",
+    "url": "https://niksen.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "群馬県",
+    "prefCode": 10
+  },
+  {
+    "id": "shikishima",
+    "name": "SHIKISHIMA COFFEE",
+    "url": "https://shikishima.coffee/",
+    "platform": "自社サイト",
+    "prefecture": "群馬県",
+    "prefCode": 10
+  },
+  {
+    "id": "13coffee",
+    "name": "13 COFFEE ROASTERS",
+    "url": "https://13coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "群馬県",
+    "prefCode": 10
+  },
+  {
+    "id": "pyramid",
+    "name": "PYRAMID COFFEE",
+    "url": "https://pyramid.base.shop/",
+    "platform": "BASE",
+    "prefecture": "群馬県",
+    "prefCode": 10
+  },
+  {
+    "id": "tonbi",
+    "name": "TONBI COFFEE",
+    "url": "https://tonbi-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "群馬県",
+    "prefCode": 10
+  },
+  {
+    "id": "reboot",
+    "name": "REBOOT COFFEE",
+    "url": "https://reboot.base.ec/",
+    "platform": "BASE",
+    "prefecture": "群馬県",
+    "prefCode": 10
+  },
+  {
+    "id": "norrys",
+    "name": "Norry's Coffee",
+    "url": "https://norryscoffee.theshop.jp/",
+    "platform": "BASE",
+    "prefecture": "群馬県",
+    "prefCode": 10
+  },
+  {
+    "id": "coffeepost",
+    "name": "COFFEE POST",
+    "url": "https://coffeepost.base.shop/",
+    "platform": "BASE",
+    "prefecture": "埼玉県",
+    "prefCode": 11
+  },
+  {
+    "id": "koyanagi",
+    "name": "KOYANAGI COFFEE",
+    "url": "https://www.koyanagicoffeenippon.com/",
+    "platform": "自社サイト",
+    "prefecture": "埼玉県",
+    "prefCode": 11
+  },
+  {
+    "id": "mackycoffee-80",
+    "name": "Mackycoffee Coffee",
+    "url": "https://mackycoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "埼玉県",
+    "prefCode": 11
+  },
+  {
+    "id": "litjapancoffee-81",
+    "name": "Litjapancoffee Coffee",
+    "url": "https://litjapancoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "埼玉県",
+    "prefCode": 11
+  },
+  {
+    "id": "homiescoffee-82",
+    "name": "Homiescoffee Coffee",
+    "url": "https://homiescoffee.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "埼玉県",
+    "prefCode": 11
+  },
+  {
+    "id": "bespokecoffeeroasters-onlineshop-83",
+    "name": "Bespokecoffeeroasters-onlineshop Coffee",
+    "url": "https://www.bespokecoffeeroasters-onlineshop.com/",
+    "platform": "自社サイト",
+    "prefecture": "埼玉県",
+    "prefCode": 11
+  },
+  {
+    "id": "square-84",
+    "name": "Square Coffee",
+    "url": "https://heycoffee-online-store.square.site/",
+    "platform": "Square",
+    "prefecture": "埼玉県",
+    "prefCode": 11
+  },
+  {
+    "id": "kurihara-coffee-85",
+    "name": "Kurihara-coffee Coffee",
+    "url": "https://store.kurihara-coffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "埼玉県",
+    "prefCode": 11
+  },
+  {
+    "id": "50coffeeandroastery-86",
+    "name": "50coffeeandroastery Coffee",
+    "url": "https://50coffeeandroastery.com/",
+    "platform": "自社サイト",
+    "prefecture": "埼玉県",
+    "prefCode": 11
+  },
+  {
+    "id": "hoshikawacafe-87",
+    "name": "Hoshikawacafe Coffee",
+    "url": "https://hoshikawacafe.com/",
+    "platform": "自社サイト",
+    "prefecture": "埼玉県",
+    "prefCode": 11
+  },
+  {
+    "id": "ecomacoffee-88",
+    "name": "Ecomacoffee Coffee",
+    "url": "https://ecomacoffee.shop/",
+    "platform": "自社サイト",
+    "prefecture": "埼玉県",
+    "prefCode": 11
+  },
+  {
+    "id": "chichibucoffee-89",
+    "name": "Chichibucoffee Coffee",
+    "url": "https://www.chichibucoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "埼玉県",
+    "prefCode": 11
+  },
+  {
+    "id": "takerucoffee-90",
+    "name": "Takerucoffee Coffee",
+    "url": "https://takerucoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "埼玉県",
+    "prefCode": 11
+  },
+  {
+    "id": "tokiwacoffee-91",
+    "name": "Tokiwacoffee Coffee",
+    "url": "https://tokiwacoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "埼玉県",
+    "prefCode": 11
+  },
+  {
+    "id": "sevenstepscoffeeclub-92",
+    "name": "Sevenstepscoffeeclub Coffee",
+    "url": "https://sevenstepscoffeeclub.com/",
+    "platform": "自社サイト",
+    "prefecture": "千葉県",
+    "prefCode": 12
+  },
+  {
+    "id": "easecoffee-93",
+    "name": "Easecoffee Coffee",
+    "url": "https://easecoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "千葉県",
+    "prefCode": 12
+  },
+  {
+    "id": "livingcoffee-94",
+    "name": "Livingcoffee Coffee",
+    "url": "https://livingcoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "千葉県",
+    "prefCode": 12
+  },
+  {
+    "id": "spaicecoffee-95",
+    "name": "Spaicecoffee Coffee",
+    "url": "https://spaicecoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "千葉県",
+    "prefCode": 12
+  },
+  {
+    "id": "routemapcoffeeroasters-96",
+    "name": "Routemapcoffeeroasters Coffee",
+    "url": "https://routemapcoffeeroasters.com/",
+    "platform": "自社サイト",
+    "prefecture": "千葉県",
+    "prefCode": 12
+  },
+  {
+    "id": "scrop-coffee-roasters-97",
+    "name": "Scrop-coffee-roasters Coffee",
+    "url": "https://scrop-coffee-roasters.com/",
+    "platform": "自社サイト",
+    "prefecture": "千葉県",
+    "prefCode": 12
+  },
+  {
+    "id": "jacudori-98",
+    "name": "Jacudori Coffee",
+    "url": "https://jacudori.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "千葉県",
+    "prefCode": 12
+  },
+  {
+    "id": "glitchcoffee-99",
+    "name": "Glitchcoffee Coffee",
+    "url": "https://shop.glitchcoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "leavescoffee-100",
+    "name": "Leavescoffee Coffee",
+    "url": "https://leavescoffee.jp/shop/coffee",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "lifesizecribe-101",
+    "name": "Lifesizecribe Coffee",
+    "url": "https://lifesizecribe.com/collections/beans",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "gpcoffee-102",
+    "name": "Gpcoffee Coffee",
+    "url": "https://gpcoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "brewmantokyo-103",
+    "name": "Brewmantokyo Coffee",
+    "url": "https://www.brewmantokyo.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "official-104",
+    "name": "Official Coffee",
+    "url": "https://joetalk.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "acidcoffee-105",
+    "name": "Acidcoffee Coffee",
+    "url": "https://acidcoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "berthcoffee-106",
+    "name": "Berthcoffee Coffee",
+    "url": "https://berthcoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "switchcoffeetokyo-107",
+    "name": "Switchcoffeetokyo Coffee",
+    "url": "https://switchcoffeetokyo.shop/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "official-108",
+    "name": "Official Coffee",
+    "url": "https://ironcoffee.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "finetime-109",
+    "name": "Finetime Coffee",
+    "url": "https://finetime.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "official-110",
+    "name": "Official Coffee",
+    "url": "https://meganecoffee.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "official-111",
+    "name": "Official Coffee",
+    "url": "https://porterscoffe.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "official-112",
+    "name": "Official Coffee",
+    "url": "https://lonich.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "andohcoffee-113",
+    "name": "Andohcoffee Coffee",
+    "url": "https://andohcoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "shirokanedai-114",
+    "name": "Shirokanedai Coffee",
+    "url": "https://shirokanedai.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "chouettetl-115",
+    "name": "Chouettetl Coffee",
+    "url": "https://chouettetl.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "covecoffeeroasters-116",
+    "name": "Covecoffeeroasters Coffee",
+    "url": "https://covecoffeeroasters.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "shop-pro-117",
+    "name": "Shop-pro Coffee",
+    "url": "https://hinatacafe.shop-pro.jp/",
+    "platform": "カラーミー",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "kitami-beanscoffee-118",
+    "name": "Kitami-beanscoffee Coffee",
+    "url": "https://kitami-beanscoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "unir-coffee-119",
+    "name": "Unir-coffee Coffee",
+    "url": "https://unir-coffee.shop/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "official-120",
+    "name": "Official Coffee",
+    "url": "https://papcoffee.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "fivecoffee-121",
+    "name": "Fivecoffee Coffee",
+    "url": "https://www.fivecoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "aoyamacoffee-122",
+    "name": "Aoyamacoffee Coffee",
+    "url": "https://aoyamacoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "beagoodneighbor-123",
+    "name": "Beagoodneighbor Coffee",
+    "url": "https://beagoodneighbor.net/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "ariowlcoffee-124",
+    "name": "Ariowlcoffee Coffee",
+    "url": "https://ariowlcoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "nozycoffee-onlinestore-125",
+    "name": "Nozycoffee-onlinestore Coffee",
+    "url": "https://nozycoffee-onlinestore.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "karmanncoffe-126",
+    "name": "Karmanncoffe Coffee",
+    "url": "https://karmanncoffe.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "spielcoffee-127",
+    "name": "Spielcoffee Coffee",
+    "url": "https://spielcoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "nexpect-128",
+    "name": "Nexpect Coffee",
+    "url": "https://nexpect.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "cafecajon-129",
+    "name": "Cafecajon Coffee",
+    "url": "https://www.cafecajon.jp/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "takbeans-130",
+    "name": "Takbeans Coffee",
+    "url": "http://takbeans.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "woodberrycoffee-131",
+    "name": "Woodberrycoffee Coffee",
+    "url": "https://www.woodberrycoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "takaito-132",
+    "name": "Takaito Coffee",
+    "url": "https://takaito.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "abno-133",
+    "name": "Abno Coffee",
+    "url": "https://abno.base.ec/",
+    "platform": "BASE",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "frescocoffee-134",
+    "name": "Frescocoffee Coffee",
+    "url": "https://frescocoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "coffee-nova-135",
+    "name": "Coffee-nova Coffee",
+    "url": "https://www.coffee-nova.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "rostro-136",
+    "name": "Rostro Coffee",
+    "url": "https://rostro.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "littledarlingcoffeeroasters-137",
+    "name": "Littledarlingcoffeeroasters Coffee",
+    "url": "http://www.littledarlingcoffeeroasters.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "square-138",
+    "name": "Square Coffee",
+    "url": "https://task-coffee.square.site/",
+    "platform": "Square",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "sniite-139",
+    "name": "Sniite Coffee",
+    "url": "https://sniite.shop/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "machitoyama-140",
+    "name": "Machitoyama Coffee",
+    "url": "https://machitoyama.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "firstcrop-141",
+    "name": "Firstcrop Coffee",
+    "url": "https://firstcrop.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "tabitocoffee-142",
+    "name": "Tabitocoffee Coffee",
+    "url": "https://tabitocoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "pharoscoffee-143",
+    "name": "Pharoscoffee Coffee",
+    "url": "https://pharoscoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "minutescoffee-144",
+    "name": "Minutescoffee Coffee",
+    "url": "https://minutescoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "apollons-gold-145",
+    "name": "Apollons-gold Coffee",
+    "url": "https://ja.apollons-gold.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "blue-6-coffee-146",
+    "name": "Blue-6-coffee Coffee",
+    "url": "https://blue-6-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "obscura-coffee-147",
+    "name": "Obscura-coffee Coffee",
+    "url": "https://shop.obscura-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "coffeafunika-148",
+    "name": "Coffeafunika Coffee",
+    "url": "https://coffeafunika.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "sachiopia-149",
+    "name": "Sachiopia Coffee",
+    "url": "https://sachiopia.base.ec/",
+    "platform": "BASE",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "official-150",
+    "name": "Official Coffee",
+    "url": "https://swellc.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "nogcoffeeroasters-151",
+    "name": "Nogcoffeeroasters Coffee",
+    "url": "https://nogcoffeeroasters.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "kielocoffee-152",
+    "name": "Kielocoffee Coffee",
+    "url": "https://kielocoffee.shop/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "unlimitedcoffeestore-153",
+    "name": "Unlimitedcoffeestore Coffee",
+    "url": "https://unlimitedcoffeestore.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "coffeesupreme-154",
+    "name": "Coffeesupreme Coffee",
+    "url": "https://shopjp.coffeesupreme.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "lucentcoffee-155",
+    "name": "Lucentcoffee Coffee",
+    "url": "https://lucentcoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "streamercoffee-estore-156",
+    "name": "Streamercoffee-estore Coffee",
+    "url": "https://www.streamercoffee-estore.tokyo/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "because1-157",
+    "name": "Because1 Coffee",
+    "url": "https://because1.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "stockholmroast-158",
+    "name": "Stockholmroast Coffee",
+    "url": "https://stockholmroast.jp/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "paddlerscoffee-159",
+    "name": "Paddlerscoffee Coffee",
+    "url": "https://paddlerscoffee.com/access/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "tokyocoffee-160",
+    "name": "Tokyocoffee Coffee",
+    "url": "https://tokyocoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "akhaama-161",
+    "name": "Akhaama Coffee",
+    "url": "https://akhaama.jp/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "entocoffee-162",
+    "name": "Entocoffee Coffee",
+    "url": "https://entocoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "slopecoffee-163",
+    "name": "Slopecoffee Coffee",
+    "url": "https://slopecoffee.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "adayinthecoffee-164",
+    "name": "Adayinthecoffee Coffee",
+    "url": "https://adayinthecoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "virtuoso-coffee-165",
+    "name": "Virtuoso-coffee Coffee",
+    "url": "https://virtuoso-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "official-166",
+    "name": "Official Coffee",
+    "url": "https://rocacoffee.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "thewordcoffee-167",
+    "name": "Thewordcoffee Coffee",
+    "url": "https://thewordcoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "official-168",
+    "name": "Official Coffee",
+    "url": "https://berg.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "kakyocoffee-169",
+    "name": "Kakyocoffee Coffee",
+    "url": "https://kakyocoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "conzen-170",
+    "name": "Conzen Coffee",
+    "url": "https://conzen.jp/",
+    "platform": "自社サイト",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "shop-pro-171",
+    "name": "Shop-pro Coffee",
+    "url": "https://glaubell.shop-pro.jp/",
+    "platform": "カラーミー",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "toirocoffee-172",
+    "name": "Toirocoffee Coffee",
+    "url": "https://toirocoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "東京都",
+    "prefCode": 13
+  },
+  {
+    "id": "27coffee-173",
+    "name": "27coffee Coffee",
+    "url": "https://27coffee.jp/collections/all-coffee",
+    "platform": "自社サイト",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "no13-174",
+    "name": "No13 Coffee",
+    "url": "https://no13.base.shop/",
+    "platform": "BASE",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "red-poison-175",
+    "name": "Red-poison Coffee",
+    "url": "https://red-poison.com/",
+    "platform": "自社サイト",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "darkartscoffee-176",
+    "name": "Darkartscoffee Coffee",
+    "url": "https://darkartscoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "thegoodgoodies-177",
+    "name": "Thegoodgoodies Coffee",
+    "url": "https://thegoodgoodies.jp/",
+    "platform": "自社サイト",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "official-178",
+    "name": "Official Coffee",
+    "url": "https://somethingsch.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "instagram-179",
+    "name": "Instagram Coffee",
+    "url": "https://www.instagram.com/roastdesigncoffee/",
+    "platform": "自社サイト",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "mame-connect-180",
+    "name": "Mame-connect Coffee",
+    "url": "https://www.mame-connect.com/",
+    "platform": "自社サイト",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "pluscoffee-181",
+    "name": "Pluscoffee Coffee",
+    "url": "https://shop.pluscoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "yazawacoffee-182",
+    "name": "Yazawacoffee Coffee",
+    "url": "https://yazawacoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "shop-pro-183",
+    "name": "Shop-pro Coffee",
+    "url": "https://tsukikoyacoffee.shop-pro.jp/",
+    "platform": "カラーミー",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "terasucoffee-184",
+    "name": "Terasucoffee Coffee",
+    "url": "https://terasucoffee.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "breathercoffee-185",
+    "name": "Breathercoffee Coffee",
+    "url": "https://breathercoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "abecoffee-186",
+    "name": "Abecoffee Coffee",
+    "url": "https://abecoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "handcrafted-187",
+    "name": "Handcrafted Coffee",
+    "url": "https://mellowcoffee.handcrafted.jp/",
+    "platform": "自社サイト",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "official-188",
+    "name": "Official Coffee",
+    "url": "https://leafletter.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "tonari-no-baiten-189",
+    "name": "Tonari-no-baiten Coffee",
+    "url": "https://tonari-no-baiten.jp/",
+    "platform": "自社サイト",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "sazanamicoffee-190",
+    "name": "Sazanamicoffee Coffee",
+    "url": "https://sazanamicoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "神奈川県",
+    "prefCode": 14
+  },
+  {
+    "id": "akitocoffee-191",
+    "name": "Akitocoffee Coffee",
+    "url": "https://akitocoffee.com/pages/shop",
+    "platform": "自社サイト",
+    "prefecture": "山梨県",
+    "prefCode": 19
+  },
+  {
+    "id": "instagram-192",
+    "name": "Instagram Coffee",
+    "url": "https://www.instagram.com/gray_coffee_roastery/",
+    "platform": "自社サイト",
+    "prefecture": "山梨県",
+    "prefCode": 19
+  },
+  {
+    "id": "dotscoffee-193",
+    "name": "Dotscoffee Coffee",
+    "url": "https://dotscoffee.jp/index.php/shopping/",
+    "platform": "自社サイト",
+    "prefecture": "山梨県",
+    "prefCode": 19
+  },
+  {
+    "id": "official-194",
+    "name": "Official Coffee",
+    "url": "https://hiranocoffee.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "長野県",
+    "prefCode": 20
+  },
+  {
+    "id": "tomicoffee-195",
+    "name": "Tomicoffee Coffee",
+    "url": "https://tomicoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "長野県",
+    "prefCode": 20
+  },
+  {
+    "id": "koseligcoffee-196",
+    "name": "Koseligcoffee Coffee",
+    "url": "https://shop.koseligcoffee.net/",
+    "platform": "自社サイト",
+    "prefecture": "長野県",
+    "prefCode": 20
+  },
+  {
+    "id": "little-m-197",
+    "name": "Little-m Coffee",
+    "url": "https://little-m.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "新潟県",
+    "prefCode": 15
+  },
+  {
+    "id": "dayscoffeeroaster-198",
+    "name": "Dayscoffeeroaster Coffee",
+    "url": "https://dayscoffeeroaster.jp/",
+    "platform": "自社サイト",
+    "prefecture": "新潟県",
+    "prefCode": 15
+  },
+  {
+    "id": "sankaku-frasco-199",
+    "name": "Sankaku-frasco Coffee",
+    "url": "https://sankaku-frasco.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "新潟県",
+    "prefCode": 15
+  },
+  {
+    "id": "doors-coffeeworks-200",
+    "name": "Doors-coffeeworks Coffee",
+    "url": "https://doors-coffeeworks.com/",
+    "platform": "自社サイト",
+    "prefecture": "新潟県",
+    "prefCode": 15
+  },
+  {
+    "id": "shop-pro-201",
+    "name": "Shop-pro Coffee",
+    "url": "http://roastcafe.shop-pro.jp/",
+    "platform": "カラーミー",
+    "prefecture": "新潟県",
+    "prefCode": 15
+  },
+  {
+    "id": "yamaga-coffee-202",
+    "name": "Yamaga-coffee Coffee",
+    "url": "https://yamaga-coffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "新潟県",
+    "prefCode": 15
+  },
+  {
+    "id": "bellmate-203",
+    "name": "Bellmate Coffee",
+    "url": "https://bellmate.com/",
+    "platform": "自社サイト",
+    "prefecture": "新潟県",
+    "prefCode": 15
+  },
+  {
+    "id": "coffeeciten-204",
+    "name": "Coffeeciten Coffee",
+    "url": "https://coffeeciten.net/",
+    "platform": "自社サイト",
+    "prefecture": "新潟県",
+    "prefCode": 15
+  },
+  {
+    "id": "tsumugu2019-205",
+    "name": "Tsumugu2019 Coffee",
+    "url": "https://tsumugu2019.base.shop/",
+    "platform": "BASE",
+    "prefecture": "新潟県",
+    "prefCode": 15
+  },
+  {
+    "id": "hazerucoffee-206",
+    "name": "Hazerucoffee Coffee",
+    "url": "https://hazerucoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "富山県",
+    "prefCode": 16
+  },
+  {
+    "id": "haizcoffee-207",
+    "name": "Haizcoffee Coffee",
+    "url": "https://haizcoffee.myshopify.com/",
+    "platform": "Shopify",
+    "prefecture": "富山県",
+    "prefCode": 16
+  },
+  {
+    "id": "thecoffeeroasters-208",
+    "name": "Thecoffeeroasters Coffee",
+    "url": "https://thecoffeeroasters.net/",
+    "platform": "自社サイト",
+    "prefecture": "富山県",
+    "prefCode": 16
+  },
+  {
+    "id": "pessoacoffee-209",
+    "name": "Pessoacoffee Coffee",
+    "url": "https://pessoacoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "石川県",
+    "prefCode": 17
+  },
+  {
+    "id": "miecoffeemii-210",
+    "name": "Miecoffeemii Coffee",
+    "url": "https://miecoffeemii.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "石川県",
+    "prefCode": 17
+  },
+  {
+    "id": "sunnybell-211",
+    "name": "Sunnybell Coffee",
+    "url": "https://sunnybell.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "石川県",
+    "prefCode": 17
+  },
+  {
+    "id": "nscoffee-212",
+    "name": "Nscoffee Coffee",
+    "url": "https://nscoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "石川県",
+    "prefCode": 17
+  },
+  {
+    "id": "base-213",
+    "name": "Base Coffee",
+    "url": "https://base.nittacoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "福井県",
+    "prefCode": 18
+  },
+  {
+    "id": "possecoffee-214",
+    "name": "Possecoffee Coffee",
+    "url": "https://www.possecoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "福井県",
+    "prefCode": 18
+  },
+  {
+    "id": "enzocoffee-215",
+    "name": "Enzocoffee Coffee",
+    "url": "https://www.enzocoffee.net/",
+    "platform": "自社サイト",
+    "prefecture": "福井県",
+    "prefCode": 18
+  },
+  {
+    "id": "vengacoffee-216",
+    "name": "Vengacoffee Coffee",
+    "url": "https://vengacoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "福井県",
+    "prefCode": 18
+  },
+  {
+    "id": "wakoya-217",
+    "name": "Wakoya Coffee",
+    "url": "https://shop.wakoya.com/",
+    "platform": "自社サイト",
+    "prefecture": "福井県",
+    "prefCode": 18
+  },
+  {
+    "id": "heibon-218",
+    "name": "Heibon Coffee",
+    "url": "https://heibon.base.ec/",
+    "platform": "BASE",
+    "prefecture": "福井県",
+    "prefCode": 18
+  },
+  {
+    "id": "tastorycoffee-219",
+    "name": "Tastorycoffee Coffee",
+    "url": "https://tastorycoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "岐阜県",
+    "prefCode": 21
+  },
+  {
+    "id": "sherpacoffeeroasters-220",
+    "name": "Sherpacoffeeroasters Coffee",
+    "url": "https://sherpacoffeeroasters.shop/",
+    "platform": "自社サイト",
+    "prefecture": "岐阜県",
+    "prefCode": 21
+  },
+  {
+    "id": "cocucoffee-221",
+    "name": "Cocucoffee Coffee",
+    "url": "https://cocucoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "岐阜県",
+    "prefCode": 21
+  },
+  {
+    "id": "instagram-222",
+    "name": "Instagram Coffee",
+    "url": "https://www.instagram.com/cafe_adachi/",
+    "platform": "自社サイト",
+    "prefecture": "岐阜県",
+    "prefCode": 21
+  },
+  {
+    "id": "cafetabibito-223",
+    "name": "Cafetabibito Coffee",
+    "url": "https://cafetabibito.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "岐阜県",
+    "prefCode": 21
+  },
+  {
+    "id": "yamadacoffee-224",
+    "name": "Yamadacoffee Coffee",
+    "url": "https://www.yamadacoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "岐阜県",
+    "prefCode": 21
+  },
+  {
+    "id": "ethicus-store-225",
+    "name": "Ethicus-store Coffee",
+    "url": "https://ethicus-store.jp/",
+    "platform": "自社サイト",
+    "prefecture": "静岡県",
+    "prefCode": 22
+  },
+  {
+    "id": "hibitano-226",
+    "name": "Hibitano Coffee",
+    "url": "https://hibitano.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "静岡県",
+    "prefCode": 22
+  },
+  {
+    "id": "official-227",
+    "name": "Official Coffee",
+    "url": "https://g2conline.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "静岡県",
+    "prefCode": 22
+  },
+  {
+    "id": "coffeenotori-228",
+    "name": "Coffeenotori Coffee",
+    "url": "https://coffeenotori.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "静岡県",
+    "prefCode": 22
+  },
+  {
+    "id": "hugcoffee-229",
+    "name": "Hugcoffee Coffee",
+    "url": "https://hugcoffee.co/",
+    "platform": "自社サイト",
+    "prefecture": "静岡県",
+    "prefCode": 22
+  },
+  {
+    "id": "ichicoffee-230",
+    "name": "Ichicoffee Coffee",
+    "url": "https://www.ichicoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "静岡県",
+    "prefCode": 22
+  },
+  {
+    "id": "tiescoffee-231",
+    "name": "Tiescoffee Coffee",
+    "url": "https://tiescoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "静岡県",
+    "prefCode": 22
+  },
+  {
+    "id": "kamome-coffeeroaster-232",
+    "name": "Kamome-coffeeroaster Coffee",
+    "url": "https://kamome-coffeeroaster.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "静岡県",
+    "prefCode": 22
+  },
+  {
+    "id": "the100cafe-233",
+    "name": "The100cafe Coffee",
+    "url": "https://the100cafe.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "静岡県",
+    "prefCode": 22
+  },
+  {
+    "id": "moksa-234",
+    "name": "Moksa Coffee",
+    "url": "https://moksa.base.shop/",
+    "platform": "BASE",
+    "prefecture": "静岡県",
+    "prefCode": 22
+  },
+  {
+    "id": "nomadlife333-235",
+    "name": "Nomadlife333 Coffee",
+    "url": "https://nomadlife333.base.shop/",
+    "platform": "BASE",
+    "prefecture": "静岡県",
+    "prefCode": 22
+  },
+  {
+    "id": "partcoffeeroaster-236",
+    "name": "Partcoffeeroaster Coffee",
+    "url": "https://partcoffeeroaster.com/",
+    "platform": "自社サイト",
+    "prefecture": "静岡県",
+    "prefCode": 22
+  },
+  {
+    "id": "coffelab0238-237",
+    "name": "Coffelab0238 Coffee",
+    "url": "https://coffelab0238.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "静岡県",
+    "prefCode": 22
+  },
+  {
+    "id": "keigancoffee-238",
+    "name": "Keigancoffee Coffee",
+    "url": "https://keigancoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "静岡県",
+    "prefCode": 22
+  },
+  {
+    "id": "trunkcoffee-239",
+    "name": "Trunkcoffee Coffee",
+    "url": "https://trunkcoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "qolcoffee-240",
+    "name": "Qolcoffee Coffee",
+    "url": "https://qolcoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "jyunikagetsu-241",
+    "name": "Jyunikagetsu Coffee",
+    "url": "https://www.jyunikagetsu.com/",
+    "platform": "自社サイト",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "freak-coffee-242",
+    "name": "Freak-coffee Coffee",
+    "url": "https://freak-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "coffeegrocery-mol-243",
+    "name": "Coffeegrocery-mol Coffee",
+    "url": "https://coffeegrocery-mol.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "hikure-244",
+    "name": "Hikure Coffee",
+    "url": "https://hikure.base.shop/",
+    "platform": "BASE",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "littleflowercoffee-245",
+    "name": "Littleflowercoffee Coffee",
+    "url": "https://www.littleflowercoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "co-246",
+    "name": "Co Coffee",
+    "url": "https://imom.co.jp/service/coffee.html",
+    "platform": "自社サイト",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "sohcoffee-247",
+    "name": "Sohcoffee Coffee",
+    "url": "https://sohcoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "buntcoffee-248",
+    "name": "Buntcoffee Coffee",
+    "url": "https://buntcoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "fukusukecoffee-249",
+    "name": "Fukusukecoffee Coffee",
+    "url": "https://fukusukecoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "oiseaucoffee-250",
+    "name": "Oiseaucoffee Coffee",
+    "url": "https://oiseaucoffee.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "nobicoffee-251",
+    "name": "Nobicoffee Coffee",
+    "url": "https://nobicoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "kissatoi-252",
+    "name": "Kissatoi Coffee",
+    "url": "https://kissatoi.base.shop/",
+    "platform": "BASE",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "harumagari-253",
+    "name": "Harumagari Coffee",
+    "url": "https://harumagari.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "magnis-254",
+    "name": "Magnis Coffee",
+    "url": "https://magnis.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "coffeebotan-255",
+    "name": "Coffeebotan Coffee",
+    "url": "https://coffeebotan.base.shop/",
+    "platform": "BASE",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "rolecoffee-256",
+    "name": "Rolecoffee Coffee",
+    "url": "https://rolecoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "sogoodcoffeeandbake-257",
+    "name": "Sogoodcoffeeandbake Coffee",
+    "url": "https://sogoodcoffeeandbake.shop/",
+    "platform": "自社サイト",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "apollocoffee-258",
+    "name": "Apollocoffee Coffee",
+    "url": "https://store.apollocoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "deaicoffee-259",
+    "name": "Deaicoffee Coffee",
+    "url": "https://deaicoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "ooakcoffee-260",
+    "name": "Ooakcoffee Coffee",
+    "url": "https://ooakcoffee.net/",
+    "platform": "自社サイト",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "soyogocoffee-261",
+    "name": "Soyogocoffee Coffee",
+    "url": "https://soyogocoffee.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "愛知県",
+    "prefCode": 23
+  },
+  {
+    "id": "5454cm-262",
+    "name": "5454cm Coffee",
+    "url": "https://5454cm.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "三重県",
+    "prefCode": 24
+  },
+  {
+    "id": "coffeeuno-263",
+    "name": "Coffeeuno Coffee",
+    "url": "https://coffeeuno.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "三重県",
+    "prefCode": 24
+  },
+  {
+    "id": "hardbopcoffee-264",
+    "name": "Hardbopcoffee Coffee",
+    "url": "https://hardbopcoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "三重県",
+    "prefCode": 24
+  },
+  {
+    "id": "colorfulcoffee-265",
+    "name": "Colorfulcoffee Coffee",
+    "url": "https://colorfulcoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "三重県",
+    "prefCode": 24
+  },
+  {
+    "id": "nakamura-coffee-266",
+    "name": "Nakamura-coffee Coffee",
+    "url": "https://nakamura-coffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "三重県",
+    "prefCode": 24
+  },
+  {
+    "id": "otomoni-267",
+    "name": "Otomoni Coffee",
+    "url": "https://otomoni.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "三重県",
+    "prefCode": 24
+  },
+  {
+    "id": "official-268",
+    "name": "Official Coffee",
+    "url": "https://38coffee.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "三重県",
+    "prefCode": 24
+  },
+  {
+    "id": "edisonkyukeijyo-269",
+    "name": "Edisonkyukeijyo Coffee",
+    "url": "https://edisonkyukeijyo.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "三重県",
+    "prefCode": 24
+  },
+  {
+    "id": "reimeicoffee-270",
+    "name": "Reimeicoffee Coffee",
+    "url": "https://reimeicoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "三重県",
+    "prefCode": 24
+  },
+  {
+    "id": "serowcoffee-271",
+    "name": "Serowcoffee Coffee",
+    "url": "https://serowcoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "三重県",
+    "prefCode": 24
+  },
+  {
+    "id": "kimitocoffee-272",
+    "name": "Kimitocoffee Coffee",
+    "url": "https://kimitocoffee.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "滋賀県",
+    "prefCode": 25
+  },
+  {
+    "id": "yetifazenda-coffee-273",
+    "name": "Yetifazenda-coffee Coffee",
+    "url": "https://yetifazenda-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "滋賀県",
+    "prefCode": 25
+  },
+  {
+    "id": "square-274",
+    "name": "Square Coffee",
+    "url": "https://ataracoffee.square.site/",
+    "platform": "Square",
+    "prefecture": "滋賀県",
+    "prefCode": 25
+  },
+  {
+    "id": "matsubaracoffee-275",
+    "name": "Matsubaracoffee Coffee",
+    "url": "https://matsubaracoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "滋賀県",
+    "prefCode": 25
+  },
+  {
+    "id": "handcrafted-276",
+    "name": "Handcrafted Coffee",
+    "url": "https://dongree.handcrafted.jp/",
+    "platform": "自社サイト",
+    "prefecture": "滋賀県",
+    "prefCode": 25
+  },
+  {
+    "id": "micro-lady-277",
+    "name": "Micro-lady Coffee",
+    "url": "https://www.micro-lady.jp/",
+    "platform": "自社サイト",
+    "prefecture": "滋賀県",
+    "prefCode": 25
+  },
+  {
+    "id": "harucoffeebake-278",
+    "name": "Harucoffeebake Coffee",
+    "url": "https://harucoffeebake.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "滋賀県",
+    "prefCode": 25
+  },
+  {
+    "id": "coyote-coffee-279",
+    "name": "Coyote-coffee Coffee",
+    "url": "https://coyote-coffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "kanondo-280",
+    "name": "Kanondo Coffee",
+    "url": "https://kanondo.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "aboutuscoffee-281",
+    "name": "Aboutuscoffee Coffee",
+    "url": "https://aboutuscoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "ru3coffee-282",
+    "name": "Ru3coffee Coffee",
+    "url": "https://www.ru3coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "stylecoffee-283",
+    "name": "Stylecoffee Coffee",
+    "url": "https://www.stylecoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "bastetcoffee-284",
+    "name": "Bastetcoffee Coffee",
+    "url": "https://bastetcoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "weekenderscoffee-285",
+    "name": "Weekenderscoffee Coffee",
+    "url": "https://www.weekenderscoffee.com/onlineshop/index.html",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "oyamazakicr-286",
+    "name": "Oyamazakicr Coffee",
+    "url": "https://oyamazakicr.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "goodmanroaster-287",
+    "name": "Goodmanroaster Coffee",
+    "url": "https://goodmanroaster.com/",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "buyshop-288",
+    "name": "Buyshop Coffee",
+    "url": "https://wandh.buyshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "sentidocoffe-289",
+    "name": "Sentidocoffe Coffee",
+    "url": "https://sentidocoffe.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "nakayamacoffee-290",
+    "name": "Nakayamacoffee Coffee",
+    "url": "https://www.nakayamacoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "kazewithcoffee-291",
+    "name": "Kazewithcoffee Coffee",
+    "url": "https://kazewithcoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "yoshiharacoffee-292",
+    "name": "Yoshiharacoffee Coffee",
+    "url": "https://yoshiharacoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "kitaoji-roastery-lab-293",
+    "name": "Kitaoji-roastery-lab Coffee",
+    "url": "https://kitaoji-roastery-lab.com/",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "okaffekyoto-294",
+    "name": "Okaffekyoto Coffee",
+    "url": "https://okaffekyoto.shop/",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "arabica-295",
+    "name": "Arabica Coffee",
+    "url": "https://arabica.coffee/",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "drpdrp-296",
+    "name": "Drpdrp Coffee",
+    "url": "https://drpdrp.com/collections",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "lobbeansstore-297",
+    "name": "Lobbeansstore Coffee",
+    "url": "https://lobbeansstore.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "shigacoffee-298",
+    "name": "Shigacoffee Coffee",
+    "url": "https://www.shigacoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "bbckyoto-299",
+    "name": "Bbckyoto Coffee",
+    "url": "https://bbckyoto.base.shop/",
+    "platform": "BASE",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "misoraxxx-300",
+    "name": "Misoraxxx Coffee",
+    "url": "https://misoraxxx.base.shop/",
+    "platform": "BASE",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "globe-mountain-coffee-301",
+    "name": "Globe-mountain-coffee Coffee",
+    "url": "https://shop.globe-mountain-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "blend-302",
+    "name": "Blend Coffee",
+    "url": "https://blend.kyoto/",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "shop-pro-303",
+    "name": "Shop-pro Coffee",
+    "url": "http://miepump.shop-pro.jp/",
+    "platform": "カラーミー",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "mahoucoffee-304",
+    "name": "Mahoucoffee Coffee",
+    "url": "https://www.mahoucoffee.com/online-shop/",
+    "platform": "自社サイト",
+    "prefecture": "京都府",
+    "prefCode": 26
+  },
+  {
+    "id": "wako-coffee-305",
+    "name": "Wako-coffee Coffee",
+    "url": "https://www.wako-coffee.com/shopbrand/all_items/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "aomacoffee-306",
+    "name": "Aomacoffee Coffee",
+    "url": "https://aomacoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "terracoffeeroasters-307",
+    "name": "Terracoffeeroasters Coffee",
+    "url": "https://terracoffeeroasters.earth/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "liloinveve-308",
+    "name": "Liloinveve Coffee",
+    "url": "https://coffee.liloinveve.com/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "coffee-market-309",
+    "name": "Coffee-market Coffee",
+    "url": "https://coffee-market.net/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "elmersgreen-310",
+    "name": "Elmersgreen Coffee",
+    "url": "https://elmersgreen.com/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "yardosaka-311",
+    "name": "Yardosaka Coffee",
+    "url": "https://yardosaka.com/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "official-312",
+    "name": "Official Coffee",
+    "url": "https://slothcoffee.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "takamura-coffee-313",
+    "name": "Takamura-coffee Coffee",
+    "url": "https://takamura-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "official-314",
+    "name": "Official Coffee",
+    "url": "https://kissaaoi.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "haaaaaach-315",
+    "name": "Haaaaaach Coffee",
+    "url": "https://haaaaaach.base.shop/",
+    "platform": "BASE",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "ohouiouicoffee-316",
+    "name": "Ohouiouicoffee Coffee",
+    "url": "https://www.ohouiouicoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "satsuki-coffee-317",
+    "name": "Satsuki-coffee Coffee",
+    "url": "https://www.satsuki-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "sotcoffee-318",
+    "name": "Sotcoffee Coffee",
+    "url": "https://www.sotcoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "ijiricoffee-319",
+    "name": "Ijiricoffee Coffee",
+    "url": "https://ijiricoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "longseason-320",
+    "name": "Longseason Coffee",
+    "url": "https://longseason.base.shop/",
+    "platform": "BASE",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "cafetales-321",
+    "name": "Cafetales Coffee",
+    "url": "https://cafetales.jp/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "kitusaroji-322",
+    "name": "Kitusaroji Coffee",
+    "url": "https://kitusaroji.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "shinsaibashi-323",
+    "name": "Shinsaibashi Coffee",
+    "url": "https://shinsaibashi.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "olivercoffeeroasters-324",
+    "name": "Olivercoffeeroasters Coffee",
+    "url": "https://olivercoffeeroasters.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "official-325",
+    "name": "Official Coffee",
+    "url": "https://uecoffee.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "handcrafted-326",
+    "name": "Handcrafted Coffee",
+    "url": "https://linoandaia.handcrafted.jp/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "baristamap-327",
+    "name": "Baristamap Coffee",
+    "url": "https://baristamap.coffee/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "einscoffee-online-328",
+    "name": "Einscoffee-online Coffee",
+    "url": "https://einscoffee-online.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "ista-329",
+    "name": "Ista Coffee",
+    "url": "https://ista.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "mametomo1-330",
+    "name": "Mametomo1 Coffee",
+    "url": "https://mametomo1.base.shop/",
+    "platform": "BASE",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "muguet0807-331",
+    "name": "Muguet0807 Coffee",
+    "url": "https://muguet0807.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "hoop-coffee-332",
+    "name": "Hoop-coffee Coffee",
+    "url": "https://hoop-coffee.jp/collections/coffee-beans",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "indigocoffee-333",
+    "name": "Indigocoffee Coffee",
+    "url": "https://indigocoffee.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "4trees-coffee-334",
+    "name": "4trees-coffee Coffee",
+    "url": "https://4trees-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "kitahama-port-335",
+    "name": "Kitahama-port Coffee",
+    "url": "https://kitahama-port.com/",
+    "platform": "自社サイト",
+    "prefecture": "大阪府",
+    "prefCode": 27
+  },
+  {
+    "id": "cinemacoffee-336",
+    "name": "Cinemacoffee Coffee",
+    "url": "https://cinemacoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "taocacoffee-337",
+    "name": "Taocacoffee Coffee",
+    "url": "https://taocacoffee.net/",
+    "platform": "自社サイト",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "ridgebycoffeeup-338",
+    "name": "Ridgebycoffeeup Coffee",
+    "url": "https://ridgebycoffeeup.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "co-339",
+    "name": "Co Coffee",
+    "url": "https://www.hirocoffee.co.jp/",
+    "platform": "自社サイト",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "forestcoffeeroasters-340",
+    "name": "Forestcoffeeroasters Coffee",
+    "url": "https://www.forestcoffeeroasters.com/",
+    "platform": "自社サイト",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "basecoffee-341",
+    "name": "Basecoffee Coffee",
+    "url": "https://basecoffee.net/",
+    "platform": "自社サイト",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "brocante-342",
+    "name": "Brocante Coffee",
+    "url": "https://brocante.base.shop/",
+    "platform": "BASE",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "limacoffee-343",
+    "name": "Limacoffee Coffee",
+    "url": "https://limacoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "taisanji-coffee-works-344",
+    "name": "Taisanji-coffee-works Coffee",
+    "url": "https://shop.taisanji-coffee-works.jp/",
+    "platform": "自社サイト",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "square-345",
+    "name": "Square Coffee",
+    "url": "https://3roastery.square.site/",
+    "platform": "Square",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "merryhillsmarket-346",
+    "name": "Merryhillsmarket Coffee",
+    "url": "https://merryhillsmarket.com/",
+    "platform": "自社サイト",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "coffeelutino-347",
+    "name": "Coffeelutino Coffee",
+    "url": "https://coffeelutino.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "regrencoffee-348",
+    "name": "Regrencoffee Coffee",
+    "url": "https://regrencoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "gasse-349",
+    "name": "Gasse Coffee",
+    "url": "https://gasse.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "kakudocoffee-350",
+    "name": "Kakudocoffee Coffee",
+    "url": "https://kakudocoffee.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "harimacoffeeroastery-351",
+    "name": "Harimacoffeeroastery Coffee",
+    "url": "https://harimacoffeeroastery.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "youthcoffee-352",
+    "name": "Youthcoffee Coffee",
+    "url": "https://youthcoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "kuuhakubeans-353",
+    "name": "Kuuhakubeans Coffee",
+    "url": "https://kuuhakubeans.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "coffeelabofrank-354",
+    "name": "Coffeelabofrank Coffee",
+    "url": "https://coffeelabofrank.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "thesowers-kobe-355",
+    "name": "Thesowers-kobe Coffee",
+    "url": "https://thesowers-kobe.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "tentcoffee-356",
+    "name": "Tentcoffee Coffee",
+    "url": "https://tentcoffee.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "6coffee-357",
+    "name": "6coffee Coffee",
+    "url": "https://6coffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "tobera-358",
+    "name": "Tobera Coffee",
+    "url": "https://www.tobera.jp/",
+    "platform": "自社サイト",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "beyondcoffeeroasters-359",
+    "name": "Beyondcoffeeroasters Coffee",
+    "url": "https://beyondcoffeeroasters.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "akekurebeans-360",
+    "name": "Akekurebeans Coffee",
+    "url": "https://akekurebeans.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "coffee031-361",
+    "name": "Coffee031 Coffee",
+    "url": "https://coffee031.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "yuge-roaster-362",
+    "name": "Yuge-roaster Coffee",
+    "url": "https://yuge-roaster.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "coffeestandwily-363",
+    "name": "Coffeestandwily Coffee",
+    "url": "https://coffeestandwily.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "omame-364",
+    "name": "Omame Coffee",
+    "url": "https://omame.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "ukabucoffee-365",
+    "name": "Ukabucoffee Coffee",
+    "url": "https://ukabucoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "teikibin-366",
+    "name": "Teikibin Coffee",
+    "url": "https://teikibin.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "square-367",
+    "name": "Square Coffee",
+    "url": "https://piecebypiececoffee.square.site/",
+    "platform": "Square",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "tasterscoffee-368",
+    "name": "Tasterscoffee Coffee",
+    "url": "https://tasterscoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "兵庫県",
+    "prefCode": 28
+  },
+  {
+    "id": "kcoffee-369",
+    "name": "Kcoffee Coffee",
+    "url": "https://kcoffee.jp/collections",
+    "platform": "自社サイト",
+    "prefecture": "奈良県",
+    "prefCode": 29
+  },
+  {
+    "id": "koto-coffee-370",
+    "name": "Koto-coffee Coffee",
+    "url": "https://koto-coffee.shop/",
+    "platform": "自社サイト",
+    "prefecture": "奈良県",
+    "prefCode": 29
+  },
+  {
+    "id": "helloanyjapan-371",
+    "name": "Helloanyjapan Coffee",
+    "url": "https://shop.helloanyjapan.com/",
+    "platform": "自社サイト",
+    "prefecture": "奈良県",
+    "prefCode": 29
+  },
+  {
+    "id": "theinycoffee-372",
+    "name": "Theinycoffee Coffee",
+    "url": "https://theinycoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "奈良県",
+    "prefCode": 29
+  },
+  {
+    "id": "buyshop-373",
+    "name": "Buyshop Coffee",
+    "url": "https://muradish.buyshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "奈良県",
+    "prefCode": 29
+  },
+  {
+    "id": "tabickey-374",
+    "name": "Tabickey Coffee",
+    "url": "https://tabickey.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "奈良県",
+    "prefCode": 29
+  },
+  {
+    "id": "daiichi-mottainai-375",
+    "name": "Daiichi-mottainai Coffee",
+    "url": "https://daiichi-mottainai.com/",
+    "platform": "自社サイト",
+    "prefecture": "奈良県",
+    "prefCode": 29
+  },
+  {
+    "id": "theroasters-376",
+    "name": "Theroasters Coffee",
+    "url": "https://theroasters.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "和歌山県",
+    "prefCode": 30
+  },
+  {
+    "id": "kamin-coffee-377",
+    "name": "Kamin-coffee Coffee",
+    "url": "https://kamin-coffee.shop/",
+    "platform": "自社サイト",
+    "prefecture": "和歌山県",
+    "prefCode": 30
+  },
+  {
+    "id": "porito-378",
+    "name": "Porito Coffee",
+    "url": "https://porito.coffee/",
+    "platform": "自社サイト",
+    "prefecture": "和歌山県",
+    "prefCode": 30
+  },
+  {
+    "id": "favoritecoffee-379",
+    "name": "Favoritecoffee Coffee",
+    "url": "https://favoritecoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "和歌山県",
+    "prefCode": 30
+  },
+  {
+    "id": "medelcoffee-380",
+    "name": "Medelcoffee Coffee",
+    "url": "https://medelcoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "鳥取県",
+    "prefCode": 31
+  },
+  {
+    "id": "tsubameroaster-381",
+    "name": "Tsubameroaster Coffee",
+    "url": "https://www.tsubameroaster.jp/",
+    "platform": "自社サイト",
+    "prefecture": "鳥取県",
+    "prefCode": 31
+  },
+  {
+    "id": "zerocoffee-382",
+    "name": "Zerocoffee Coffee",
+    "url": "https://zerocoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "鳥取県",
+    "prefCode": 31
+  },
+  {
+    "id": "tottoricoffeeroaster-383",
+    "name": "Tottoricoffeeroaster Coffee",
+    "url": "https://tottoricoffeeroaster.com/cafe/",
+    "platform": "自社サイト",
+    "prefecture": "鳥取県",
+    "prefCode": 31
+  },
+  {
+    "id": "imaginecoffe-384",
+    "name": "Imaginecoffe Coffee",
+    "url": "https://imaginecoffe.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "島根県",
+    "prefCode": 32
+  },
+  {
+    "id": "coffeeblanks-385",
+    "name": "Coffeeblanks Coffee",
+    "url": "https://coffeeblanks.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "島根県",
+    "prefCode": 32
+  },
+  {
+    "id": "azucoffee-386",
+    "name": "Azucoffee Coffee",
+    "url": "https://azucoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "島根県",
+    "prefCode": 32
+  },
+  {
+    "id": "masuocoffee-387",
+    "name": "Masuocoffee Coffee",
+    "url": "https://masuocoffee.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "島根県",
+    "prefCode": 32
+  },
+  {
+    "id": "somethinglikethat-388",
+    "name": "Somethinglikethat Coffee",
+    "url": "https://somethinglikethat.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "岡山県",
+    "prefCode": 33
+  },
+  {
+    "id": "coffeeporte-389",
+    "name": "Coffeeporte Coffee",
+    "url": "https://coffeeporte.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "岡山県",
+    "prefCode": 33
+  },
+  {
+    "id": "tostinocoffee-390",
+    "name": "Tostinocoffee Coffee",
+    "url": "https://tostinocoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "岡山県",
+    "prefCode": 33
+  },
+  {
+    "id": "thecorner-391",
+    "name": "Thecorner Coffee",
+    "url": "https://thecorner.base.shop/",
+    "platform": "BASE",
+    "prefecture": "岡山県",
+    "prefCode": 33
+  },
+  {
+    "id": "onsaya-392",
+    "name": "Onsaya Coffee",
+    "url": "https://onsaya.com/",
+    "platform": "自社サイト",
+    "prefecture": "岡山県",
+    "prefCode": 33
+  },
+  {
+    "id": "kinoshitashouten-393",
+    "name": "Kinoshitashouten Coffee",
+    "url": "https://kinoshitashouten.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "岡山県",
+    "prefCode": 33
+  },
+  {
+    "id": "konishikoffe-394",
+    "name": "Konishikoffe Coffee",
+    "url": "https://konishikoffe.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "岡山県",
+    "prefCode": 33
+  },
+  {
+    "id": "shimajicoffee-395",
+    "name": "Shimajicoffee Coffee",
+    "url": "https://shimajicoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "広島県",
+    "prefCode": 34
+  },
+  {
+    "id": "official-396",
+    "name": "Official Coffee",
+    "url": "https://stylecoffee.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "広島県",
+    "prefCode": 34
+  },
+  {
+    "id": "latteart-397",
+    "name": "Latteart Coffee",
+    "url": "https://latteart.base.shop/",
+    "platform": "BASE",
+    "prefecture": "広島県",
+    "prefCode": 34
+  },
+  {
+    "id": "akamcoffee-398",
+    "name": "Akamcoffee Coffee",
+    "url": "https://akamcoffee.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "広島県",
+    "prefCode": 34
+  },
+  {
+    "id": "breath-hiroshima-399",
+    "name": "Breath-hiroshima Coffee",
+    "url": "https://www.breath-hiroshima.com/",
+    "platform": "自社サイト",
+    "prefecture": "広島県",
+    "prefCode": 34
+  },
+  {
+    "id": "bagtowncoffee-400",
+    "name": "Bagtowncoffee Coffee",
+    "url": "https://bagtowncoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "広島県",
+    "prefCode": 34
+  },
+  {
+    "id": "overviewcoffee-401",
+    "name": "Overviewcoffee Coffee",
+    "url": "https://overviewcoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "広島県",
+    "prefCode": 34
+  },
+  {
+    "id": "milescoffee-402",
+    "name": "Milescoffee Coffee",
+    "url": "https://milescoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "広島県",
+    "prefCode": 34
+  },
+  {
+    "id": "imm-coffee-403",
+    "name": "Imm-coffee Coffee",
+    "url": "https://shop.imm-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "山口県",
+    "prefCode": 35
+  },
+  {
+    "id": "saicoffeeroastery-404",
+    "name": "Saicoffeeroastery Coffee",
+    "url": "https://shop.saicoffeeroastery.com/collections/%E7%84%BC",
+    "platform": "自社サイト",
+    "prefecture": "山口県",
+    "prefCode": 35
+  },
+  {
+    "id": "fujiyamacoffeeroasters-405",
+    "name": "Fujiyamacoffeeroasters Coffee",
+    "url": "https://fujiyamacoffeeroasters.com/",
+    "platform": "自社サイト",
+    "prefecture": "山口県",
+    "prefCode": 35
+  },
+  {
+    "id": "uminone-kanmon-406",
+    "name": "Uminone-kanmon Coffee",
+    "url": "https://shop.uminone-kanmon.com/",
+    "platform": "自社サイト",
+    "prefecture": "山口県",
+    "prefCode": 35
+  },
+  {
+    "id": "migliorecoffee-407",
+    "name": "Migliorecoffee Coffee",
+    "url": "https://migliorecoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "山口県",
+    "prefCode": 35
+  },
+  {
+    "id": "co-408",
+    "name": "Co Coffee",
+    "url": "https://www.coffeeboy.co.jp/",
+    "platform": "自社サイト",
+    "prefecture": "山口県",
+    "prefCode": 35
+  },
+  {
+    "id": "amillcoffee-409",
+    "name": "Amillcoffee Coffee",
+    "url": "https://amillcoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "山口県",
+    "prefCode": 35
+  },
+  {
+    "id": "coffeewaves-410",
+    "name": "Coffeewaves Coffee",
+    "url": "https://coffeewaves.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "山口県",
+    "prefCode": 35
+  },
+  {
+    "id": "haretoke-d-411",
+    "name": "Haretoke-d Coffee",
+    "url": "https://www.haretoke-d.jp/",
+    "platform": "自社サイト",
+    "prefecture": "徳島県",
+    "prefCode": 36
+  },
+  {
+    "id": "coffeeto-412",
+    "name": "Coffeeto Coffee",
+    "url": "https://coffeeto.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "徳島県",
+    "prefCode": 36
+  },
+  {
+    "id": "coffeean-413",
+    "name": "Coffeean Coffee",
+    "url": "https://coffeean.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "徳島県",
+    "prefCode": 36
+  },
+  {
+    "id": "quailcoffee-414",
+    "name": "Quailcoffee Coffee",
+    "url": "https://quailcoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "徳島県",
+    "prefCode": 36
+  },
+  {
+    "id": "4chomecoffee-415",
+    "name": "4chomecoffee Coffee",
+    "url": "https://4chomecoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "徳島県",
+    "prefCode": 36
+  },
+  {
+    "id": "kamodanicoffee-416",
+    "name": "Kamodanicoffee Coffee",
+    "url": "https://kamodanicoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "徳島県",
+    "prefCode": 36
+  },
+  {
+    "id": "coffee-w-417",
+    "name": "Coffee-w Coffee",
+    "url": "https://coffee-w.jp/",
+    "platform": "自社サイト",
+    "prefecture": "徳島県",
+    "prefCode": 36
+  },
+  {
+    "id": "mamechiyo-418",
+    "name": "Mamechiyo Coffee",
+    "url": "https://mamechiyo.shop/",
+    "platform": "自社サイト",
+    "prefecture": "徳島県",
+    "prefCode": 36
+  },
+  {
+    "id": "corsicacoffee-419",
+    "name": "Corsicacoffee Coffee",
+    "url": "https://shop.corsicacoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "香川県",
+    "prefCode": 37
+  },
+  {
+    "id": "laboremus-online-420",
+    "name": "Laboremus-online Coffee",
+    "url": "https://laboremus-online.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "香川県",
+    "prefCode": 37
+  },
+  {
+    "id": "toyotomicoffee-421",
+    "name": "Toyotomicoffee Coffee",
+    "url": "https://toyotomicoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "香川県",
+    "prefCode": 37
+  },
+  {
+    "id": "icoicoffee-422",
+    "name": "Icoicoffee Coffee",
+    "url": "https://www.icoicoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "愛媛県",
+    "prefCode": 38
+  },
+  {
+    "id": "yawatabaisen-423",
+    "name": "Yawatabaisen Coffee",
+    "url": "https://yawatabaisen.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "愛媛県",
+    "prefCode": 38
+  },
+  {
+    "id": "shop-pro-424",
+    "name": "Shop-pro Coffee",
+    "url": "https://catracha-cb.shop-pro.jp/",
+    "platform": "カラーミー",
+    "prefecture": "愛媛県",
+    "prefCode": 38
+  },
+  {
+    "id": "kitasaya-425",
+    "name": "Kitasaya Coffee",
+    "url": "https://kitasaya.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "愛媛県",
+    "prefCode": 38
+  },
+  {
+    "id": "pieceful-426",
+    "name": "Pieceful Coffee",
+    "url": "https://pieceful.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "愛媛県",
+    "prefCode": 38
+  },
+  {
+    "id": "cafecrema-427",
+    "name": "Cafecrema Coffee",
+    "url": "https://cafecrema.coffee/",
+    "platform": "自社サイト",
+    "prefecture": "愛媛県",
+    "prefCode": 38
+  },
+  {
+    "id": "sommarlek-428",
+    "name": "Sommarlek Coffee",
+    "url": "https://sommarlek.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "高知県",
+    "prefCode": 39
+  },
+  {
+    "id": "jokicoffee-429",
+    "name": "Jokicoffee Coffee",
+    "url": "https://www.jokicoffee.com/category/kahvi",
+    "platform": "自社サイト",
+    "prefecture": "高知県",
+    "prefCode": 39
+  },
+  {
+    "id": "kuroshiocoffee-430",
+    "name": "Kuroshiocoffee Coffee",
+    "url": "https://kuroshiocoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "高知県",
+    "prefCode": 39
+  },
+  {
+    "id": "coffeecounty-431",
+    "name": "Coffeecounty Coffee",
+    "url": "https://shop.coffeecounty.cc/",
+    "platform": "自社サイト",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "manly-coffee-432",
+    "name": "Manly-coffee Coffee",
+    "url": "https://manly-coffee.com/collections/frontpage",
+    "platform": "自社サイト",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "hifiltersupply-433",
+    "name": "Hifiltersupply Coffee",
+    "url": "https://hifiltersupply.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "aslancoffeefactory-434",
+    "name": "Aslancoffeefactory Coffee",
+    "url": "https://aslancoffeefactory.store/",
+    "platform": "自社サイト",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "kuromon-coffee-435",
+    "name": "Kuromon-coffee Coffee",
+    "url": "https://kuromon-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "maruhachicoffee-436",
+    "name": "Maruhachicoffee Coffee",
+    "url": "https://maruhachicoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "budounotane-437",
+    "name": "Budounotane Coffee",
+    "url": "https://www.budounotane.com/zelkova_coffee/",
+    "platform": "自社サイト",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "anthem-roastery-438",
+    "name": "Anthem-roastery Coffee",
+    "url": "https://anthem-roastery.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "fuk-coffee-439",
+    "name": "Fuk-coffee Coffee",
+    "url": "https://fuk-coffee.com/shop/fuk-coffee-roastery/",
+    "platform": "自社サイト",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "shirouzucoffee-440",
+    "name": "Shirouzucoffee Coffee",
+    "url": "https://www.shirouzucoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "coffee-sazanami-441",
+    "name": "Coffee-sazanami Coffee",
+    "url": "https://coffee-sazanami.com/",
+    "platform": "自社サイト",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "fakeitcoffee-442",
+    "name": "Fakeitcoffee Coffee",
+    "url": "https://fakeitcoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "goodupcoffee-443",
+    "name": "Goodupcoffee Coffee",
+    "url": "https://goodupcoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "shop-pro-444",
+    "name": "Shop-pro Coffee",
+    "url": "https://tokado-coffee.shop-pro.jp/",
+    "platform": "カラーミー",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "tohriyama-445",
+    "name": "Tohriyama Coffee",
+    "url": "https://tohriyama.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "coffeemanonline-446",
+    "name": "Coffeemanonline Coffee",
+    "url": "https://coffeemanonline.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "morrowcoffee-447",
+    "name": "Morrowcoffee Coffee",
+    "url": "http://morrowcoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "littlehoney-448",
+    "name": "Littlehoney Coffee",
+    "url": "https://littlehoney.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "honeycoffee-449",
+    "name": "Honeycoffee Coffee",
+    "url": "https://www.honeycoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "roundcounter-450",
+    "name": "Roundcounter Coffee",
+    "url": "https://www.roundcounter.shop/",
+    "platform": "自社サイト",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "kutsurogirogi-451",
+    "name": "Kutsurogirogi Coffee",
+    "url": "https://kutsurogirogi.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "coffeeunidos-452",
+    "name": "Coffeeunidos Coffee",
+    "url": "https://coffeeunidos.com/",
+    "platform": "自社サイト",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "homachiamecoffee-453",
+    "name": "Homachiamecoffee Coffee",
+    "url": "https://homachiamecoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "niyolcoffeebar-454",
+    "name": "Niyolcoffeebar Coffee",
+    "url": "https://niyolcoffeebar.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "roasterslabo-455",
+    "name": "Roasterslabo Coffee",
+    "url": "https://roasterslabo.base.shop/",
+    "platform": "BASE",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "apartment101-456",
+    "name": "Apartment101 Coffee",
+    "url": "https://apartment101.base.shop/",
+    "platform": "BASE",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "nocoffee-457",
+    "name": "Nocoffee Coffee",
+    "url": "https://www.nocoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "福岡県",
+    "prefCode": 40
+  },
+  {
+    "id": "official-458",
+    "name": "Official Coffee",
+    "url": "https://roleplayingc.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "佐賀県",
+    "prefCode": 41
+  },
+  {
+    "id": "cafemitikusa-459",
+    "name": "Cafemitikusa Coffee",
+    "url": "https://cafemitikusa.com/",
+    "platform": "自社サイト",
+    "prefecture": "佐賀県",
+    "prefCode": 41
+  },
+  {
+    "id": "hellocafe-460",
+    "name": "Hellocafe Coffee",
+    "url": "https://hellocafe.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "佐賀県",
+    "prefCode": 41
+  },
+  {
+    "id": "kariomons-461",
+    "name": "Kariomons Coffee",
+    "url": "https://kariomons.com/",
+    "platform": "自社サイト",
+    "prefecture": "長崎県",
+    "prefCode": 42
+  },
+  {
+    "id": "naicoffee-462",
+    "name": "Naicoffee Coffee",
+    "url": "https://naicoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "長崎県",
+    "prefCode": 42
+  },
+  {
+    "id": "shop-pro-463",
+    "name": "Shop-pro Coffee",
+    "url": "https://coffeehitomachi.shop-pro.jp/",
+    "platform": "カラーミー",
+    "prefecture": "長崎県",
+    "prefCode": 42
+  },
+  {
+    "id": "almardgarden-464",
+    "name": "Almardgarden Coffee",
+    "url": "https://almardgarden.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "長崎県",
+    "prefCode": 42
+  },
+  {
+    "id": "appartementcoffee-465",
+    "name": "Appartementcoffee Coffee",
+    "url": "https://www.appartementcoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "熊本県",
+    "prefCode": 43
+  },
+  {
+    "id": "coffeedot-466",
+    "name": "Coffeedot Coffee",
+    "url": "https://coffeedot.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "熊本県",
+    "prefCode": 43
+  },
+  {
+    "id": "coffeeblue-467",
+    "name": "Coffeeblue Coffee",
+    "url": "https://coffeeblue.base.shop/",
+    "platform": "BASE",
+    "prefecture": "熊本県",
+    "prefCode": 43
+  },
+  {
+    "id": "layerscoffee-official-468",
+    "name": "Layerscoffee-official Coffee",
+    "url": "https://layerscoffee-official.myshopify.com/",
+    "platform": "Shopify",
+    "prefecture": "熊本県",
+    "prefCode": 43
+  },
+  {
+    "id": "gluckcoffeespot-469",
+    "name": "Gluckcoffeespot Coffee",
+    "url": "https://gluckcoffeespot.jp/",
+    "platform": "自社サイト",
+    "prefecture": "熊本県",
+    "prefCode": 43
+  },
+  {
+    "id": "endelea-470",
+    "name": "Endelea Coffee",
+    "url": "https://endelea.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "熊本県",
+    "prefCode": 43
+  },
+  {
+    "id": "cafebanana-471",
+    "name": "Cafebanana Coffee",
+    "url": "https://cafebanana.jp/",
+    "platform": "自社サイト",
+    "prefecture": "熊本県",
+    "prefCode": 43
+  },
+  {
+    "id": "junction-coffee-472",
+    "name": "Junction-coffee Coffee",
+    "url": "https://junction-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "熊本県",
+    "prefCode": 43
+  },
+  {
+    "id": "takafumihigashi-473",
+    "name": "Takafumihigashi Coffee",
+    "url": "https://takafumihigashi.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "熊本県",
+    "prefCode": 43
+  },
+  {
+    "id": "calmestcoffeeshop-474",
+    "name": "Calmestcoffeeshop Coffee",
+    "url": "https://calmestcoffeeshop.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "熊本県",
+    "prefCode": 43
+  },
+  {
+    "id": "coffeekado-475",
+    "name": "Coffeekado Coffee",
+    "url": "https://coffeekado.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "熊本県",
+    "prefCode": 43
+  },
+  {
+    "id": "official-476",
+    "name": "Official Coffee",
+    "url": "https://kusasenri.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "熊本県",
+    "prefCode": 43
+  },
+  {
+    "id": "asabacoffee-477",
+    "name": "Asabacoffee Coffee",
+    "url": "https://asabacoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "熊本県",
+    "prefCode": 43
+  },
+  {
+    "id": "ssssscoffee-478",
+    "name": "Ssssscoffee Coffee",
+    "url": "https://ssssscoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "熊本県",
+    "prefCode": 43
+  },
+  {
+    "id": "safaricoffee-479",
+    "name": "Safaricoffee Coffee",
+    "url": "https://safaricoffee.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "大分県",
+    "prefCode": 44
+  },
+  {
+    "id": "3cedarscoffee-480",
+    "name": "3cedarscoffee Coffee",
+    "url": "https://3cedarscoffee.com/store/products/list",
+    "platform": "自社サイト",
+    "prefecture": "大分県",
+    "prefCode": 44
+  },
+  {
+    "id": "createcoffeelab-481",
+    "name": "Createcoffeelab Coffee",
+    "url": "https://createcoffeelab.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "大分県",
+    "prefCode": 44
+  },
+  {
+    "id": "uchidecoffee2019-482",
+    "name": "Uchidecoffee2019 Coffee",
+    "url": "https://uchidecoffee2019.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "大分県",
+    "prefCode": 44
+  },
+  {
+    "id": "oscr-483",
+    "name": "Oscr Coffee",
+    "url": "https://oscr.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "大分県",
+    "prefCode": 44
+  },
+  {
+    "id": "tautona-coffee-484",
+    "name": "Tautona-coffee Coffee",
+    "url": "https://shop.tautona-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "大分県",
+    "prefCode": 44
+  },
+  {
+    "id": "suzunaricoffee-485",
+    "name": "Suzunaricoffee Coffee",
+    "url": "https://shop.suzunaricoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "大分県",
+    "prefCode": 44
+  },
+  {
+    "id": "rainydays51-486",
+    "name": "Rainydays51 Coffee",
+    "url": "https://rainydays51.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "大分県",
+    "prefCode": 44
+  },
+  {
+    "id": "square-487",
+    "name": "Square Coffee",
+    "url": "https://stelliumcoffee.square.site/",
+    "platform": "Square",
+    "prefecture": "大分県",
+    "prefCode": 44
+  },
+  {
+    "id": "renshirocoffee-488",
+    "name": "Renshirocoffee Coffee",
+    "url": "https://www.renshirocoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "宮崎県",
+    "prefCode": 45
+  },
+  {
+    "id": "wonderfulworldcoffee-489",
+    "name": "Wonderfulworldcoffee Coffee",
+    "url": "https://wonderfulworldcoffee.shop/",
+    "platform": "自社サイト",
+    "prefecture": "宮崎県",
+    "prefCode": 45
+  },
+  {
+    "id": "hyuga-490",
+    "name": "Hyuga Coffee",
+    "url": "https://store.hyuga.coffee/",
+    "platform": "自社サイト",
+    "prefecture": "宮崎県",
+    "prefCode": 45
+  },
+  {
+    "id": "official-491",
+    "name": "Official Coffee",
+    "url": "https://garagecoffee.official.ec/",
+    "platform": "自社サイト",
+    "prefecture": "宮崎県",
+    "prefCode": 45
+  },
+  {
+    "id": "regolith-coffee-492",
+    "name": "Regolith-coffee Coffee",
+    "url": "https://regolith-coffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "宮崎県",
+    "prefCode": 45
+  },
+  {
+    "id": "rosacoffee-493",
+    "name": "Rosacoffee Coffee",
+    "url": "https://www.rosacoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "宮崎県",
+    "prefCode": 45
+  },
+  {
+    "id": "bythetree-494",
+    "name": "Bythetree Coffee",
+    "url": "https://bythetree.base.shop/",
+    "platform": "BASE",
+    "prefecture": "鹿児島県",
+    "prefCode": 46
+  },
+  {
+    "id": "potacupofcoffee-495",
+    "name": "Potacupofcoffee Coffee",
+    "url": "https://potacupofcoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "鹿児島県",
+    "prefCode": 46
+  },
+  {
+    "id": "3510coffee-496",
+    "name": "3510coffee Coffee",
+    "url": "https://3510coffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "鹿児島県",
+    "prefCode": 46
+  },
+  {
+    "id": "grightroastery-497",
+    "name": "Grightroastery Coffee",
+    "url": "https://grightroastery.com/",
+    "platform": "自社サイト",
+    "prefecture": "鹿児島県",
+    "prefCode": 46
+  },
+  {
+    "id": "quilt-kagoshima-498",
+    "name": "Quilt-kagoshima Coffee",
+    "url": "https://quilt-kagoshima.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "鹿児島県",
+    "prefCode": 46
+  },
+  {
+    "id": "issou-coffee-499",
+    "name": "Issou-coffee Coffee",
+    "url": "https://issou-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "鹿児島県",
+    "prefCode": 46
+  },
+  {
+    "id": "dayscoffee-500",
+    "name": "Dayscoffee Coffee",
+    "url": "https://dayscoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "鹿児島県",
+    "prefCode": 46
+  },
+  {
+    "id": "bluebeansroastery-501",
+    "name": "Bluebeansroastery Coffee",
+    "url": "https://bluebeansroastery.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "鹿児島県",
+    "prefCode": 46
+  },
+  {
+    "id": "luckapt-502",
+    "name": "Luckapt Coffee",
+    "url": "https://luckapt.theshop.jp/",
+    "platform": "自社サイト",
+    "prefecture": "鹿児島県",
+    "prefCode": 46
+  },
+  {
+    "id": "voila-503",
+    "name": "Voila Coffee",
+    "url": "https://voila.jp/",
+    "platform": "自社サイト",
+    "prefecture": "鹿児島県",
+    "prefCode": 46
+  },
+  {
+    "id": "fushicoffee-504",
+    "name": "Fushicoffee Coffee",
+    "url": "https://fushicoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "沖縄県",
+    "prefCode": 47
+  },
+  {
+    "id": "mamepolepole-505",
+    "name": "Mamepolepole Coffee",
+    "url": "https://mamepolepole.okinawa/",
+    "platform": "自社サイト",
+    "prefecture": "沖縄県",
+    "prefCode": 47
+  },
+  {
+    "id": "zhyvagocoffeeroastery-506",
+    "name": "Zhyvagocoffeeroastery Coffee",
+    "url": "https://shop.zhyvagocoffeeroastery.coffee/",
+    "platform": "自社サイト",
+    "prefecture": "沖縄県",
+    "prefCode": 47
+  },
+  {
+    "id": "matayoshicoffee-507",
+    "name": "Matayoshicoffee Coffee",
+    "url": "https://www.matayoshicoffee.jp/category/1/",
+    "platform": "自社サイト",
+    "prefecture": "沖縄県",
+    "prefCode": 47
+  },
+  {
+    "id": "flapcoffee-508",
+    "name": "Flapcoffee Coffee",
+    "url": "https://flapcoffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "沖縄県",
+    "prefCode": 47
+  },
+  {
+    "id": "coffeeetomoiri-509",
+    "name": "Coffeeetomoiri Coffee",
+    "url": "https://www.coffeeetomoiri.com/",
+    "platform": "自社サイト",
+    "prefecture": "沖縄県",
+    "prefCode": 47
+  },
+  {
+    "id": "singleo-510",
+    "name": "Singleo Coffee",
+    "url": "https://singleo.jp/",
+    "platform": "自社サイト",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "obtr-coffee-511",
+    "name": "Obtr-coffee Coffee",
+    "url": "https://obtr-coffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "a765coffee-512",
+    "name": "A765coffee Coffee",
+    "url": "https://a765coffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "c4e-513",
+    "name": "C4e Coffee",
+    "url": "https://c4e.base.shop/",
+    "platform": "BASE",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "kopikalyan-514",
+    "name": "Kopikalyan Coffee",
+    "url": "https://kopikalyan.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "amazingcoffee-515",
+    "name": "Amazingcoffee Coffee",
+    "url": "https://www.amazingcoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "fcoffee-516",
+    "name": "Fcoffee Coffee",
+    "url": "https://fcoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "corallocoffee-517",
+    "name": "Corallocoffee Coffee",
+    "url": "https://www.corallocoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "radarroom-518",
+    "name": "Radarroom Coffee",
+    "url": "https://radarroom.base.shop/",
+    "platform": "BASE",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "chicoffee-519",
+    "name": "Chicoffee Coffee",
+    "url": "https://chicoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "naoornever-coffee-520",
+    "name": "Naoornever-coffee Coffee",
+    "url": "https://naoornever-coffee.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "co-521",
+    "name": "Co Coffee",
+    "url": "https://coffee.lulalao.co.jp/",
+    "platform": "自社サイト",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "youshicoffee-522",
+    "name": "Youshicoffee Coffee",
+    "url": "https://youshicoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "pnbcoffee-523",
+    "name": "Pnbcoffee Coffee",
+    "url": "https://pnbcoffee.thebase.in/",
+    "platform": "BASE",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "upepo-524",
+    "name": "Upepo Coffee",
+    "url": "https://store.upepo.life/",
+    "platform": "自社サイト",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "mydeariecoffee-525",
+    "name": "Mydeariecoffee Coffee",
+    "url": "https://shop.mydeariecoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "coffeekinenbi-526",
+    "name": "Coffeekinenbi Coffee",
+    "url": "https://coffeekinenbi.stores.jp/",
+    "platform": "STORES",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "goodcoffeefarms-527",
+    "name": "Goodcoffeefarms Coffee",
+    "url": "https://www.goodcoffeefarms.com/",
+    "platform": "自社サイト",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "renagcoffee-528",
+    "name": "Renagcoffee Coffee",
+    "url": "https://shop.renagcoffee.jp/",
+    "platform": "自社サイト",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "wecoffee-529",
+    "name": "Wecoffee Coffee",
+    "url": "https://wecoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "cthoughtcoffee-530",
+    "name": "Cthoughtcoffee Coffee",
+    "url": "https://www.cthoughtcoffee.shop/",
+    "platform": "自社サイト",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "breakel-531",
+    "name": "Breakel Coffee",
+    "url": "https://breakel.base.shop/",
+    "platform": "BASE",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "hazecoffee-532",
+    "name": "Hazecoffee Coffee",
+    "url": "https://hazecoffee.base.shop/",
+    "platform": "BASE",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "coffeenote-533",
+    "name": "Coffeenote Coffee",
+    "url": "https://www.coffeenote.biz/",
+    "platform": "自社サイト",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  },
+  {
+    "id": "nakagawawanicoffee-534",
+    "name": "Nakagawawanicoffee Coffee",
+    "url": "https://nakagawawanicoffee.com/",
+    "platform": "自社サイト",
+    "prefecture": "そのほか",
+    "prefCode": 99
+  }
 ]
