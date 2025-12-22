@@ -11,18 +11,43 @@
     <script src="https://unpkg.com/lucide@0.263.1/dist/umd/lucide.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
-        body { font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif; background-color: #f8fafc; color: #0f172a; }
-        .card-shadow { box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); }
-        .card-hover:hover { box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); transform: translateY(-2px); transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
-        .no-scrollbar::-webkit-scrollbar { display: none; }
-        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        
+        body { 
+            font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif; 
+            background-color: #FAFAF9; /* warm-gray-50 equivalent */
+            color: #44403C; /* warm-gray-700 equivalent */
+        }
+        
+        /* コーヒーテーマのカラーパレット */
+        .bg-coffee-dark { background-color: #43302b; } /* 深煎り豆の色 */
+        .text-coffee-dark { color: #43302b; }
+        .border-coffee-dark { border-color: #43302b; }
+        
+        .bg-coffee-medium { background-color: #8D6E63; } /* ミディアムロースト */
+        .text-coffee-medium { color: #8D6E63; }
+        
+        .bg-coffee-light { background-color: #D7CCC8; } /* ラテフォーム */
+        .bg-coffee-light-hover:hover { background-color: #EFEBE9; }
+        
+        .card-shadow { box-shadow: 0 2px 8px rgba(67, 48, 43, 0.05); }
+        .card-hover:hover { 
+            box-shadow: 0 8px 16px rgba(67, 48, 43, 0.1); 
+            transform: translateY(-2px); 
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+        }
+        
+        /* カスタムスクロールバー（目立たないように） */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #D7CCC8; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #A1887F; }
     </style>
 </head>
 <body>
     <div id="root"></div>
 
     <script type="text/babel">
-        const { useState, useEffect, useMemo, Component } = React;
+        const { useState, useEffect, useMemo, useRef, Component } = React;
 
         class ErrorBoundary extends Component {
             constructor(props) { super(props); this.state = { hasError: false }; }
@@ -47,20 +72,39 @@
             };
 
             return (
-                <div className={`relative bg-white rounded-xl overflow-hidden transition-all duration-300 card-hover flex flex-col h-full group ${isUpdated ? 'border border-rose-200 ring-2 ring-rose-100 shadow-lg shadow-rose-50' : 'border border-slate-200'}`}>
-                    {isUpdated && <div className="absolute top-0 right-0 bg-rose-500 text-white text-[10px] font-bold px-3 py-1.5 rounded-bl-xl flex items-center gap-1 z-10 shadow-sm uppercase tracking-wide"><Icon name="Sparkles" size={10} />Update</div>}
+                <div className={`relative bg-white rounded-xl overflow-hidden transition-all duration-300 card-hover flex flex-col h-full group border ${isUpdated ? 'border-amber-400 ring-1 ring-amber-100' : 'border-stone-200'}`}>
+                    {isUpdated && (
+                        <div className="absolute top-0 right-0 bg-amber-500 text-white text-[10px] font-bold px-3 py-1 rounded-bl-lg flex items-center gap-1 z-10 shadow-sm tracking-wide">
+                            <Icon name="Sparkles" size={12} /> New
+                        </div>
+                    )}
                     <div className="p-5 flex flex-col h-full">
                         <div className="flex justify-between items-start mb-3">
-                            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold border border-slate-200"><Icon name="MapPin" size={10} />{shop.prefecture}</span>
-                            <span className={`text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full font-bold border ${shop.platform === 'Shopify' ? 'bg-green-50 text-green-700 border-green-100' : 'bg-slate-50 text-slate-500 border-slate-100'}`}>{shop.platform}</span>
+                            <span className="inline-flex items-center gap-1 px-2 py-1 rounded bg-stone-100 text-stone-600 text-[10px] font-bold">
+                                <Icon name="MapPin" size={10} />{shop.prefecture}
+                            </span>
+                            <span className={`text-[10px] px-2 py-1 rounded border ${shop.platform === 'Shopify' ? 'bg-green-50 text-green-700 border-green-100' : 'bg-stone-50 text-stone-500 border-stone-100'}`}>
+                                {shop.platform}
+                            </span>
                         </div>
-                        <h3 className="text-base font-bold text-slate-900 mb-1 line-clamp-1 group-hover:text-rose-600 transition-colors duration-200" title={shop.name}>{shop.name}</h3>
-                        <a href={shop.url} target="_blank" rel="noopener noreferrer" className="text-xs text-slate-500 hover:text-rose-600 mb-4 block truncate font-medium transition-colors">{shop.url.replace('https://', '')}</a>
-                        <div className="border-t border-slate-100 pt-3 mt-auto">
-                            {isUpdated ? (
-                                <div className="text-[10px] text-rose-600 font-bold mb-2 flex items-center gap-1 bg-rose-50 p-1.5 rounded border border-rose-100"><Icon name="Clock" size={10} />更新検出: {formatDate(lastChecked)}</div>
-                            ) : null}
-                            <a href={shop.url} target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center gap-2 py-2 rounded-lg bg-slate-50 hover:bg-slate-100 text-xs font-bold text-slate-700 transition-colors border border-slate-200 hover:border-slate-300">ショップを開く<Icon name="ExternalLink" size={12} /></a>
+                        
+                        <h3 className="text-base font-bold text-coffee-dark mb-1 line-clamp-2 group-hover:text-amber-700 transition-colors duration-200 min-h-[3rem]" title={shop.name}>
+                            {shop.name}
+                        </h3>
+                        
+                        <a href={shop.url} target="_blank" rel="noopener noreferrer" className="text-xs text-stone-400 hover:text-amber-600 mb-4 block truncate font-medium transition-colors border-b border-transparent hover:border-amber-200 w-fit">
+                            {shop.url.replace('https://', '').split('/')[0]}
+                        </a>
+                        
+                        <div className="border-t border-stone-100 pt-3 mt-auto">
+                            {isUpdated && (
+                                <div className="text-[10px] text-amber-700 font-bold mb-2 flex items-center gap-1">
+                                    <Icon name="Clock" size={10} /> 更新: {formatDate(lastChecked)}
+                                </div>
+                            )}
+                            <a href={shop.url} target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center gap-2 py-2 rounded-lg bg-stone-50 hover:bg-stone-100 text-xs font-bold text-stone-600 transition-colors group-hover:bg-amber-50 group-hover:text-amber-800">
+                                ショップへ移動 <Icon name="ExternalLink" size={12} />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -73,11 +117,22 @@
             const [lastChecked, setLastChecked] = useState(null);
             const [updatedShopIds, setUpdatedShopIds] = useState([]);
             const [notification, setNotification] = useState(null);
+            const [showScrollTop, setShowScrollTop] = useState(false);
             
             // 検索・フィルタ用
             const [searchQuery, setSearchQuery] = useState("");
             const [activePrefecture, setActivePrefecture] = useState(null);
             const [isSearchOpen, setIsSearchOpen] = useState(false);
+
+            // スクロール検知でトップへ戻るボタンを表示
+            useEffect(() => {
+                const handleScroll = () => {
+                    if (window.scrollY > 300) setShowScrollTop(true);
+                    else setShowScrollTop(false);
+                };
+                window.addEventListener('scroll', handleScroll);
+                return () => window.removeEventListener('scroll', handleScroll);
+            }, []);
 
             useEffect(() => {
                 const initData = async () => {
@@ -103,27 +158,19 @@
                 initData();
             }, []);
 
-            // スクロールロックの制御（オーバーレイが開いている間、背景をスクロールさせない）
+            // オーバーレイ制御
             useEffect(() => {
-                if (isSearchOpen) {
-                    document.body.style.overflow = 'hidden';
-                } else {
-                    document.body.style.overflow = 'unset';
-                }
-                return () => {
-                    document.body.style.overflow = 'unset';
-                };
+                if (isSearchOpen) document.body.style.overflow = 'hidden';
+                else document.body.style.overflow = 'unset';
+                return () => { document.body.style.overflow = 'unset'; };
             }, [isSearchOpen]);
 
-            const handleRefresh = () => {
-                window.location.reload();
-            };
+            const handleRefresh = () => window.location.reload();
+            const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
             const prefCounts = useMemo(() => {
                 const counts = {};
-                shops.forEach(shop => {
-                    counts[shop.prefecture] = (counts[shop.prefecture] || 0) + 1;
-                });
+                shops.forEach(shop => { counts[shop.prefecture] = (counts[shop.prefecture] || 0) + 1; });
                 return counts;
             }, [shops]);
 
@@ -143,10 +190,7 @@
             const filteredShops = useMemo(() => {
                 if (searchQuery) {
                     const q = searchQuery.toLowerCase();
-                    return shops.filter(s => 
-                        s.name.toLowerCase().includes(q) || 
-                        s.prefecture.includes(q)
-                    );
+                    return shops.filter(s => s.name.toLowerCase().includes(q) || s.prefecture.includes(q));
                 }
                 if (activePrefecture) {
                     return shops.filter(s => s.prefecture === activePrefecture);
@@ -159,166 +203,201 @@
                 return date.toLocaleString('ja-JP', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' });
             };
 
-            const handlePrefectureClick = (pref) => {
-                if (activePrefecture === pref) {
-                    setActivePrefecture(null);
-                } else {
-                    setActivePrefecture(pref);
-                    setSearchQuery(""); // 都道府県選択時は検索ワードをクリア
-                }
+            const handlePrefectureSelect = (pref) => {
+                setActivePrefecture(pref);
+                setSearchQuery(""); // クエリクリア
+                setIsSearchOpen(false); // オーバーレイを閉じる
+                window.scrollTo({ top: 0, behavior: 'smooth' }); // 上部へスクロール
+            };
+
+            const clearFilters = () => {
+                setSearchQuery("");
+                setActivePrefecture(null);
             };
 
             return (
-                <div className="min-h-screen pb-12 relative bg-slate-50">
-                    <header className="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-sm">
+                <div className="min-h-screen pb-20 relative bg-[#FAFAF9] text-[#44403C]">
+                    
+                    {/* ヘッダー */}
+                    <header className="bg-white border-b border-stone-200 sticky top-0 z-40 shadow-sm">
                         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-                            <div className="flex items-center gap-3">
-                                <div className="p-2 bg-slate-900 rounded-lg text-white"><Icon name="Coffee" /></div>
-                                <h1 className="text-lg font-bold text-slate-900 tracking-tight hidden sm:block">Coffee Shop Monitor</h1>
-                                
-                                {/* 検索トグルボタン (ヘッダー内) */}
-                                <button 
-                                    onClick={() => setIsSearchOpen(true)}
-                                    className="ml-2 flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold bg-white text-slate-500 hover:bg-slate-50 hover:text-slate-700 border border-transparent hover:border-slate-200 transition-all"
-                                >
-                                    <Icon name="Search" size={18} />
-                                    <span className="hidden sm:inline">ショップを探す</span>
-                                </button>
+                            <div 
+                                className="flex items-center gap-3 cursor-pointer group"
+                                onClick={() => { clearFilters(); window.scrollTo({top:0, behavior:'smooth'}); }}
+                            >
+                                <div className="p-2 bg-coffee-dark rounded-lg text-white group-hover:bg-[#5D4037] transition-colors">
+                                    <Icon name="Coffee" />
+                                </div>
+                                <h1 className="text-lg font-bold text-coffee-dark tracking-tight hidden sm:block">Coffee Shop Monitor</h1>
                             </div>
 
-                            <div className="flex items-center gap-4">
-                                <div className="hidden md:flex flex-col items-end text-xs text-slate-500">
-                                    <span>最終チェック: <span className="font-bold text-slate-700">{formatDate(lastChecked)}</span></span>
-                                    <span>監視中: {shops.length}店舗</span>
-                                </div>
-                                <button onClick={handleRefresh} className="flex items-center gap-2 px-3 py-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-sm font-bold transition-colors">
-                                    <Icon name="RefreshCw" size={16} /> <span className="hidden sm:inline">更新</span>
+                            <div className="flex items-center gap-3">
+                                <button 
+                                    onClick={() => setIsSearchOpen(true)}
+                                    className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-bold bg-stone-100 text-stone-600 hover:bg-amber-100 hover:text-amber-800 transition-all border border-transparent hover:border-amber-200"
+                                >
+                                    <Icon name="Search" size={16} />
+                                    <span className="hidden sm:inline">ショップを探す</span>
+                                </button>
+                                
+                                <button onClick={handleRefresh} className="p-2 rounded-full text-stone-400 hover:bg-stone-100 hover:text-stone-600 transition-colors" title="データを更新">
+                                    <Icon name="RefreshCw" size={18} />
                                 </button>
                             </div>
                         </div>
                     </header>
 
-                    {/* 検索オーバーレイ (全画面) */}
-                    <div className={`fixed inset-0 bg-white z-50 overflow-y-auto transition-all duration-300 ease-in-out ${isSearchOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full pointer-events-none'}`}>
-                        {/* 閉じるボタンエリア */}
-                        <div className="sticky top-0 bg-white/90 backdrop-blur-md border-b border-slate-200 px-4 py-4 flex justify-between items-center z-50">
-                            <h2 className="text-lg font-bold text-slate-900 flex items-center gap-2">
-                                <Icon name="Search" className="text-slate-400" /> ショップを探す
-                            </h2>
-                            <button 
-                                onClick={() => setIsSearchOpen(false)}
-                                className="p-2 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 transition-colors"
-                            >
-                                <Icon name="X" size={24} />
-                            </button>
-                        </div>
+                    {/* 検索オーバーレイ */}
+                    <div className={`fixed inset-0 bg-white/95 backdrop-blur-sm z-50 overflow-y-auto transition-all duration-300 ease-in-out ${isSearchOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'}`}>
+                        <div className="max-w-4xl mx-auto px-4 py-8">
+                            <div className="flex justify-between items-center mb-8">
+                                <h2 className="text-2xl font-bold text-coffee-dark flex items-center gap-2">
+                                    <Icon name="Search" /> ショップを探す
+                                </h2>
+                                <button onClick={() => setIsSearchOpen(false)} className="p-2 rounded-full hover:bg-stone-100">
+                                    <Icon name="X" size={24} />
+                                </button>
+                            </div>
 
-                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 pb-32">
-                            {/* 検索入力エリア */}
-                            <div className="max-w-2xl mx-auto mb-10">
+                            {/* キーワード検索 */}
+                            <div className="mb-10">
                                 <div className="relative">
-                                    <Icon name="Search" className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" size={20} />
+                                    <Icon name="Search" className="absolute left-4 top-1/2 -translate-y-1/2 text-stone-400" size={20} />
                                     <input 
                                         type="text" 
                                         placeholder="店舗名を入力して検索..." 
-                                        className="w-full pl-12 pr-4 py-4 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-slate-900 focus:bg-white transition-all text-lg font-bold shadow-sm"
+                                        className="w-full pl-12 pr-4 py-4 bg-stone-50 border border-stone-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-coffee-dark focus:bg-white transition-all text-lg font-bold shadow-sm"
                                         value={searchQuery}
-                                        onChange={(e) => {
-                                            setSearchQuery(e.target.value);
-                                            if(e.target.value) setActivePrefecture(null);
+                                        onChange={(e) => setSearchQuery(e.target.value)}
+                                        onKeyDown={(e) => {
+                                            if (e.key === 'Enter') {
+                                                setIsSearchOpen(false);
+                                                setActivePrefecture(null);
+                                            }
                                         }}
-                                        autoFocus={isSearchOpen}
                                     />
                                 </div>
+                                {searchQuery && (
+                                    <div className="mt-4 text-center">
+                                        <button 
+                                            onClick={() => { setIsSearchOpen(false); setActivePrefecture(null); }}
+                                            className="px-6 py-2 bg-coffee-dark text-white rounded-full font-bold hover:bg-[#5D4037] transition-colors"
+                                        >
+                                            「{searchQuery}」で検索する
+                                        </button>
+                                    </div>
+                                )}
                             </div>
 
                             {/* 都道府県フィルタ */}
-                            <div className="mb-12">
-                                <div className="flex justify-between items-end mb-4 border-b border-slate-100 pb-2">
-                                    <label className="block text-sm font-bold text-slate-400 uppercase tracking-wider">地域で絞り込み</label>
-                                    {activePrefecture && (
-                                        <button onClick={() => setActivePrefecture(null)} className="text-xs text-rose-500 font-bold hover:underline">
-                                            選択を解除
-                                        </button>
-                                    )}
-                                </div>
+                            <div>
+                                <h3 className="text-sm font-bold text-stone-400 uppercase tracking-wider mb-4 border-b border-stone-100 pb-2">地域から探す</h3>
                                 <div className="flex flex-wrap gap-2">
                                     {prefectureList.map(pref => (
                                         <button 
                                             key={pref}
-                                            onClick={() => handlePrefectureClick(pref)}
-                                            className={`px-4 py-2 rounded-lg text-sm font-bold border transition-colors flex items-center gap-2 ${activePrefecture === pref ? 'bg-slate-900 text-white border-slate-900 shadow-md transform scale-105' : 'bg-white text-slate-600 border-slate-200 hover:border-slate-300 hover:bg-slate-50'}`}
+                                            onClick={() => handlePrefectureSelect(pref)}
+                                            className="px-4 py-2 rounded-lg text-sm font-bold border border-stone-200 bg-white text-stone-600 hover:border-amber-300 hover:bg-amber-50 hover:text-amber-900 transition-all flex items-center gap-2"
                                         >
-                                            {pref} <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${activePrefecture === pref ? 'bg-slate-700 text-slate-200' : 'bg-slate-100 text-slate-400'}`}>{prefCounts[pref]}</span>
+                                            {pref} <span className="bg-stone-100 text-stone-400 text-[10px] px-1.5 py-0.5 rounded-full">{prefCounts[pref]}</span>
                                         </button>
                                     ))}
                                 </div>
                             </div>
-
-                            {/* 検索結果表示エリア */}
-                            {(searchQuery || activePrefecture) && (
-                                <div className="animate-fade-in">
-                                    <h3 className="text-lg font-bold text-slate-900 mb-6 flex items-center gap-2 border-l-4 border-slate-900 pl-3">
-                                        検索結果 <span className="text-slate-400 font-normal">({filteredShops.length}件)</span>
-                                    </h3>
-                                    
-                                    {filteredShops.length > 0 ? (
-                                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                                            {filteredShops.map(shop => (
-                                                <ShopCard key={shop.id} shop={shop} isUpdated={updatedShopIds.includes(shop.id)} lastChecked={lastChecked} />
-                                            ))}
-                                        </div>
-                                    ) : (
-                                        <div className="text-center py-16 bg-slate-50 rounded-2xl border-2 border-dashed border-slate-200">
-                                            <p className="text-slate-400 font-bold">条件に一致するショップは見つかりませんでした</p>
-                                        </div>
-                                    )}
-                                </div>
-                            )}
                         </div>
                     </div>
 
-                    <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
-                        {/* 通常モード (本日の更新のみ) */}
-                        <section>
-                            <div className="flex items-center justify-between mb-4">
-                                <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
-                                    <Icon name="Sparkles" className="text-rose-500" /> 本日の更新 ({updatedShopsList.length})
-                                </h2>
-                                {updatedShopsList.length === 0 && (
-                                    <span className="text-sm text-slate-500">現在、更新されたショップはありません</span>
+                    <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+                        
+                        {/* 状態表示エリア（検索結果 or 更新情報） */}
+                        {(searchQuery || activePrefecture) ? (
+                            <section className="animate-fade-in">
+                                <div className="flex items-center justify-between mb-6">
+                                    <h2 className="text-xl font-bold text-coffee-dark flex items-center gap-2 border-l-4 border-amber-500 pl-3">
+                                        {activePrefecture ? `${activePrefecture}の` : ''}検索結果 
+                                        <span className="text-stone-400 font-normal text-base ml-1">({filteredShops.length}件)</span>
+                                    </h2>
+                                    <button 
+                                        onClick={clearFilters}
+                                        className="text-sm font-bold text-stone-500 hover:text-red-500 flex items-center gap-1 transition-colors"
+                                    >
+                                        <Icon name="XCircle" size={16} /> 条件クリア
+                                    </button>
+                                </div>
+                                
+                                {filteredShops.length > 0 ? (
+                                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                                        {filteredShops.map(shop => (
+                                            <ShopCard key={shop.id} shop={shop} isUpdated={updatedShopIds.includes(shop.id)} lastChecked={lastChecked} />
+                                        ))}
+                                    </div>
+                                ) : (
+                                    <div className="bg-white rounded-xl border border-dashed border-stone-300 p-12 text-center">
+                                        <p className="text-stone-500 font-bold mb-4">条件に一致するショップは見つかりませんでした</p>
+                                        <button onClick={clearFilters} className="text-amber-600 hover:underline">全てのショップを表示</button>
+                                    </div>
                                 )}
-                            </div>
-                            
-                            {updatedShopsList.length > 0 ? (
-                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                                    {updatedShopsList.map(shop => (
-                                        <ShopCard key={shop.id} shop={shop} isUpdated={true} lastChecked={lastChecked} />
-                                    ))}
+                            </section>
+                        ) : (
+                            /* 通常モード (本日の更新) */
+                            <section>
+                                <div className="flex items-center justify-between mb-6">
+                                    <div className="flex items-baseline gap-3">
+                                        <h2 className="text-2xl font-bold text-coffee-dark flex items-center gap-2">
+                                            <Icon name="Sparkles" className="text-amber-500" /> Daily Updates
+                                        </h2>
+                                        <span className="text-sm font-bold text-stone-400">本日の更新 ({updatedShopsList.length})</span>
+                                    </div>
+                                    <div className="text-xs text-stone-400 hidden sm:block">
+                                        最終チェック: {formatDate(lastChecked)}
+                                    </div>
                                 </div>
-                            ) : (
-                                <div className="bg-white rounded-xl border border-slate-200 p-8 flex items-center justify-center gap-3 text-slate-500">
-                                    <Icon name="CheckCircle2" className="text-green-500" />
-                                    <span>すべてのショップは最新の状態です</span>
-                                </div>
-                            )}
+                                
+                                {updatedShopsList.length > 0 ? (
+                                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                                        {updatedShopsList.map(shop => (
+                                            <ShopCard key={shop.id} shop={shop} isUpdated={true} lastChecked={lastChecked} />
+                                        ))}
+                                    </div>
+                                ) : (
+                                    <div className="bg-white rounded-2xl border border-stone-100 p-10 flex flex-col items-center justify-center gap-4 text-center shadow-sm">
+                                        <div className="p-4 bg-green-50 rounded-full text-green-600">
+                                            <Icon name="CheckCircle2" size={32} />
+                                        </div>
+                                        <div>
+                                            <p className="font-bold text-stone-600 text-lg">すべてのショップは最新の状態です</p>
+                                            <p className="text-stone-400 text-sm mt-1">最終チェック: {formatDate(lastChecked)}</p>
+                                        </div>
+                                    </div>
+                                )}
 
-                            {/* ヒント表示 */}
-                            <div className="mt-12 p-8 bg-white rounded-2xl border border-slate-200 text-center shadow-sm">
-                                <div className="inline-flex p-3 bg-slate-100 rounded-full text-slate-400 mb-4">
-                                    <Icon name="Search" size={24} />
+                                {/* 下部のナビゲーションヒント */}
+                                <div className="mt-16 text-center border-t border-stone-200 pt-10">
+                                    <p className="text-stone-500 font-bold mb-2">お探しのショップは見つかりませんか？</p>
+                                    <p className="text-sm text-stone-400 mb-6">全国 {shops.length} 店舗のデータベースから検索できます</p>
+                                    <button 
+                                        onClick={() => setIsSearchOpen(true)}
+                                        className="inline-flex items-center gap-2 px-8 py-3 bg-coffee-dark text-white rounded-full font-bold hover:bg-[#5D4037] transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                                    >
+                                        <Icon name="Search" size={18} /> 全てのショップから探す
+                                    </button>
                                 </div>
-                                <p className="text-slate-900 mb-2 font-bold text-lg">他のショップをお探しですか？</p>
-                                <p className="text-slate-500 mb-6">全国のコーヒーショップから、名前や都道府県で検索できます。</p>
-                                <button 
-                                    onClick={() => setIsSearchOpen(true)}
-                                    className="inline-flex items-center gap-2 px-6 py-3 bg-slate-900 text-white rounded-xl font-bold hover:bg-slate-800 transition-all shadow-lg shadow-slate-200 hover:shadow-xl hover:-translate-y-0.5"
-                                >
-                                    <Icon name="Search" size={18} /> 検索メニューを開く
-                                </button>
-                            </div>
-                        </section>
+                            </section>
+                        )}
                     </main>
+
+                    {/* トップへ戻るボタン */}
+                    <button
+                        onClick={scrollToTop}
+                        className={`fixed bottom-6 right-6 p-3 rounded-full bg-white text-coffee-dark shadow-lg border border-stone-100 transition-all duration-300 hover:bg-coffee-dark hover:text-white z-40 ${showScrollTop ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'}`}
+                        aria-label="トップへ戻る"
+                    >
+                        <Icon name="ArrowUp" size={24} />
+                    </button>
+
+                    <footer className="max-w-7xl mx-auto px-4 py-8 text-center border-t border-stone-200 mt-12 bg-[#FAFAF9]">
+                         <p className="text-stone-400 text-xs font-medium">&copy; 2025 Coffee Shop Monitor.</p>
+                    </footer>
                 </div>
             );
         };
