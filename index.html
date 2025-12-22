@@ -29,6 +29,40 @@
             transform: translateY(-2px); 
             transition: all 0.3s ease; 
         }
+        
+        /* Modal Overlay */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+        .modal-overlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        .modal-content {
+            background: white;
+            border-radius: 1rem;
+            max-width: 500px;
+            width: 90%;
+            padding: 2rem;
+            transform: translateY(20px);
+            transition: transform 0.3s ease;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .modal-overlay.active .modal-content {
+            transform: translateY(0);
+        }
     </style>
 </head>
 <body>
@@ -41,7 +75,7 @@
         const ICONS = {
             Coffee: <path d="M17 8h1a4 4 0 1 1 0 8h-1M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z M6 1v3 M10 1v3 M14 1v3" />,
             Search: <path d="m21 21-4.3-4.3M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16z" />,
-            RefreshCw: <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8M21 3v5h-5M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16M3 21v-5h5" />,
+            Info: <path d="M12 16v-4M12 8h.01M22 12A10 10 0 1 1 12 2a10 10 0 0 1 10 10Z" />,
             Sparkles: <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" />,
             MapPin: <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z M12 10a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />,
             Clock: <path d="M12 6v6l4 2M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20z" />,
@@ -49,7 +83,9 @@
             X: <path d="M18 6 6 18M6 6l12 12" />,
             XCircle: <path d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zM15 9l-6 6M9 9l6 6" />,
             CheckCircle: <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14 M22 4 12 14.01l-3-3" />,
-            ArrowUp: <path d="m5 12 7-7 7 7M12 19V5" />
+            ArrowUp: <path d="m5 12 7-7 7 7M12 19V5" />,
+            Map: <path d="M3 7l6-3 6 3 6-3v13l-6 3-6-3-6 3V7z M9 4v13 M15 7v13" />,
+            Instagram: <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
         };
 
         class ErrorBoundary extends Component {
@@ -97,7 +133,8 @@
                         </div>
                     )}
                     <div className="p-5 flex flex-col h-full">
-                        <div className="flex justify-between items-start mb-3">
+                        {/* ヘッダーエリア（場所＆プラットフォーム） */}
+                        <div className="flex flex-wrap items-center gap-2 mb-3">
                             <span className="inline-flex items-center gap-1 px-2 py-1 rounded bg-stone-100 text-stone-600 text-[10px] font-bold">
                                 <Icon name="MapPin" size={10} />{shop.prefecture}
                             </span>
@@ -106,23 +143,34 @@
                             </span>
                         </div>
                         
-                        <h3 className="text-base font-bold text-coffee mb-1 line-clamp-2 group-hover:text-amber-700 transition-colors duration-200 min-h-[3rem]" title={shop.name}>
+                        {/* 店名 */}
+                        <h3 className="text-base font-bold text-coffee mb-4 line-clamp-2 group-hover:text-amber-700 transition-colors duration-200 flex-grow" title={shop.name}>
                             {shop.name}
                         </h3>
                         
-                        <div className="text-xs text-stone-400 mb-4 block truncate border-b border-transparent w-fit">
-                            {shop.url.replace('https://', '').split('/')[0]}
-                        </div>
-                        
+                        {/* アクションエリア */}
                         <div className="border-t border-stone-100 pt-3 mt-auto">
                             {isUpdated && (
                                 <div className="text-[10px] text-amber-700 font-bold mb-2 flex items-center gap-1">
                                     <Icon name="Clock" size={10} /> 更新: {formatDate(lastChecked)}
                                 </div>
                             )}
-                            <a href={shop.url} target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center gap-2 py-2 rounded-lg bg-stone-50 hover:bg-stone-100 text-xs font-bold text-stone-600 transition-colors group-hover:bg-amber-50 group-hover:text-amber-800">
-                                ショップへ移動 <Icon name="ExternalLink" size={12} />
-                            </a>
+                            
+                            <div className="space-y-2">
+                                <a href={shop.url} target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center gap-2 py-2 rounded-lg bg-stone-50 hover:bg-stone-100 text-xs font-bold text-stone-600 transition-colors group-hover:bg-amber-50 group-hover:text-amber-800">
+                                    ショップへ移動 <Icon name="ExternalLink" size={12} />
+                                </a>
+                                
+                                {/* 将来的な機能拡張用ボタン（現在は無効化） */}
+                                <div className="flex gap-2">
+                                    <button disabled className="flex-1 py-1.5 rounded-lg border border-stone-100 flex items-center justify-center text-stone-300 pointer-events-none opacity-50">
+                                        <Icon name="Map" size={12} />
+                                    </button>
+                                    <button disabled className="flex-1 py-1.5 rounded-lg border border-stone-100 flex items-center justify-center text-stone-300 pointer-events-none opacity-50">
+                                        <Icon name="Instagram" size={12} />
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -137,10 +185,10 @@
             const [showScrollTop, setShowScrollTop] = useState(false);
             const [notification, setNotification] = useState(null);
             
-            // 検索・フィルタ用
             const [searchQuery, setSearchQuery] = useState("");
             const [activePrefecture, setActivePrefecture] = useState(null);
             const [isSearchOpen, setIsSearchOpen] = useState(false);
+            const [isAboutOpen, setIsAboutOpen] = useState(false);
 
             useEffect(() => {
                 const handleScroll = () => {
@@ -155,7 +203,6 @@
                 const initData = async () => {
                     setLoading(true);
                     try {
-                        // データロードの試行
                         const shopsRes = await fetch('./data/shops.json');
                         if (!shopsRes.ok) throw new Error("Shop data not found");
                         const shopsData = await shopsRes.json();
@@ -169,11 +216,10 @@
                                 setLastChecked(new Date(updatesData.timestamp));
                             }
                         } catch (e) {
-                            console.log("No updates data yet, which is fine for initial load");
+                            console.log("No updates data yet");
                         }
                     } catch (e) {
-                        console.error("Critical Data load failed", e);
-                        setNotification({type: 'error', message: 'データの読み込みに失敗しました'});
+                        console.error("Data load failed", e);
                     } finally {
                         setLoading(false);
                     }
@@ -181,14 +227,12 @@
                 initData();
             }, []);
 
-            // オーバーレイ制御
             useEffect(() => {
-                if (isSearchOpen) document.body.style.overflow = 'hidden';
+                if (isSearchOpen || isAboutOpen) document.body.style.overflow = 'hidden';
                 else document.body.style.overflow = 'unset';
                 return () => { document.body.style.overflow = 'unset'; };
-            }, [isSearchOpen]);
+            }, [isSearchOpen, isAboutOpen]);
 
-            const handleRefresh = () => window.location.reload();
             const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
             const prefCounts = useMemo(() => {
@@ -247,7 +291,6 @@
             return (
                 <div className="min-h-screen pb-20 relative bg-[#FAFAF9] text-[#44403C]">
                     
-                    {/* ヘッダー */}
                     <header className="bg-white border-b border-stone-200 sticky top-0 z-40 shadow-sm">
                         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
                             <div 
@@ -269,14 +312,17 @@
                                     <span className="hidden sm:inline">探す</span>
                                 </button>
                                 
-                                <button onClick={handleRefresh} className="p-2 rounded-full text-stone-400 hover:bg-stone-100 transition-colors" title="更新">
-                                    <Icon name="RefreshCw" size={18} />
+                                <button 
+                                    onClick={() => setIsAboutOpen(true)}
+                                    className="p-2 rounded-full text-stone-400 hover:bg-stone-100 transition-colors" 
+                                    title="このサイトについて"
+                                >
+                                    <Icon name="Info" size={20} />
                                 </button>
                             </div>
                         </div>
                     </header>
 
-                    {/* 検索オーバーレイ */}
                     <div className={`fixed inset-0 bg-white/95 backdrop-blur-sm z-50 overflow-y-auto transition-all duration-300 ease-in-out ${isSearchOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'}`}>
                         <div className="max-w-4xl mx-auto px-4 py-6">
                             <div className="flex justify-between items-center mb-8">
@@ -349,6 +395,32 @@
                                     </button>
                                 </div>
                             )}
+                        </div>
+                    </div>
+
+                    <div className={`modal-overlay ${isAboutOpen ? 'active' : ''}`} onClick={() => setIsAboutOpen(false)}>
+                        <div className="modal-content" onClick={e => e.stopPropagation()}>
+                            <div className="flex justify-between items-start mb-4">
+                                <h3 className="text-xl font-bold text-coffee flex items-center gap-2">
+                                    <Icon name="Info" /> このサイトについて
+                                </h3>
+                                <button onClick={() => setIsAboutOpen(false)} className="text-stone-400 hover:text-stone-600">
+                                    <Icon name="X" size={24} />
+                                </button>
+                            </div>
+                            <div className="text-sm text-stone-600 space-y-4">
+                                <p>
+                                    Coffee Shop Monitorは、全国のコーヒーショップのオンラインストア更新情報を自動でチェックし、一覧表示するサービスです。
+                                </p>
+                                <ul className="list-disc list-inside space-y-2 pl-2">
+                                    <li>毎日午前3時 (UTC) に自動更新されます。</li>
+                                    <li>各ショップのWebサイト内容に変更があった場合、「New」マークが表示されます。</li>
+                                    <li>現在 {shops.length} 店舗を監視中です。</li>
+                                </ul>
+                                <p className="text-xs text-stone-400 mt-6 pt-4 border-t border-stone-100">
+                                    ※本サイトは非公式のファンサイトであり、各店舗様とは直接の関係はありません。
+                                </p>
+                            </div>
                         </div>
                     </div>
 
