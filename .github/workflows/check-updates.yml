@@ -38,8 +38,8 @@ jobs:
           git config user.name "Coffee Shop Monitor Bot"
           git config user.email "actions@github.com"
           
-          # dataディレクトリの変更を確認してコミット
-          git add data/
+          # dataディレクトリを強制的に追加（gitignore対策）
+          git add -f data/
           
           # 変更がある場合のみコミット
           if ! git diff --staged --quiet; then
