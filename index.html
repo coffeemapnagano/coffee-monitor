@@ -8,7 +8,7 @@
     <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script src="https://unpkg.com/lucide@0.263.1/dist/umd/lucide.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
         
@@ -49,9 +49,39 @@
         }
 
         const Icon = ({ name, size = 20, className = "" }) => {
-            if (!window.lucide || !window.lucide.icons || !window.lucide.icons[name]) return <span className={`inline-block w-[${size}px] h-[${size}px] bg-gray-200 rounded-full ${className}`}></span>;
-            const lucideIcon = window.lucide.icons[name];
-            return <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} dangerouslySetInnerHTML={{ __html: lucideIcon.toSvg().match(/>(.*)<\/svg>/)[1] }} />;
+            const [isLoaded, setIsLoaded] = useState(!!(window.lucide && window.lucide.icons));
+
+            useEffect(() => {
+                if (!isLoaded) {
+                    const checkLucide = setInterval(() => {
+                        if (window.lucide && window.lucide.icons) {
+                            setIsLoaded(true);
+                            clearInterval(checkLucide);
+                        }
+                    }, 100);
+                    return () => clearInterval(checkLucide);
+                }
+            }, [isLoaded]);
+
+            const lucideName = name === "CheckCircle2" ? "CheckCircle" : name; // Fallback for safety
+
+            if (!isLoaded || !window.lucide?.icons?.[lucideName]) {
+                // Fallback text/emoji
+                const fallbacks = {
+                    Coffee: "☕", Search: "🔍", RefreshCw: "更新", MapPin: "📍", Sparkles: "✨",
+                    Clock: "🕒", ExternalLink: "↗", CheckCircle: "OK", CheckCircle2: "✅",
+                    X: "✕", XCircle: "クリア", SearchX: "無", ArrowUp: "⬆"
+                };
+                return <span className={`inline-flex items-center justify-center font-bold ${className}`} style={{fontSize: size * 0.8}}>{fallbacks[name] || "?"}</span>;
+            }
+
+            const svgHtml = window.lucide.icons[lucideName].toSvg({
+                width: size,
+                height: size,
+                class: className
+            });
+            
+            return <span dangerouslySetInnerHTML={{ __html: svgHtml }} className="inline-flex items-center" />;
         };
 
         const ShopCard = ({ shop, isUpdated, lastChecked }) => {
