@@ -76,7 +76,6 @@
         const { useState, useEffect, useMemo, Component } = React;
 
         // アイコン定義 (SVGパスを直接埋め込むことでCDN依存を排除)
-        // 注意: JSX内ではトップレベルの要素は1つである必要があるため、複数のパスを持つアイコンは<g>タグで囲む
         const ICONS = {
             Coffee: <path d="M17 8h1a4 4 0 1 1 0 8h-1M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z M6 1v3 M10 1v3 M14 1v3" />,
             Search: <path d="m21 21-4.3-4.3M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16z" />,
