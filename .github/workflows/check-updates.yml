@@ -21,14 +21,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          # cache: 'npm' を削除（package-lock.jsonがない場合のエラー回避）
 
       - name: Install dependencies
-        # package-lock.jsonがないため npm ci ではなく npm install を使用
         run: npm install
 
       - name: Run update check script
         run: node scripts/check-updates.mjs
+
+      - name: Check status
+        run: |
+          ls -F data/
+          git status
 
       - name: Commit and push changes
         run: |

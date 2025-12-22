@@ -121,7 +121,7 @@ function calculateHash(content) {
   return crypto.createHash('sha256').update(content).digest('hex');
 }
 
-// 遅延関数
+// 遅延関数（タイムアウト対策で少し長めに）
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 async function main() {
@@ -152,9 +152,9 @@ async function main() {
     console.log(`Checking ${shop.name}...`);
     
     try {
-      // タイムアウト付きでフェッチ (15秒)
+      // タイムアウトを30秒に延長
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 15000);
+      const timeoutId = setTimeout(() => controller.abort(), 30000);
       
       const response = await fetch(shop.url, { 
         signal: controller.signal,
