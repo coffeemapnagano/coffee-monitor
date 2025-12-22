@@ -102,6 +102,9 @@
                         <div className="p-8 text-center bg-red-50 text-red-800 min-h-screen flex flex-col justify-center items-center">
                             <h2 className="text-xl font-bold mb-2">エラーが発生しました</h2>
                             <p className="mb-4">ページを再読み込みしてください。</p>
+                            <pre className="text-xs text-left bg-white p-4 rounded border border-red-200 overflow-auto max-w-lg">
+                                {this.state.error && this.state.error.toString()}
+                            </pre>
                         </div>
                     );
                 }
@@ -179,6 +182,7 @@
             const [lastChecked, setLastChecked] = useState(null);
             const [updatedShopIds, setUpdatedShopIds] = useState([]);
             const [showScrollTop, setShowScrollTop] = useState(false);
+            const [notification, setNotification] = useState(null);
             
             const [searchQuery, setSearchQuery] = useState("");
             const [activePrefecture, setActivePrefecture] = useState(null);
@@ -215,6 +219,7 @@
                         }
                     } catch (e) {
                         console.error("Data load failed", e);
+                        setNotification({type: 'error', message: 'データの読み込みに失敗しました'});
                     } finally {
                         setLoading(false);
                     }
