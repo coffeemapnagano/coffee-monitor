@@ -15,6 +15,30 @@ function calculateHash(content) {
   return crypto.createHash('sha256').update(content).digest('hex');
 }
 
+// コンテンツの正規化（ノイズ除去）
+function normalizeContent(html) {
+  if (!html) return "";
+  
+  // 1. script, style, noscript, iframe タグとその中身を削除
+  let clean = html.replace(/<(script|style|noscript|iframe)[^>]*>[\s\S]*?<\/\1>/gi, '');
+  
+  // 2. コメント削除
+  clean = clean.replace(/<!--[\s\S]*?-->/g, '');
+  
+  // 3. HTMLタグを削除してテキストのみにする
+  clean = clean.replace(/<[^>]+>/g, ' ');
+  
+  // 4. HTMLエンティティのデコード（簡易）
+  clean = clean.replace(/&nbsp;/g, ' ')
+               .replace(/&amp;/g, '&')
+               .replace(/&lt;/g, '<')
+               .replace(/&gt;/g, '>')
+               .replace(/&quot;/g, '"');
+
+  // 5. 連続する空白・改行を1つのスペースに置換し、トリミング
+  return clean.replace(/\s+/g, ' ').trim();
+}
+
 // 遅延関数
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -74,7 +98,10 @@ async function main() {
       }
 
       const html = await response.text();
-      const newHash = calculateHash(html);
+      
+      // 正規化したコンテンツでハッシュを計算（誤検知対策）
+      const normalizedContent = normalizeContent(html);
+      const newHash = calculateHash(normalizedContent);
       
       // 更新判定
       const prevData = previousHashes[shop.id];
