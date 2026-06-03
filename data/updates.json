@@ -1,397 +1,385 @@
 {
-  "timestamp": "2026-06-02T07:22:41.405Z",
-  "date": "2026/6/2",
+  "timestamp": "2026-06-03T08:14:01.402Z",
+  "date": "2026/6/3",
   "totalShops": 528,
   "updatedShops": [
     {
-      "id": "onlineshopp8agaragecojp-0",
-      "name": "8A GARAGE COFFEE",
-      "url": "https://onlineshop-p.8agarage.co.jp/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "sproutstorethebasein-10",
+      "name": "SPROUT",
+      "url": "https://sproutstore.thebase.in/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
+    },
+    {
+      "id": "sountratheshopjp-12",
+      "name": "SOUNTRA COFFEE AND MUSIC",
+      "url": "https://sountra.theshop.jp/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
+    },
+    {
+      "id": "canaancoffeethebasein-14",
+      "name": "CANAAN",
+      "url": "https://canaancoffee.thebase.in/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
+    },
+    {
+      "id": "wadacoffeecom-17",
+      "name": "和田珈琲",
+      "url": "https://wadacoffee.com/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "flatwhitejp-21",
       "name": "FLATWHITE COFFEE FACTORY",
       "url": "https://flatwhite.jp/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
-    },
-    {
-      "id": "paradisoshopprojp-35",
-      "name": "パラディーゾ コーヒーロースターズ",
-      "url": "https://paradiso.shop-pro.jp/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "tsukicoffeeofficialec-36",
       "name": "TsukiCoffee",
       "url": "https://tsukicoffee.official.ec/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "wwwkoyanagicoffeenipponcom-68",
-      "name": "コヤナギコーヒーニッポン",
-      "url": "https://www.koyanagicoffeenippon.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "koshibagabaseshop-39",
+      "name": "こしばがコーヒー",
+      "url": "https://koshibaga.base.shop/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
+    },
+    {
+      "id": "konnichilabobaseshop-53",
+      "name": "COFFEE ONTARIO",
+      "url": "https://konnichilabo.base.shop/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
+    },
+    {
+      "id": "tokiwacoffeecom-80",
+      "name": "常盤珈琲焙煎所",
+      "url": "https://tokiwacoffee.com/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "philocoffeacom-81",
       "name": "PHILOCOFFEA",
       "url": "https://philocoffea.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "shopglitchcoffeecom-89",
-      "name": "GLITCH COFFEE&ROASTERS",
-      "url": "https://shop.glitchcoffee.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "easecoffeejp-83",
+      "name": "easecoffee",
+      "url": "https://easecoffee.jp/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "onibuscoffeecom-95",
-      "name": "ONIBUS COFFEE",
-      "url": "https://onibuscoffee.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
-    },
-    {
-      "id": "ironcoffeeofficialec-99",
-      "name": "IRON COFFEE",
-      "url": "https://ironcoffee.official.ec/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
-    },
-    {
-      "id": "nozycoffeeonlinestorecom-116",
-      "name": "THE ROASTERY BY NOZY COFFEE",
-      "url": "https://nozycoffee-onlinestore.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
-    },
-    {
-      "id": "karmanncoffethebasein-117",
-      "name": "karmann coffee",
-      "url": "https://karmanncoffe.thebase.in/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "kitamibeanscoffeecom-109",
+      "name": "ビーンズ喜多見",
+      "url": "https://kitami-beanscoffee.com/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "wwwwoodberrycoffeecom-122",
       "name": "WOODBERRY COFFEE",
       "url": "https://www.woodberrycoffee.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "wwwcoffeenovacom-125",
-      "name": "コフィノワ",
-      "url": "https://www.coffee-nova.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "frescocoffeebaseshop-124",
+      "name": "FRESCO COFFEE ROASTERS",
+      "url": "https://frescocoffee.base.shop/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "entocoffeethebasein-152",
-      "name": "えんと珈琲店",
-      "url": "https://entocoffee.thebase.in/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "tokyocoffeejp-150",
+      "name": "TOKYO COFFEE",
+      "url": "https://tokyocoffee.jp/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "bergofficialec-158",
-      "name": "BERG",
-      "url": "https://berg.official.ec/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "rocacoffeeofficialec-156",
+      "name": "ROCA",
+      "url": "https://rocacoffee.official.ec/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "no13baseshop-164",
-      "name": "SPECIALTY COFFEE BEANS No.13",
-      "url": "https://no13.base.shop/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "thewordcoffeecom-157",
+      "name": "THE WORD COFFEE ROASTERS",
+      "url": "https://thewordcoffee.com/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "redpoisoncom-165",
-      "name": "RED POISON COFFEE ROASTERS",
-      "url": "https://red-poison.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "27coffeejp-163",
+      "name": "27 COFFEE ROASTERS",
+      "url": "https://27coffee.jp/collections/all-coffee",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "terasucoffeetheshopjp-174",
-      "name": "てらす珈琲",
-      "url": "https://terasucoffee.theshop.jp/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "tsukikoyacoffeeshopprojp-173",
+      "name": "TSUKIKOYA COFFEE ROASTER",
+      "url": "https://tsukikoyacoffee.shop-pro.jp/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
+    },
+    {
+      "id": "mellowcoffeehandcraftedjp-177",
+      "name": "mellow coffee&bakes",
+      "url": "https://mellowcoffee.handcrafted.jp/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "akitocoffeecom-181",
       "name": "AKITO COFFEE",
       "url": "https://akitocoffee.com/pages/shop",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "dotscoffeejp-183",
       "name": "dots Coffee Roasters",
       "url": "https://dotscoffee.jp/index.php/shopping/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "shopkoseligcoffeenet-186",
-      "name": "KOSELIG COFFEE",
-      "url": "https://shop.koseligcoffee.net/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "hiranocoffeeofficialec-184",
+      "name": "平野珈琲",
+      "url": "https://hiranocoffee.official.ec/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "dayscoffeeroasterjp-188",
-      "name": "Days Coffee Roaster",
-      "url": "https://dayscoffeeroaster.jp/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "hazerucoffeethebasein-196",
+      "name": "hazeru coffee",
+      "url": "https://hazerucoffee.thebase.in/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "basenittacoffeecom-203",
-      "name": "新田珈琲",
-      "url": "https://base.nittacoffee.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "sunnybellthebasein-201",
+      "name": "サニーベルコーヒー",
+      "url": "https://sunnybell.thebase.in/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "cafetabibitothebasein-213",
-      "name": "cafe旅人の木",
-      "url": "https://cafetabibito.thebase.in/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "hugcoffeeco-219",
+      "name": "hugcoffee",
+      "url": "https://hugcoffee.co/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "ethicusstorejp-215",
-      "name": "ETHICUS Coffee Roasters",
-      "url": "https://ethicus-store.jp/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "trunkcoffeethebasein-229",
+      "name": "TRUNK COFFEE",
+      "url": "https://trunkcoffee.thebase.in/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "coffelab0238thebasein-227",
-      "name": "NUMAZU COFFEE LAB",
-      "url": "https://coffelab0238.thebase.in/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
-    },
-    {
-      "id": "keigancoffeecom-228",
-      "name": "KEIGAN COFFEE ROASTERS",
-      "url": "https://keigancoffee.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
-    },
-    {
-      "id": "sohcoffeethebasein-237",
-      "name": "SpecialtyCoffee蒼~soh~",
-      "url": "https://sohcoffee.thebase.in/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "freakcoffeecom-232",
+      "name": "FREAK COFFEE ROASTERS",
+      "url": "https://freak-coffee.com/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "ooakcoffeenet-250",
       "name": "ooak",
       "url": "https://ooakcoffee.net/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
-    },
-    {
-      "id": "otomonitheshopjp-257",
-      "name": "OTOMONI COFFEE",
-      "url": "https://otomoni.theshop.jp/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
-    },
-    {
-      "id": "wwwstylecoffeejp-272",
-      "name": "STYLE COFFEE",
-      "url": "https://www.stylecoffee.jp/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
-    },
-    {
-      "id": "bastetcoffeecom-273",
-      "name": "BASTET COFFEE",
-      "url": "https://bastetcoffee.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
-    },
-    {
-      "id": "goodmanroastercom-276",
-      "name": "GOODMAN ROASTER KYOTO",
-      "url": "https://goodmanroaster.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
-    },
-    {
-      "id": "wandhbuyshopjp-277",
-      "name": "WIFE&HUSBAND",
-      "url": "https://wandh.buyshop.jp/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
-    },
-    {
-      "id": "sentidocoffetheshopjp-278",
-      "name": "Sentido",
-      "url": "https://sentidocoffe.theshop.jp/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
-    },
-    {
-      "id": "drpdrpcom-285",
-      "name": "DRIP & DROP COFFEE SUPPLY",
-      "url": "https://drpdrp.com/collections",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "wwwshigacoffeecom-287",
       "name": "SHIGA COFFEE",
       "url": "https://www.shigacoffee.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
+    },
+    {
+      "id": "bbckyotobaseshop-288",
+      "name": "BEAR'S BREW COFFEE",
+      "url": "https://bbckyoto.base.shop/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "blendkyoto-291",
       "name": "ブレンド京都",
       "url": "https://blend.kyoto/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "wwwwakocoffeecom-295",
-      "name": "WAKO COFFFEE",
-      "url": "https://www.wako-coffee.com/shopbrand/all_items/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "miepumpshopprojp-292",
+      "name": "miepump coffee shop",
+      "url": "http://miepump.shop-pro.jp/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "aomacoffeecom-296",
       "name": "aoma coffee",
       "url": "https://aomacoffee.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "terracoffeeroastersearth-297",
-      "name": "TERRA COFFEE ROASTERS",
-      "url": "https://terracoffeeroasters.earth/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "takamuracoffeecom-303",
+      "name": "TAKAMURA COFFEE ROASTERS",
+      "url": "https://takamura-coffee.com/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "wwwsotcoffeecom-308",
-      "name": "SOT Coffee Roaster",
-      "url": "https://www.sotcoffee.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
-    },
-    {
-      "id": "cafetalesjp-311",
-      "name": "Cafetales.OSAKA",
-      "url": "https://cafetales.jp/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "wwwohouiouicoffeecom-306",
+      "name": "ロマネコーヒー",
+      "url": "https://www.ohouiouicoffee.com/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "uecoffeeofficialec-315",
       "name": "ue.",
       "url": "https://uecoffee.official.ec/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "mametomo1baseshop-320",
       "name": "珈琲オーダー焙煎まめとも",
       "url": "https://mametomo1.base.shop/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
+    },
+    {
+      "id": "hoopcoffeejp-322",
+      "name": "HOOP COFFEE",
+      "url": "https://hoop-coffee.jp/collections/coffee-beans",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
+    },
+    {
+      "id": "indigocoffeetheshopjp-323",
+      "name": "Indigo Coffee Roasters",
+      "url": "https://indigocoffee.theshop.jp/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "6coffeethebasein-347",
       "name": "六珈",
       "url": "https://6coffee.thebase.in/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "akekurebeansthebasein-350",
       "name": "明暮焙煎所",
       "url": "https://akekurebeans.thebase.in/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "onsayacom-382",
-      "name": "ONSAYA COFFEE",
-      "url": "https://onsaya.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "teikibinthebasein-356",
+      "name": "cafe ma-no",
+      "url": "https://teikibin.thebase.in/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "akamcoffeetheshopjp-388",
-      "name": "AKAM COFFEE WORKS",
-      "url": "https://akamcoffee.theshop.jp/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "kcoffeejp-359",
+      "name": "K COFFEE",
+      "url": "https://kcoffee.jp/collections",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "shopimmcoffeecom-393",
-      "name": "imm coffee&roastery",
-      "url": "https://shop.imm-coffee.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "azucoffeebaseshop-376",
+      "name": "Azu.coffee roastery",
+      "url": "https://azucoffee.base.shop/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
+    },
+    {
+      "id": "bagtowncoffeecom-390",
+      "name": "BAGTOWN COFFEE",
+      "url": "https://bagtowncoffee.com/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
+    },
+    {
+      "id": "shopsaicoffeeroasterycom-394",
+      "name": "サイコーヒーロースタリー",
+      "url": "https://shop.saicoffeeroastery.com/collections/%E7%84%BC",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
+    },
+    {
+      "id": "shopcorsicacoffeecom-409",
+      "name": "CORSICA COFFEE DEVELOPMENT",
+      "url": "https://shop.corsicacoffee.com/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
+    },
+    {
+      "id": "toyotomicoffeecom-411",
+      "name": "とよとみ珈琲",
+      "url": "https://toyotomicoffee.com/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
+    },
+    {
+      "id": "sommarlekthebasein-418",
+      "name": "sommarlek coffee roaster",
+      "url": "https://sommarlek.thebase.in/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "kuroshiocoffeecom-420",
       "name": "くろしお珈琲",
       "url": "https://kuroshiocoffee.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "aslancoffeefactorystore-424",
       "name": "ASLAN COFFEE FACTORY",
       "url": "https://aslancoffeefactory.store/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
-    },
-    {
-      "id": "kuromoncoffeecom-425",
-      "name": "KUROMON COFFEE",
-      "url": "https://kuromon-coffee.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "wwwbudounotanecom-427",
       "name": "Zelkova Coffee",
       "url": "https://www.budounotane.com/zelkova_coffee/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "reccoffeecom-433",
-      "name": "REC COFFEE",
-      "url": "https://rec-coffee.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "littlehoneytheshopjp-439",
+      "name": "リトルスタンド",
+      "url": "https://littlehoney.theshop.jp/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
+    },
+    {
+      "id": "coffeehitomachishopprojp-454",
+      "name": "珈琲人町",
+      "url": "https://coffeehitomachi.shop-pro.jp/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "3cedarscoffeecom-471",
       "name": "3 CEDARS COFFEE",
       "url": "https://3cedarscoffee.com/store/products/list",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "mamepolepoleokinawa-496",
-      "name": "豆ポレポレ",
-      "url": "https://mamepolepole.okinawa/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "storehyugacoffee-481",
+      "name": "日向珈琲",
+      "url": "https://store.hyuga.coffee/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "shopzhyvagocoffeeroasterycoffee-497",
       "name": "ZHYVAGO COFFEE ROASTERY",
       "url": "https://shop.zhyvagocoffeeroastery.coffee/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "postcoffeeco-501",
       "name": "Postcoffee",
       "url": "https://postcoffee.co/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
-    },
-    {
-      "id": "coffeebouquetshop-503",
-      "name": "Coffee bouquet",
-      "url": "https://coffeebouquet.shop/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "obtrcoffeecom-504",
       "name": "ou·bai·tou·ri coffee roasters",
       "url": "https://obtr-coffee.com/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "c4ebaseshop-506",
-      "name": "C4E",
-      "url": "https://c4e.base.shop/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "wwwamazingcoffeejp-508",
+      "name": "AMAZING COFFEE",
+      "url": "https://www.amazingcoffee.jp/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
       "id": "storeupepolife-517",
       "name": "UPEPO",
       "url": "https://store.upepo.life/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     },
     {
-      "id": "breakelbaseshop-524",
-      "name": "Breakel coffee",
-      "url": "https://breakel.base.shop/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
-    },
-    {
-      "id": "wwwcoffeenotebiz-526",
-      "name": "coffee note",
-      "url": "https://www.coffeenote.biz/",
-      "detectedAt": "2026-06-02T07:22:41.405Z"
+      "id": "renagcoffeejp-521",
+      "name": "renag coffee",
+      "url": "https://renagcoffee.jp/",
+      "detectedAt": "2026-06-03T08:14:01.402Z"
     }
   ]
 }
